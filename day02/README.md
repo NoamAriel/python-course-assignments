@@ -26,6 +26,12 @@ Next, I duplicated the script and modified the parameters and equations so that 
 
 Finally, I used Chat Copilot in Visual Studio Code to merge the two scripts into a single application. In this application, users can choose whether they want to determine the required water volume for a given mass or the required mass for a known volume.
 
+# Input mechanisms
+
+1. The user chooses which calculator he wants to use, for the required V(H2O) or m(LiBr)
+2. Inputs of wanted concertation and known m(LiBr)/V(H2O)
+3. input of whether the user confirms that he noticed the units.
+
 # The promots
 
 ## asking for creating the application
