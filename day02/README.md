@@ -49,7 +49,7 @@ HI
 I noticed when I initiates the application, before the calculation, I am not getting conferming massege the I am confirm that I noticed the units..
 can you fix it?
 
-## Please notice the app direction
+# Please notice the app direction
 
 Notice that the main.py file is found in the src folder.
 
