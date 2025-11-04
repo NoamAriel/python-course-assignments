@@ -26,7 +26,7 @@ Next, I duplicated the script and modified the parameters and equations so that 
 
 Finally, I used Chat Copilot in Visual Studio Code to merge the two scripts into a single application. In this application, users can choose whether they want to determine the required water volume for a given mass or the required mass for a known volume.
 
-## The promots
+# The promots
 
 ## asking for creating the application
 
