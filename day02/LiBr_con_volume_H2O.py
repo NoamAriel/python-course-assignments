@@ -20,13 +20,30 @@ Calculate the required H2O volume to achieve a desired LiBr concentration.
     except ValueError: print("Invalid input: Please enter numeric values for LiBr mass and wanted concentration.")
     
    
-    print("Please confirm that the LiBr mass is in grams and the wanted concentration is in mol/L.")
-    intuitive_input = input("Type 'Y' to confirm or 'N' to try again: ").strip().lower()
-    if intuitive_input != 'Y':
-        print("Operation cancelled. Please provide the correct inputs.")
-    elif intuitive_input == 'N': 
-        return LiBr_con_volume_H2O(input("Enter the mass of LiBr (g): "), input("Enter the wanted concentration (mol/L): "))
+    while True:
+        print("Please confirm that the LiBr mass is in g and the wanted concentration is in mol/L.")
+        intuitive_input = input("Type 'Y' to confirm or 'N' to try again: ").strip().lower()
+        
+        if intuitive_input == 'y':
+            break 
+            
+        elif intuitive_input == 'n': 
+            print("Please provide the correct inputs.")
+            
+            new_mass = input("Enter the mass of LiBr (g): ") 
+            new_concentration = input("Enter the wanted concentration (mol/L): ")
+            
+            try:
+                volume_H2O = float(new_mass)
+                wanted_concetration = float(new_concentration)
+            except ValueError:
+                print("Invalid input, The new values must be numeric. Let's try again.")
+                continue 
+        
+        else:
+             print("Invalid choice. Please type 'Y' or 'N'.")
    
+
    
 
     Molar_mass_of_LiBr = 86.845  # g/mol
