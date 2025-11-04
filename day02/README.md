@@ -42,3 +42,15 @@ pls, create that gui application file for me at this folder
 ## asking how to initiate the application
 
 how I can initiate this gui application? means, what I need to write in the terminal to operate this application?
+
+## asking for including the confirming message in the app
+
+HI
+I noticed when I initiates the application, before the calculation, I am not getting conferming massege the I am confirm that I noticed the units..
+can you fix it?
+
+## Please notice the app direction
+
+Notice that the main.py file is found in the src folder.
+
+ uv run .\day02\libr-calculator\src\main.py

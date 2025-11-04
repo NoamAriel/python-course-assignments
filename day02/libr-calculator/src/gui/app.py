@@ -1,41 +1,75 @@
-from tkinter import Tk, Label, Button, Entry, StringVar, messagebox
-from calculations.volume_calculator import LiBr_con_volume_H2O
-from calculations.mass_calculator import LiBr_con_mass_LiBr
+import tkinter as tk
+from tkinter import ttk, messagebox
 
-def calculate_volume():
-    try:
-        mass = float(mass_entry.get())
-        concentration = float(concentration_entry.get())
-        volume = LiBr_con_volume_H2O(mass, concentration)
-        messagebox.showinfo("Result", f"Required volume of H2O (mL): {volume}")
-    except ValueError:
-        messagebox.showerror("Input Error", "Please enter valid numeric values.")
-
-def calculate_mass():
-    try:
-        volume = float(volume_entry.get())
-        concentration = float(concentration_entry.get())
-        mass = LiBr_con_mass_LiBr(volume, concentration)
-        messagebox.showinfo("Result", f"Required mass of LiBr (g): {mass}")
-    except ValueError:
-        messagebox.showerror("Input Error", "Please enter valid numeric values.")
-
-app = Tk()
-app.title("LiBr Concentration Calculator")
-
-Label(app, text="Mass of LiBr (g):").grid(row=0, column=0)
-mass_entry = Entry(app)
-mass_entry.grid(row=0, column=1)
-
-Label(app, text="Volume of H2O (mL):").grid(row=1, column=0)
-volume_entry = Entry(app)
-volume_entry.grid(row=1, column=1)
-
-Label(app, text="Desired Concentration (mol/L):").grid(row=2, column=0)
-concentration_entry = Entry(app)
-concentration_entry.grid(row=2, column=1)
-
-Button(app, text="Calculate Volume of H2O", command=calculate_volume).grid(row=3, column=0, columnspan=2)
-Button(app, text="Calculate Mass of LiBr", command=calculate_mass).grid(row=4, column=0, columnspan=2)
-
-app.mainloop()
+class LiBrCalculator:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("LiBr Solution Calculator")
+        
+        # Create main frame
+        self.frame = ttk.Frame(root, padding="10")
+        self.frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+        
+        # Calculator type selection
+        ttk.Label(self.frame, text="Select calculation type:").grid(row=0, column=0, columnspan=2)
+        self.calc_type = tk.StringVar()
+        ttk.Radiobutton(self.frame, text="Calculate H₂O Volume", variable=self.calc_type, 
+                       value="volume", command=self.switch_mode).grid(row=1, column=0)
+        ttk.Radiobutton(self.frame, text="Calculate LiBr Mass", variable=self.calc_type, 
+                       value="mass", command=self.switch_mode).grid(row=1, column=1)
+        
+        # Input fields
+        self.input1_label = ttk.Label(self.frame, text="LiBr mass (g):")
+        self.input1_label.grid(row=2, column=0)
+        self.input1 = ttk.Entry(self.frame)
+        self.input1.grid(row=2, column=1)
+        
+        ttk.Label(self.frame, text="Concentration (mol/L):").grid(row=3, column=0)
+        self.concentration = ttk.Entry(self.frame)
+        self.concentration.grid(row=3, column=1)
+        
+        # Calculate button
+        ttk.Button(self.frame, text="Calculate", command=self.calculate).grid(row=4, column=0, columnspan=2)
+        
+        # Result label
+        self.result_var = tk.StringVar()
+        ttk.Label(self.frame, textvariable=self.result_var).grid(row=5, column=0, columnspan=2)
+        
+        # Set default calculation type
+        self.calc_type.set("volume")
+        
+    def switch_mode(self):
+        if self.calc_type.get() == "volume":
+            self.input1_label["text"] = "LiBr mass (g):"
+        else:
+            self.input1_label["text"] = "H₂O volume (mL):"
+        self.result_var.set("")
+        
+    def calculate(self):
+        try:
+            value1 = float(self.input1.get())
+            concentration = float(self.concentration.get())
+            
+            # Add confirmation dialog
+            if self.calc_type.get() == "volume":
+                confirm_msg = "Please confirm that:\n- LiBr mass is in grams (g)\n- Concentration is in mol/L"
+            else:
+                confirm_msg = "Please confirm that:\n- H₂O volume is in milliliters (mL)\n- Concentration is in mol/L"
+            
+            confirm = messagebox.askyesno("Confirm Units", confirm_msg)
+            
+            if not confirm:
+                return
+            
+            if self.calc_type.get() == "volume":
+                mols_of_LiBr = value1 / 86.845
+                volume_H2O = (mols_of_LiBr / concentration) * 1000
+                self.result_var.set(f"Required H₂O volume: {volume_H2O:.2f} mL")
+            else:
+                volume_L = value1 * 0.001
+                mols_of_LiBr = volume_L * concentration
+                mass_LiBr = mols_of_LiBr * 86.845
+                self.result_var.set(f"Required LiBr mass: {mass_LiBr:.2f} g")
+                
+        except ValueError:
+            messagebox.showerror("Error", "Please enter valid numeric values")
