@@ -1,7 +1,5 @@
 # Writing the Functions
 
-# Writing the Functions
-
 
 I created a function that determines the required water volume for preparing a solution based on the desired concentration and known mass of LiBr.
 
