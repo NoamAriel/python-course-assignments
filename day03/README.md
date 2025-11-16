@@ -15,65 +15,80 @@ if you wants to use run the calculator without using the GUI application, you ma
 
  uv run .\day03\main.py
 
-# Writing the Functions
+ ## Dependencies
 
-I created a function that determines the required water volume for preparing a solution based on the desired concentration and known mass of LiBr.
+For installing dependencies, type 
+"
+uv pip install pytest
+"
+in the terminal
 
-I wrote this calculator independently, with help from Gabor to resolve the errors I encountered during the coding process.
+## Tests
 
-I used Chat Copilot in Visual Studio Code to create the application
+The tests verify whether the program generates errors when the user enters text instead of numbers, and what happens when the user enters inputs less than or equal to zero. We expect to get errors in those cases, and the program should alert the user for invalid inputs.
 
-## Writing the calculator
+If you wants to run the test, pls type in terminal one of the following commands: 
 
-First, I outlined the program's logic in my notes. 
-As we learned in the lecture, I added a "try" block to ensure that the values input by the user are numbers.
+uv run pytest
+uv run pytest -v
+uv run pytest -v -rA
+uv run pytest --tb=no
 
-Since people can often confuse units, I asked the user to confirm that they noticed the units being used. To achieve this, I used a while loop that continues to prompt the user to confirm until they type 'Y' (yes) to confirm their input.
 
-The program then checks if the user has entered valid values before proceeding.
+## Test example
 
-Once the inputs are verified, the program performs the calculations and returns the desired volume of water to the user.
+For example, I type the command " uv run pytest -v "
+and Python returned the following as a result:
 
-## Replicate and adapt for the opposite situation
+================================================== test session starts ===================================================
+platform win32 -- Python 3.13.9, pytest-9.0.1, pluggy-1.6.0 -- C:\python\course\assiments\python-course-assignments\day03\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\python\course\assiments\python-course-assignments\day03
+configfile: pyproject.toml
+collected 20 items
 
-Next, I duplicated the script and modified the parameters and equations so that the program calculates the required mass of LiBr needed to prepare a solution with a desired concentration, given a known volume.
+test_bus_log.py::test_calculate_LiBr_mass_standard PASSED                                                           [  5%]
+test_bus_log.py::test_calculate_volume_H2O_standard PASSED                                                          [ 10%]
+test_bus_log.py::test_calculate_LiBr_mass_text_input[text-1.0] PASSED                                               [ 15%]
+test_bus_log.py::test_calculate_LiBr_mass_text_input[0.5-text] PASSED                                               [ 20%]
+test_bus_log.py::test_calculate_LiBr_mass_text_input[text-text] PASSED                                              [ 25%]
+test_bus_log.py::test_calculate_volume_H2O_text_input[text-1.0] PASSED                                              [ 30%]
+test_bus_log.py::test_calculate_volume_H2O_text_input[43.4225-text] PASSED                                          [ 35%]
+test_bus_log.py::test_calculate_volume_H2O_text_input[text-text] PASSED                                             [ 40%]
+test_bus_log.py::test_calculate_LiBr_mass_zero_values_raises_error[0.0-1.0] PASSED                                  [ 45%]
+test_bus_log.py::test_calculate_LiBr_mass_zero_values_raises_error[0.5-0.0] PASSED                                  [ 50%]
+test_bus_log.py::test_calculate_LiBr_mass_zero_values_raises_error[0.0-0.0] PASSED                                  [ 55%]
+test_bus_log.py::test_calculate_volume_H2O_zero_values_raises_error[0.0-1.0] PASSED                                 [ 60%]
+test_bus_log.py::test_calculate_volume_H2O_zero_values_raises_error[43.4225-0.0] PASSED                             [ 65%]
+test_bus_log.py::test_calculate_volume_H2O_zero_values_raises_error[0.0-0.0] PASSED                                 [ 70%]
+test_bus_log.py::test_calculate_LiBr_mass_negative_values_raises_error[-0.5-1.0] PASSED                             [ 75%]
+test_bus_log.py::test_calculate_LiBr_mass_negative_values_raises_error[0.5--1.0] PASSED                             [ 80%]
+test_bus_log.py::test_calculate_LiBr_mass_negative_values_raises_error[-0.5--1.0] PASSED                            [ 85%] 
+test_bus_log.py::test_calculate_volume_H2O_negative_values_raises_error[-43.4225-1.0] PASSED                        [ 90%] 
+test_bus_log.py::test_calculate_volume_H2O_negative_values_raises_error[43.4225--1.0] PASSED                        [ 95%] 
+test_bus_log.py::test_calculate_volume_H2O_negative_values_raises_error[-43.4225--1.0] PASSED                       [100%] 
 
-## Creating the application.
+=================================================== 20 passed in 0.05s ===================================================
 
-Finally, I used Chat Copilot in Visual Studio Code to merge the two scripts into a single application. In this application, users can choose whether they want to determine the required water volume for a given mass or the required mass for a known volume.
-
-# Input mechanisms
-
-1. The user chooses which calculator he wants to use, for the required V(H2O) or m(LiBr)
-2. Inputs of wanted concertation and known m(LiBr)/V(H2O)
-3. input of whether the user confirms that he noticed the units.
 
 # The promots
 
-## asking for creating the application
-
-hi, I created 2 programs, which calculated the required mass or volume for wanted concetration. i want that them both to be in application gui, so the user of this application will be able to chose if he wants to know the required water volume to use known mass of LiBr to get the wanted concetration or if he wants to know the required mass of LiBr to use known H2O to get wanted concetration.
-
-one program called "LiBr_con_mass_LiBr.py" and "LiBr_con_volume_H2O.py"
-
-and here attached the codes:
-[Here I sent the whole two files I wrote]
-
-pls, create that gui application file for me at this folder
-
-## asking how to initiate the application
-
-how I can initiate this gui application? means, what I need to write in the terminal to operate this application?
-
-## asking for including the confirming message in the app
-
-HI
-I noticed when I initiates the application, before the calculation, I am not getting conferming massege the I am confirm that I noticed the units..
-can you fix it?
-
-## asking for craeting program that merge the two functions, and asking the user which calculation he wants to use
+## asking for craeting program that merge the two functions, and asking the user which calculation he wants to use- Copilot (free version)
 
 Hi,
 I want to create a new program that asking from the user to choose which calculation he wants to do, in meaning of programs, he will chosse between "LiBr_con_mass_LiBr.py" and "LiBr_con_volume_H2O.py"
 pls help me.
 
+## asking for creating "business logic" file -Copilot (free version)
+
+Hi,
+I wants to copy the business logic from the files "LiBr_con_mass_LiBr.py" and"LiBr_con_volume_H2O.py"
+into new file.
+could you pls creates this for me?
+
+## asking for creating tests file - Gemini (free version)
+
+pls creates a pytest file that test the "business logic".
+for expamle, test each parameter input (sepertlly), what will happen if the input is text.
+then, test each parameter what will happen with zero value
+then test each parameter with negative value

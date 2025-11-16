@@ -18,11 +18,19 @@ Calculate the required LiBr mass to achieve a desired LiBr concentration.
     try:
        volume_H2O = float(volume_H2O) 
        wanted_concetration = float(wanted_concetration)
-    except ValueError: print("Invalid input: Please enter numeric values for H2O volume and wanted concentration.")
+    except ValueError: 
+        print("Invalid input: Please enter numeric values for H2O volume and wanted concentration.")
+        return # Exit the function on non-numeric input
     
     while True:
-        print("Please confirm that the H2O volume is in mL and the wanted concentration is in mol/L.")
-        intuitive_input = input("Type 'Y' to confirm or 'N' to try again: ").strip().lower()
+        # --- NEW VALIDATION CHECK ---
+        if volume_H2O <= 0 or wanted_concetration <= 0:
+            print("Invalid input: Volume and concentration must be positive values (greater than zero).")
+            intuitive_input = 'n' # Force the user to re-enter
+        # --- END NEW VALIDATION CHECK ---
+        else:
+            print("Please confirm that the H2O volume is in mL and the wanted concentration is in mol/L.")
+            intuitive_input = input("Type 'Y' to confirm or 'N' to try again: ").strip().lower()
         
         if intuitive_input == 'y':
             break 
@@ -36,6 +44,12 @@ Calculate the required LiBr mass to achieve a desired LiBr concentration.
             try:
                 volume_H2O = float(new_volume)
                 wanted_concetration = float(new_concentration)
+
+                # Re-validate the new numeric inputs immediately
+                if volume_H2O <= 0 or wanted_concetration <= 0:
+                    print("Invalid input: The new values must be positive. Let's try again.")
+                    continue 
+                    
             except ValueError:
                 print("Invalid input, The new values must be numeric. Let's try again.")
                 continue 

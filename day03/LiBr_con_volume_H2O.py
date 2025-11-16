@@ -1,4 +1,4 @@
-def LiBr_con_volume_H2O(LiBr_mass,wanted_concetration):
+def LiBr_con_volume_H2O(LiBr_mass, wanted_concetration):
       
     """
 Calculate the required H2O volume to achieve a desired LiBr concentration.
@@ -13,16 +13,25 @@ Calculate the required H2O volume to achieve a desired LiBr concentration.
     Returns:
         the required volume of H2O in mL
     """
-   
+
+
+
     try:
        LiBr_mass = float(LiBr_mass) 
        wanted_concetration = float(wanted_concetration)
-    except ValueError: print("Invalid input: Please enter numeric values for LiBr mass and wanted concentration.")
-    
-   
+    except ValueError: 
+        print("Invalid input: Please enter numeric values for LiBr mass and wanted concentration.")
+        return # Exit the function on non-numeric input
+
     while True:
-        print("Please confirm that the LiBr mass is in g and the wanted concentration is in mol/L.")
-        intuitive_input = input("Type 'Y' to confirm or 'N' to try again: ").strip().lower()
+        # --- NEW VALIDATION CHECK ---
+        if LiBr_mass <= 0 or wanted_concetration <= 0:
+            print("Invalid input: Mass and concentration must be positive values (greater than zero).")
+            intuitive_input = 'n' # Force the user to re-enter
+        # --- END NEW VALIDATION CHECK ---
+        else:
+            print("Please confirm that the LiBr mass is in g and the wanted concentration is in mol/L.")
+            intuitive_input = input("Type 'Y' to confirm or 'N' to try again: ").strip().lower()
         
         if intuitive_input == 'y':
             break 
@@ -34,15 +43,22 @@ Calculate the required H2O volume to achieve a desired LiBr concentration.
             new_concentration = input("Enter the wanted concentration (mol/L): ")
             
             try:
-                volume_H2O = float(new_mass)
+                LiBr_mass = float(new_mass) # Use LiBr_mass here, not volume_H2O
                 wanted_concetration = float(new_concentration)
+                
+                # Re-validate the new numeric inputs immediately
+                if LiBr_mass <= 0 or wanted_concetration <= 0:
+                    print("Invalid input: The new values must be positive. Let's try again.")
+                    continue 
+
             except ValueError:
                 print("Invalid input, The new values must be numeric. Let's try again.")
                 continue 
         
         else:
              print("Invalid choice. Please type 'Y' or 'N'.")
-   
+             
+
 
    
 
