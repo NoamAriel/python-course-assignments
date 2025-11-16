@@ -11,7 +11,7 @@ Notice that the main.py file is found in the src folder.
  uv run .\day03\libr-calculator\src\main.py
 
 
-if you wants to use run the calculator without using the GUI application, you may type the folloting in the terminal:
+if you wants to use run the calculator without using the GUI application, you may type the following in the terminal:
 
  uv run .\day03\main.py
 
