@@ -1,4 +1,4 @@
-# Setific indruduction
+# Setific introduction
 
 Silk fibers are known for their unique combination of mechanical characteristics of strength, extensibility, and toughness. These features result from silk’s highly hierarchical structure, shaped by the protein’s self-assembly during the natural fiber’s spinning. (https://www.nature.com/articles/s41467-024-50879-9)
 
