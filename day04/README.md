@@ -3,12 +3,19 @@
 
 I was unable to create a ".gitignore" file that automatically removes the "__pycache__" folder when it is created. Both Gemini and ChatGPT informed me that Gitignore is only able to ignore files, not delete them.
 in order to delete this folder, I created the file ".git/hooks/pre-commit" with the following code:
+
 "
 #!/bin/bash
 echo "Deleting __pycache__ folders before commit..."
 find . -type d -name "__pycache__" -exec rm -r {} +
 "
-Now, by typing the following command in the terminal "git commit -m "message" "
+
+Now, by typing the following command in the terminal
+
+"
+ git commit -m "message" 
+"
+
 the "__pycache__" folder will be removed.
 
 ## promots (chatGPT free version)
