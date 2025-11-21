@@ -16,6 +16,7 @@ def fetch_taxonomy_data(url: str) -> str:
     """
     Fetches the content of the specified URL and isolates the Taxonomy section's content.
     """
+    # print(f"Fetching data from: {url}") # Suppressing chatty output for import
     try:
         response = requests.get(url, headers=HEADERS, timeout=10)
         response.raise_for_status() 
@@ -110,7 +111,7 @@ def parse_trichoptera_data(raw_text: str) -> Dict[str, Dict[str, List[str]]]:
             if len(line.split()) > 1 and line_lower != "superfamily" and line_lower != "superfamily †":
                 superfamily_name = line.split(maxsplit=1)[1].strip()
                 current_superfamily = superfamily_name
-                        
+                     
             elif i < len(lines):
                 superfamily_base_name = lines[i].strip()
                 current_superfamily = superfamily_base_name
@@ -138,61 +139,26 @@ def parse_trichoptera_data(raw_text: str) -> Dict[str, Dict[str, List[str]]]:
                 i += 1
     return TRICHOPTERA_FAMILIES
 
-# --- NEW EXPORT FUNCTION (Used by ncbi_fibroin_scraper.py) ---
-
-def get_trichoptera_taxonomy_structure() -> Dict[str, Dict[str, List[str]]]:
-    """
-    Public function to fetch and return the structured taxonomy data,
-    excluding fossil suborders, superfamilies, and families ('†' marker).
-    """
-    raw_content = fetch_taxonomy_data(WIKI_URL)
-    if not raw_content:
-        print("WARNING: Scraper failed to fetch new data.")
-        return {}
-
-    structured_data = parse_trichoptera_data(raw_content)
-    
-    # Filter out all fossil entries to return only extant taxonomy
-    extant_taxonomy = {}
-    
-    for suborder, superfamilies in structured_data.items():
-        if '†' in suborder:
-            continue # Skip fossil suborders
-            
-        extant_taxonomy[suborder] = {}
-        for superfamily, families in superfamilies.items():
-            if '†' in superfamily:
-                continue # Skip fossil superfamilies
-            
-            extant_families = [f for f in families if '†' not in f]
-            
-            if extant_families:
-                # Store only extant families under their extant superfamily
-                extant_taxonomy[suborder][superfamily] = extant_families
-        
-        if not extant_taxonomy.get(suborder): # Use .get() or check for emptiness after inner loop
-            if suborder in extant_taxonomy:
-                del extant_taxonomy[suborder] # Remove suborders with no extant families
-        
-    return extant_taxonomy
-
-# --- OLD EXPORT FUNCTION (Kept for compatibility, though updated to use the new structure) ---
+# --- EXPORT FUNCTION ---
 
 def get_caddisfly_family_names() -> List[str]:
     """
-    Deprecated version: Public function to fetch and return a flat list of all extant family names.
+    Public function to fetch and return a flat list of all extant family names.
+    Fossil names are excluded for a more relevant NCBI search.
     """
-    structured_data = get_trichoptera_taxonomy_structure()
-    if not structured_data:
+    raw_content = fetch_taxonomy_data(WIKI_URL)
+    if not raw_content:
         # Fallback list if fetching fails
         print("WARNING: Using hardcoded family list as scraper failed to fetch new data.")
         return ['Hydropsychidae', 'Limnephilidae', 'Hydroptilidae', 'Leptoceridae']
 
-    # Extract only extant families (already filtered by get_trichoptera_taxonomy_structure)
+    structured_data = parse_trichoptera_data(raw_content)
+    
+    # Extract only extant families (those without the '†' marker)
     extant_families = []
     for suborders in structured_data.values():
         for families in suborders.values():
-            extant_families.extend(families) # No need to filter '†' again
+            extant_families.extend([f for f in families if '†' not in f])
             
     # Return unique extant names
     return sorted(list(set(extant_families)))

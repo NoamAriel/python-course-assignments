@@ -1,18 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
-from typing import List, Dict, Tuple, Any
+from typing import List, Dict, Tuple
 import re
 import os
 from pathlib import Path
 import time
-
-# Use the new nested function for scraping the taxonomy
-try:
-    from caddisfly_scraper import get_trichoptera_taxonomy_structure
-except ImportError:
-    print("Error: Could not import get_trichoptera_taxonomy_structure.")
-    print("Please ensure caddisfly_scraper.py is in the same directory.")
-    exit()
+from caddisfly_scraper import get_caddisfly_family_names 
 
 # --- Configuration ---
 NCBI_BASE_URL = "https://www.ncbi.nlm.nih.gov/protein/"
@@ -22,7 +15,6 @@ HEADERS = {
 }
 FIBROIN_TERM = "fibroin"
 OUTPUT_ROOT_DIR = "ncbi_fibroin_sequences" # Root folder for all output
-SLEEP_TIME = 0.5 # Pause between API calls to be polite
 
 # --- Classification Constants ---
 CHAIN_TYPES = {
@@ -30,15 +22,22 @@ CHAIN_TYPES = {
     'light chain': ['light chain', 'fib-l', 'l-fibroin', 'l chain'],
     'others': [] # Default if no match is found
 }
-# The final result structure will now be keyed by Family, containing the nested classification:
-# {Family: {'full sequence': {'heavy chain': [data...], ...}, 'partial sequence': {...}}}
+# Define the nested structure for results
+EMPTY_CHAIN_STRUCTURE = {
+    'heavy chain': [],
+    'light chain': [],
+    'others': []
+}
+# The final result structure will now be nested:
+# {Family: {'full sequence': EMPTY_CHAIN_STRUCTURE, 'partial sequence': EMPTY_CHAIN_STRUCTURE}}
+
 
 # --- Utility Functions ---
 
 def safe_filename(name: str, max_len=50) -> str:
-    """Generates a safe filename/directory name from a string."""
+    """Generates a safe filename from a string."""
     safe_name = re.sub(r'[\\/:*?"<>|]', '', name).strip()
-    safe_name = safe_name.replace(' ', '_').replace('-', '_').replace('.', '').lower()
+    safe_name = safe_name.replace(' ', '_')
     return safe_name[:max_len]
 
 
@@ -56,11 +55,12 @@ def classify_protein_chain(name: str) -> str:
     return 'others'
 
 
-# --- Core Scraper Functions ---
+# --- Core Scraper Functions (Updated) ---
 
 def fetch_protein_sequence(accession_id: str) -> str:
     """
     Fetches the protein sequence using NCBI E-utilities (Efetch) for reliable FASTA output.
+    (This function remains robust and unchanged from the previous version)
     """
     params = {
         'db': 'protein',
@@ -88,27 +88,27 @@ def fetch_protein_sequence(accession_id: str) -> str:
         return sequence
 
     except requests.exceptions.RequestException as e:
-        print(f"      ERROR: Could not fetch sequence for {accession_id} using E-utilities: {e}")
+        print(f"    ERROR: Could not fetch sequence for {accession_id} using E-utilities: {e}")
         return ""
     except Exception as e:
-        print(f"      ERROR: Unexpected error during E-utilities fetch for {accession_id}: {e}")
+        print(f"    ERROR: Unexpected error during E-utilities fetch for {accession_id}: {e}")
         return ""
 
 
 def fetch_and_parse_search_results(query: str) -> List[Tuple[str, str]]:
     """
     Searches NCBI Protein database and extracts accession ID and name for each result.
+    (This function remains robust and unchanged from the previous version)
     """
     search_url = f"{NCBI_BASE_URL}?term={query}"
     
-    print(f"    Searching NCBI for: '{query}'...")
+    print(f"  Searching NCBI for: '{query}'...")
     try:
         response = requests.get(search_url, headers=HEADERS, timeout=15)
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
         
         results = set()
-        # Look for various common result link classes and structures
         title_links = soup.select('a.pr-link, a.title, a[href^="/protein/"], a[data-entity-id]')
 
         for link in title_links:
@@ -116,67 +116,48 @@ def fetch_and_parse_search_results(query: str) -> List[Tuple[str, str]]:
             protein_name = link.get_text(strip=True)
             
             if href and protein_name:
-                # Regex to extract accession ID (e.g., AAN02787.1)
                 match = re.search(r'/protein/([A-Z]{1,3}\d+\.?\d*)', href)
                 
                 if match:
                     accession_id = match.group(1)
-                    # Simple check to avoid noise where name is just the ID
                     if protein_name.upper() != accession_id.upper() and accession_id not in protein_name:
                         results.add((accession_id, protein_name))
         
         return list(results)
 
     except requests.exceptions.RequestException as e:
-        print(f"    ERROR: Could not fetch search results for '{query}': {e}")
+        print(f"  ERROR: Could not fetch search results for '{query}': {e}")
         return []
     except Exception as e:
-        print(f"    ERROR: An unexpected error occurred during search for '{query}': {e}")
+        print(f"  ERROR: An unexpected error occurred during search for '{query}': {e}")
         return []
 
 
 def main_scraper() -> Dict[str, Dict[str, Dict[str, List[Dict[str, str]]]]]:
     """
-    Executes the full scraping process based on the nested taxonomy structure.
-    Returns a flat dictionary keyed by Family Name for easy data lookup.
+    Executes the full scraping process with the new nested classification logic.
     """
     print("--- Starting NCBI Fibroin Scraper ---")
-    print("Step 1: Fetching Caddisfly nested taxonomy structure...")
+    print("Step 1: Fetching Caddisfly family names...")
     
-    # Get the structure: {Suborder: {Superfamily: [Family, ...]}}
-    nested_taxonomy = get_trichoptera_taxonomy_structure()
+    caddisfly_families = get_caddisfly_family_names()
     
-    if not nested_taxonomy:
+    if not caddisfly_families:
         print("ERROR: Could not retrieve a list of Caddisfly families. Aborting.")
         return {}
-    
-    # Extract a flat list of all families for iteration
-    families_to_process = [
-        family 
-        for suborders in nested_taxonomy.values() 
-        for superfamilies in suborders.values() 
-        for family in superfamilies
-    ]
 
-    print(f"Successfully retrieved {len(families_to_process)} extant families for processing.")
+    families_to_process = caddisfly_families
+    
+    print(f"Successfully retrieved {len(caddisfly_families)} families.")
     print("-" * 40)
     
-    # This dictionary will store the final, classified results, keyed by Family name
     final_results = {}
-    
-    # Map Family Name back to its Suborder and Superfamily for file saving later
-    family_to_path = {}
-    for suborder, superfamilies in nested_taxonomy.items():
-        for superfamily, families in superfamilies.items():
-            for family in families:
-                family_to_path[family] = {'suborder': suborder, 'superfamily': superfamily}
-                
     
     for family in families_to_process:
         print(f"Step 2: Processing Family: {family}")
         search_query = f"{family} {FIBROIN_TERM}"
         
-        # Initialize storage with the new nested classification structure
+        # Initialize storage with the new nested structure
         final_results[family] = {
             'full sequence': {k: [] for k in CHAIN_TYPES.keys()},
             'partial sequence': {k: [] for k in CHAIN_TYPES.keys()}
@@ -185,14 +166,14 @@ def main_scraper() -> Dict[str, Dict[str, Dict[str, List[Dict[str, str]]]]]:
         protein_records = fetch_and_parse_search_results(search_query)
         
         if not protein_records:
-            print(f"    No protein records found for {family}.")
+            print(f"  No protein records found for {family}.")
             print("-" * 40)
             continue
             
-        print(f"    Found {len(protein_records)} records. Fetching sequences...")
+        print(f"  Found {len(protein_records)} records. Fetching sequences...")
 
         for record_id, record_name in protein_records:
-            time.sleep(SLEEP_TIME) 
+            time.sleep(0.5) 
             
             sequence = fetch_protein_sequence(record_id)
             
@@ -201,7 +182,7 @@ def main_scraper() -> Dict[str, Dict[str, Dict[str, List[Dict[str, str]]]]]:
 
             # 1. Determine sequence type (Full or Partial)
             is_partial = 'partial' in record_name.lower()
-            seq_type = 'partial sequence' if is_partial or '*' in sequence else 'full sequence'
+            seq_type = 'partial sequence' if is_partial else 'full sequence'
             
             # 2. Determine chain type (Heavy, Light, Other)
             chain_type = classify_protein_chain(record_name)
@@ -218,14 +199,12 @@ def main_scraper() -> Dict[str, Dict[str, Dict[str, List[Dict[str, str]]]]]:
         full_count = sum(len(v) for v in final_results[family]['full sequence'].values())
         partial_count = sum(len(v) for v in final_results[family]['partial sequence'].values())
         
-        print(f"    Finished {family}. Results: Full ({full_count}), Partial ({partial_count}).")
+        print(f"  Finished {family}. Results: Full ({full_count}), Partial ({partial_count}).")
         print("-" * 40)
-            
-    # Return the classified data and the taxonomy path map
-    return final_results, family_to_path
+        
+    return final_results
 
-
-# --- Output Generation Functions ---
+# --- Output Generation Functions (NEW/Updated) ---
 
 def generate_sequence_markdown(data: Dict[str, str], chain_type: str, seq_type: str) -> str:
     """Creates human-readable Markdown content for a single sequence file."""
@@ -246,7 +225,7 @@ def generate_sequence_markdown(data: Dict[str, str], chain_type: str, seq_type: 
 
 ## Protein Sequence (FASTA Format)
 
-The sequence below is displayed in standard FASTA format for easy reading and copy-pasting into alignment tools.
+The sequence below is displayed in FASTA format for easy reading and copy-pasting into alignment tools.
 
 ```fasta
 >{data['id']} {data['name']}
@@ -255,7 +234,7 @@ The sequence below is displayed in standard FASTA format for easy reading and co
 """
 
 
-def generate_summary_index(results: Dict[str, Any], root_dir: str):
+def generate_summary_index(results: Dict, root_dir: str):
     """
     Generates a comprehensive Markdown index file summarizing all download statistics.
     """
@@ -263,7 +242,7 @@ def generate_summary_index(results: Dict[str, Any], root_dir: str):
     content = [
         "# NCBI Caddisfly Fibroin Scraper Index",
         "",
-        "This file summarizes the results from the NCBI protein database search for 'Fibroin' across all identified extant Caddisfly families.",
+        "This file summarizes the results from the NCBI protein database search for 'Fibroin' across all identified Caddisfly families.",
         ""
     ]
     
@@ -271,7 +250,7 @@ def generate_summary_index(results: Dict[str, Any], root_dir: str):
     
     # Start the detailed table
     content.append("## Detailed Sequence Counts by Family and Type")
-    content.append("| Family Name | Total Found | Full (Heavy) | Full (Light) | Full (Other) | Partial (Heavy) | Partial (Light) | Partial (Other) |")
+    content.append("| Family Name | Total Found | Full Chain (Heavy) | Full Chain (Light) | Full Chain (Other) | Partial Chain (Heavy) | Partial Chain (Light) | Partial Chain (Other) |")
     content.append("| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |")
 
     for family, seq_types in sorted(results.items()):
@@ -295,7 +274,7 @@ def generate_summary_index(results: Dict[str, Any], root_dir: str):
     content.append("")
     content.append("---")
     content.append(f"## GRAND TOTAL SEQUENCES DOWNLOADED: **{total_sequences}**")
-    content.append(f"\nAll sequences are saved in the `{root_dir}` folder, organized hierarchically by Suborder, Superfamily, Sequence Type, and Chain Type.")
+    content.append(f"\nAll sequences are saved in the `{root_dir}` folder, organized by family, sequence type, and chain type.")
     
     try:
         with open(output_path, 'w', encoding='utf-8') as f:
@@ -305,14 +284,13 @@ def generate_summary_index(results: Dict[str, Any], root_dir: str):
         print(f"ERROR: Could not write summary index file: {e}")
 
 
-def save_results_to_files(results: Dict[str, Any], path_map: Dict[str, Any]):
+def save_results_to_files(results: Dict[str, Dict[str, Dict[str, List[Dict[str, str]]]]]):
     """
-    Creates the complex nested folder structure (Suborder/Superfamily/Family/SeqType/ChainType) 
-    and saves all sequences into both FASTA and Markdown files.
+    Creates the nested folder structure and saves all sequences into both FASTA and Markdown files.
     """
     print("\n" + "="*80)
     print(f"Step 3: Creating nested directories and saving sequences to: '{OUTPUT_ROOT_DIR}'")
-    print("Structure: Suborder/Superfamily/Family/Sequence Type/Chain Type/")
+    print("Files will be saved in dual format: .fasta (for tools) and .md (for reading).")
     print("="*80)
     
     root_dir = Path(OUTPUT_ROOT_DIR)
@@ -321,24 +299,10 @@ def save_results_to_files(results: Dict[str, Any], path_map: Dict[str, Any]):
     total_files_saved = 0
     
     for family, seq_types in results.items():
-        if family not in path_map:
-            print(f"WARNING: Skipping {family} - path information missing.")
-            continue
-            
-        # --- 1. Create Suborder and Superfamily directories (Top Level Taxonomy) ---
-        suborder_name = path_map[family]['suborder']
-        superfamily_name = path_map[family]['superfamily']
-
-        # Path: ROOT/Suborder/Superfamily
-        superfamily_dir = root_dir / safe_filename(suborder_name) / safe_filename(superfamily_name)
-        superfamily_dir.mkdir(parents=True, exist_ok=True)
-
-        # Path: ROOT/Suborder/Superfamily/Family (Third Level Taxonomy)
-        family_dir = superfamily_dir / safe_filename(family)
+        family_dir = root_dir / safe_filename(family)
         family_dir.mkdir(exist_ok=True)
-        print(f"  Organizing data for {family} in: {family_dir.relative_to(root_dir)}")
-        
-        # --- 2. Iterate through Sequence Type and Chain Type (Classification) ---
+        print(f"Created family directory: {family_dir}")
+
         for seq_type, chain_types in seq_types.items():
             # seq_type is 'full sequence' or 'partial sequence'
             type_dir = family_dir / safe_filename(seq_type)
@@ -349,7 +313,10 @@ def save_results_to_files(results: Dict[str, Any], path_map: Dict[str, Any]):
                 chain_dir = type_dir / safe_filename(chain_type)
                 chain_dir.mkdir(exist_ok=True)
                 
+                print(f"  Created structure: {chain_dir}")
+                
                 if not sequences:
+                    # print(f"  No sequences in '{chain_type}' for '{seq_type}' in {family}.")
                     continue
                 
                 for data in sequences:
@@ -359,7 +326,7 @@ def save_results_to_files(results: Dict[str, Any], path_map: Dict[str, Any]):
                     fasta_sequence = '\n'.join([data['sequence'][i:i+60] for i in range(0, len(data['sequence']), 60)])
                     fasta_content = f"{fasta_header}\n{fasta_sequence}\n"
                     
-                    # 2. Prepare Markdown Content
+                    # 2. Prepare Markdown Content (Word substitute)
                     markdown_content = generate_sequence_markdown(data, chain_type, seq_type)
                     
                     # Generate a unique, safe filename using Accession ID
@@ -372,7 +339,7 @@ def save_results_to_files(results: Dict[str, Any], path_map: Dict[str, Any]):
                             f.write(fasta_content)
                         total_files_saved += 1
                     except Exception as e:
-                        print(f"      ERROR: Could not write FASTA file {fasta_file_path.name}: {e}")
+                        print(f"    ERROR: Could not write FASTA file {fasta_file_path.name}: {e}")
 
                     # Save Markdown file
                     markdown_file_path = chain_dir / f"{final_filename_base}.md"
@@ -381,7 +348,7 @@ def save_results_to_files(results: Dict[str, Any], path_map: Dict[str, Any]):
                             f.write(markdown_content)
                         total_files_saved += 1
                     except Exception as e:
-                        print(f"      ERROR: Could not write Markdown file {markdown_file_path.name}: {e}")
+                        print(f"    ERROR: Could not write Markdown file {markdown_file_path.name}: {e}")
 
     # Generate the Index after saving all files
     generate_summary_index(results, OUTPUT_ROOT_DIR)
@@ -400,19 +367,20 @@ if __name__ == "__main__":
         from bs4 import BeautifulSoup
         import os
         from pathlib import Path
-        from caddisfly_scraper import get_trichoptera_taxonomy_structure
-        _ = get_trichoptera_taxonomy_structure() # Test import
+        from caddisfly_scraper import get_caddisfly_family_names
+        _ = get_caddisfly_family_names()
     except ImportError as e:
-        print(f"Required libraries are missing or caddisfly_scraper.py is not available.")
+        print(f"Required libraries are missing. Please install them: uv pip install requests beautifulsoup4")
         print(f"Missing dependency: {e.name}")
         exit()
 
     try:
-        # Run the scraper to get classified data and the path map
-        results, path_map = main_scraper()
+        # Run the scraper to get structured data
+        results = main_scraper()
         
-        # Save the results to the local file system with nested directories
-        save_results_to_files(results, path_map)
+        # Save the results to the local file system
+        save_results_to_files(results)
         
     except Exception as e:
         print(f"\nFATAL ERROR in main execution: {e}")
+        
