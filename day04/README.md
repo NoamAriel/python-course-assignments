@@ -8,6 +8,16 @@ Since there are many species of caddisfly, which all produce silk with the same 
 
 To do so, the code searches each family of caddisfly (extracted from wikipedia), plus the word "fibroin," on the NCBI website and saves the data sequence folder (ncbi_fibroin_sequences) in a nested structure (suborder -> superfamily -> family -> species). The code also indicates whether the sequence is full or partial, whether the data pertains to a heavy chain, a light chain, or another sequence (which is not relevant to our purpose). For convenience, the code saves the data in two file types: "fasta" for future analysis and "md" for user readability.
 
+## install
+
+to initiate the code pls notice that you have the files "caddisfly_scraper.py" and "ncbi_fibroin_scraper.py" in the same direction, and install the dependencies = [requests], [beautifulsoup4] (by typing in the terminal:
+uv pip install requests
+uv pip install beautifulsoup4
+)
+and last run the file:
+uv run .\ncbi_fibroin_scraper.py
+
+
 
 # deleting __pycache__ folders
 
