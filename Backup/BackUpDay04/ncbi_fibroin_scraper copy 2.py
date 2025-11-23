@@ -118,7 +118,6 @@ def fetch_protein_sequence(accession_id: str) -> str:
 def fetch_and_parse_search_results(query: str) -> List[Tuple[str, str]]:
     """
     Searches NCBI Protein database and extracts accession ID and name for each result.
-    Includes a check for the explicit 'Term not found' message.
     """
     search_url = f"{NCBI_BASE_URL}?term={query}"
     
@@ -126,13 +125,6 @@ def fetch_and_parse_search_results(query: str) -> List[Tuple[str, str]]:
     try:
         response = requests.get(search_url, headers=HEADERS, timeout=15)
         response.raise_for_status()
-        
-        # --- IMPROVEMENT: Explicitly check for NCBI's "Term not found" message ---
-        not_found_message = "The following term was not found in Protein:"
-        if not_found_message in response.text:
-            print(f"    WARNING: NCBI explicitly reported 'Term not found' for '{query}'. Skipping download.")
-            return []
-        
         soup = BeautifulSoup(response.content, 'html.parser')
         
         results = set()

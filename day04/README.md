@@ -18,6 +18,12 @@ Now, by typing the following command in the terminal
 
 the "__pycache__" folder will be removed.
 
+
+
+
+
+
+
 ## promots (chatGPT free version)
 
 hi i am using Visual Studio Code for writing code in python. when I am using "pytest", a new folder called "__pycache__" is created. I want to creates a ".gitignore" file that will delete the folder "__pycache__" every time it created. could you help me pls?
