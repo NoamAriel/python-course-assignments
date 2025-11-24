@@ -1,3 +1,11 @@
+"""
+Tic-Tac-Toe Game with N-Dimensional Board and Custom Win Conditions- genereted by Gemini AI 
+(asked for code similar to tictactoe_game.py but for n-dimensions and custom win conditions)
+This implementation allows players to choose the board size (N x N) and the number of symbols
+required in a row to win (R). Players can also exit the game at any input prompt by typing 'exit'.
+"""
+
+
 import random
 import re
 
@@ -22,7 +30,7 @@ def check_correct_input(prompt, min_val=1, max_val=None):
 
             # --- Process Numeric Input ---
             if not native_input.isdigit():
-                print("Input must be a whole number (digit) or 'exit'.")
+                print("Input must be a whole number (digit) or 'exit'. ")
                 continue
 
             native_num = int(native_input)
