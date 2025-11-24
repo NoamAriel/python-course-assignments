@@ -50,20 +50,12 @@ def tic_tac_toe():
         while True:
             try:
                 # Ask for row input
-                row_input = input("Enter row (1, 2, or 3, or type 'exit'): ").strip()
-                
-                if row_input.lower() == 'exit':
-                    game_over = True
-                    break
+                row_input = input("Enter row (1, 2, or 3): ").strip()
 
                 row = int(row_input)
                 
                 # Ask for column input
                 col_input = input("Enter column (1, 2, or 3): ").strip()
-                
-                if col_input.lower() == 'exit':
-                    game_over = True
-                    break
 
                 col = int(col_input)
                 
@@ -82,12 +74,8 @@ def tic_tac_toe():
                 else:
                     print("Row/column must be 1, 2, or 3.")
             except ValueError:
-                print("Bad input. Please enter a number or 'exit'.")
+                print("Bad input. Please enter a number.")
         
-        # If exit was typed, break the main loop immediately
-        if game_over:
-            break
-            
         show_board()
 
         # --- Check for Winner (The simple, hardcoded way) ---
