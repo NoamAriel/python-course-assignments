@@ -1,47 +1,29 @@
-# ❌🅾️  Tic-Tac-Toe 
+# Tic-Tac-Toe (X and O game)
 
-This is a Tic-Tac-Toe game. It includes basic input handling, win detection, and unit tests.
+## installation
 
-## 🚀 How to Run the Game
+To install, simply download the code and save it as a ".py" file. (for example, tictactoe_game.py)
+That's it. There are no dependencies.
 
-### 1. Requirements
+## gameplay
 
-This project uses **Python 3** and only relies on the **Python Standard Library** (no external dependencies are required).
-
-### 2. Installation and Setup
-
-1.  **Save the Game Code:**
-    Save the main game logic into a file named `tictactoe_game.py`.
-
-
-2.  **Run the Game:**
-    Open your terminal or command prompt, navigate to the folder where you saved the file, and run:
-
-    ```bash
-    python tictactoe_game.py
-    ```
-
-### 3. Gameplay
-
-* The game board is **3x3**.
-* Players are **Player 1 ('X')** and **Player 2 ('O')**.
-* You will be prompted to enter the **Row (1, 2, or 3)** and **Column (1, 2, or 3)** for your move.
-* A win requires **three symbols in a row** (horizontal, vertical, or diagonal).
+The board game is a 3X3 matrix.
+There are two players, one of whom plays as "X" and the other as "O".
+The goal of the game is to be the first to fill an entire row, column, or diagonal with your own symbol to win.
+If no one wins, then it is a draw.
 
 
-## 🔬 How to Run the Tests
+# Test
 
-To ensure the game logic (win and draw detection) is correct, you can run the included unit tests.
+In order to run the pytest, use the following command:
 
-1.  **Save the Test Code:**
-    Save the test script into a file named `test_tictactoe.py` in the *same folder* as `tictactoe_game.py`.
+uv run python -m pytest -v
 
-2.  **Run the Tests:**
-    From your terminal, run the following command. The `unittest` module will automatically discover and run the tests.
+# Using Gemini for pytest and Businees logic and improve the game and increase the dimantions of the game.
 
-    ```bash
-    python -m unittest test_tictactoe.py
-    ```
+## promots
 
-### Expected Output
-If all logic is working correctly, you should see output similar to this:
+pls create pytest and hte busniess logic for the following tictactoe game
+
+
+pls improve the following tictactoe game and extend the dimentions to N (choose by user), and the game will ask input of the length which requried to win and the game will provide at any time to type "exit" for exit the game.

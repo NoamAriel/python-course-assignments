@@ -2,42 +2,34 @@ import random
 
 
 def tic_tac_toe():
-    
-    # Use ' ' for empty, 'X' for player 1, 'O' for player 2
     board = [
         [' ', ' ', ' '],
         [' ', ' ', ' '],
         [' ', ' ', ' ']
     ]
     board_size = 3  
-    win_len = 3     
 
-    print("👋 Welcome to Tic-Tac-Toe!")
 
-    # Start with a random player (1 or 2)
+    print("Welcome to Tic-Tac-Toe!")
+
     current_player = random.randint(1, 2)
     print(f"\nPlayer {current_player} goes first.")
     
     game_over = False
     
-    # --- Function to Show Board  ---
     def show_board():
-        print("\n---")
-        # Loop through rows
-        for i in range(board_size):
-            # Print the row number
-            print(f"{i + 1} ", end="")
-            # Print the cells, separated by |
-            print(f"{board[i][0]}|{board[i][1]}|{board[i][2]}")
-            # Add separators, but not after the last row
-            if i < board_size - 1:
-                print("  -+-+-")
-        print("  1 2 3") # Column numbers
-        print("---")
+
+        print("\n1 ", board[0][0], "|", board[0][1], "|", board[0][2])
+        print("   ---------")
+        print("2 ", board[1][0], "|", board[1][1], "|", board[1][2])
+        print("   ---------")
+        print("3 ", board[2][0], "|", board[2][1], "|", board[2][2])
+        print("    1  2  3")
+ 
 
     show_board()
 
-    # --- Main Game Loop ---
+   
     while not game_over:
         if current_player == 1:
             symbol = 'X'
@@ -46,70 +38,54 @@ def tic_tac_toe():
             
         print(f"\nPlayer {current_player} ({symbol}), your turn.")
         
-        # --- Get Player Input and Validate ---
         while True:
             try:
-                # Ask for row input
-                row_input = input("Enter row (1, 2, or 3): ").strip()
+                row_input = input("Choose a row:").strip()
 
                 row = int(row_input)
-                
-                # Ask for column input
-                col_input = input("Enter column (1, 2, or 3): ").strip()
-
+                col_input = input("Choose a column: ").strip()
                 col = int(col_input)
                 
-                # Check for valid numbers (1, 2, or 3)
                 if 1 <= row <= board_size and 1 <= col <= board_size:
-                    # Convert to 0-based index
                     r, c = row - 1, col - 1
                     
-                    # Check if position is empty
                     if board[r][c] == ' ':
-                        # Place the symbol
                         board[r][c] = symbol
-                        break  # Input is good, break out of the input loop
+                        break 
                     else:
-                        print("That spot is taken! Pick another one.")
+                        print("That position is occupied. player {current_player} ({symbol}) pls choose again.")
                 else:
-                    print("Row/column must be 1, 2, or 3.")
+                    print("that row/column doesn''t exist. player {current_player} ({symbol}) pls choose again")
             except ValueError:
-                print("Bad input. Please enter a number.")
+                print("Choose a native number:")
         
         show_board()
 
-        # --- Check for Winner (The simple, hardcoded way) ---
         winner_found = False
         
-        # Check rows
         for i in range(board_size):
             if board[i][0] == symbol and board[i][1] == symbol and board[i][2] == symbol:
                 winner_found = True
                 break
                 
-        # Check columns
         if not winner_found:
             for j in range(board_size):
                 if board[0][j] == symbol and board[1][j] == symbol and board[2][j] == symbol:
                     winner_found = True
                     break
         
-        # Check main diagonal (top-left to bottom-right)
         if not winner_found:
             if board[0][0] == symbol and board[1][1] == symbol and board[2][2] == symbol:
                 winner_found = True
         
-        # Check anti-diagonal (top-right to bottom-left)
         if not winner_found:
             if board[0][2] == symbol and board[1][1] == symbol and board[2][0] == symbol:
                 winner_found = True
 
-        # --- Announce Winner/Draw ---
         if winner_found:
-            print(f"🥳 Player {current_player} ({symbol}) WINS!")
+            print(f" Player {current_player} ({symbol}) is the winner!! Congratulations!")
             game_over = True
         else:
-            # Check for Draw (no empty spaces left)
             is_draw = True
             for row in board:
                 if ' ' in row:
@@ -117,10 +93,9 @@ def tic_tac_toe():
                     break
                     
             if is_draw:
-                print("🤝 It's a DRAW! Well played both.")
+                print("It is a draw!\n You both know how to play!\n Welldone!\n")
                 game_over = True
             
-            # --- Switch Players ---
             else:
                 if current_player == 1:
                     current_player = 2
@@ -129,6 +104,5 @@ def tic_tac_toe():
 
     print("\n--- Game Over! Thanks for playing! ---")
 
-# Execute the game function
 if __name__ == '__main__':
     tic_tac_toe()

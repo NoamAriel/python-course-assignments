@@ -4,31 +4,30 @@ This file serves as a context provider and instruction set for GitHub Copilot wh
 
 ## 🎯 Project Overview & Goal
 
-* **Primary Goal:** [**Describe the main purpose of your project in one sentence.** E.g., A Python-based FastAPI web service for managing user accounts.]
-* **Key Technology Stack:** Python (3.10+), [Main Framework/Library, e.g., Django, Flask, FastAPI], [Database, e.g., PostgreSQL, SQLite].
-* **Target Environment:** [E.g., Linux container (Docker), Serverless (AWS Lambda), etc.]
+* **Primary Goal:** program the Tic-Tac-Toe game with 2 players.
+* **Key Technology Stack:** Python (3.10+), No external frameworks or complex libraries.
+* **Target Environment:** Local Console/Terminal execution.
 
 ## 📜 Coding Style and Conventions
 
 1.  **Language:** All core logic must be written in **Python**.
-2.  **Formatting:** Adhere strictly to **PEP 8** standards. Use **Black** for auto-formatting.
+2.  **Formatting:** Maintain clear readability and use simple, direct logic
 3.  **Naming:**
-    * Variables and functions: `snake_case`.
-    * Classes: `PascalCase`.
-    * Constants: `UPPER_SNAKE_CASE`.
+    * Use descriptive variable names that clearly indicate their purpose (e.g., board_size, current_player).
 4.  **Type Hinting:** **Always** include type hints for function parameters and return values (e.g., `def calculate_area(length: float, width: float) -> float:`).
-5.  **Docstrings:** Use **Google Style** docstrings for all public functions, methods, and classes.
-
+5.  **Docstrings:** No formal docstrings are required, but simple comments explaining non-obvious blocks are acceptable.
+6
 ## 🛡️ Security and Best Practices
 
-* **Input Validation:** Always sanitize and validate all external input (especially from HTTP requests or user input).
-* **Secrets:** Never hardcode secrets, API keys, or credentials. Use **environment variables** (e.g., via `os.environ` or a library like `python-dotenv`).
-* **Dependencies:** Prefer widely-used, well-maintained libraries. Check for security vulnerabilities when adding new packages.
+* **Input Validation:** Input is handled via basic try-except blocks to catch non-integer input and if/else checks for boundary limits (1, 2, 3).
+
+* **Dependencies:** No external dependencies are used in this project.
+* **Global Variables:** Minimize the use of global variables; prefer to pass data structures like the board matrix directly.
 
 ## 📝 Specific Request for Copilot
 
 * **Priority on Existing Code:** When suggesting code, **always prioritize matching the style, variable names, and patterns of the surrounding or existing code** in the file.
-* **Use X/Y/Z Library:** When suggesting database interactions, use the **[Specific Library Name, e.g., `SQLAlchemy ORM`]** pattern.
+* **Win Logic:** When asked to check for a win, use the explicit, hardcoded checks for all 8 possible 3-in-a-row combinations
 * **Testing:** When asked to write a test, use the **`pytest`** framework and follow the `arrange/act/assert` structure.
 
 ## 🚫 What to AVOID
