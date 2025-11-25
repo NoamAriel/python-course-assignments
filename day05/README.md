@@ -2,8 +2,12 @@
 
 ## installation
 
-To install, simply download the code and save it as a ".py" file. (for example, tictactoe_game.py)
+To install, simply download and save the file "tictactoe_game.py"
 That's it. There are no dependencies.
+
+to run the game type
+
+uv run .\tictactoe_game.py
 
 ## gameplay
 
