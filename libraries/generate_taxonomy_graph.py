@@ -2,6 +2,9 @@ import argparse
 import json
 from pathlib import Path
 
+import numpy as np
+import pandas as pd
+
 import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 
@@ -39,7 +42,7 @@ def parse_species_index(md_path: Path) -> dict[str, list[str]]:
     text = md_path.read_text(encoding="utf-8")
     lines = text.splitlines()
 
-    species_marks: dict[str, list[str]] = {}
+    rows: list[dict[str, object]] = []
     in_table = False
 
     for line in lines:
@@ -70,8 +73,17 @@ def parse_species_index(md_path: Path) -> dict[str, list[str]]:
             "Partial (Other)": _parse_int(cells[7]),
         }
 
-        marks = [abbr for key, abbr in MARK_ORDER if counts.get(key, 0) > 0]
-        species_marks[species.lower()] = marks
+        rows.append({"Species Name": species, **counts})
+
+    if not rows:
+        return {}
+
+    df = pd.DataFrame(rows).fillna(0)
+    species_marks: dict[str, list[str]] = {}
+    for _, row in df.iterrows():
+        counts_array = np.array([int(row[key]) for key, _ in MARK_ORDER], dtype=int)
+        marks = [abbr for (key, abbr), val in zip(MARK_ORDER, counts_array) if val > 0]
+        species_marks[str(row["Species Name"]).lower()] = marks
 
     return species_marks
 

@@ -3,6 +3,9 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Dict, Optional, Tuple
 
+import numpy as np
+import pandas as pd
+
 FULL_DIR_NAMES = {"full", "full_sequence"}
 PARTIAL_DIR_NAMES = {"partial", "partial_sequence"}
 
@@ -111,20 +114,23 @@ def write_index(root: Path, output_path: Path, counts: Dict[str, Dict[str, Dict[
     lines.append("| " + " | ".join(header_cols) + " |")
     lines.append("| " + " | ".join([":---"] + [":---:"] * (len(header_cols) - 1)) + " |")
 
-    grand_total = 0
+    rows = []
     for species in sorted(counts.keys(), key=lambda s: s.lower()):
         full = counts[species].get("full", {})
         partial = counts[species].get("partial", {})
-        row = {
-            "Full": {k: full.get(k, 0) for k in type_order},
-            "Partial": {k: partial.get(k, 0) for k in type_order},
-        }
-        total = sum(row["Full"].values()) + sum(row["Partial"].values())
-        grand_total += total
+        total = int(np.sum([full.get(t, 0) for t in type_order] + [partial.get(t, 0) for t in type_order]))
+        row = {"Species Name": species, "Total Found": total}
+        for t in type_order:
+            row[f"Full ({t})"] = full.get(t, 0)
+        for t in type_order:
+            row[f"Partial ({t})"] = partial.get(t, 0)
+        rows.append(row)
 
-        row_values = [f"| {species} | **{total}**"]
-        row_values.extend(str(row["Full"][t]) for t in type_order)
-        row_values.extend(str(row["Partial"][t]) for t in type_order)
+    df = pd.DataFrame(rows, columns=header_cols)
+    grand_total = int(df["Total Found"].sum()) if not df.empty else 0
+    for _, row in df.iterrows():
+        row_values = [f"| {row['Species Name']} | **{int(row['Total Found'])}**"]
+        row_values.extend(str(int(row[col])) for col in header_cols[2:])
         lines.append(" | ".join(row_values) + " |")
 
     lines.append("")

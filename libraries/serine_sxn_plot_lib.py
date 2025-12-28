@@ -18,13 +18,14 @@ from __future__ import annotations
 import argparse
 import csv
 import json
-import statistics
 from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+import numpy as np
+import pandas as pd
 
 AMINO_ORDER = [
     # non-polar
@@ -269,20 +270,22 @@ def _flatten_motif_records(records: List[Dict[str, Any]]) -> List[Dict[str, Any]
 
 
 def _aggregate_mean(rows: List[Dict[str, Any]], keys: List[str], value_keys: List[str]) -> List[Dict[str, Any]]:
-    grouped: Dict[Tuple, List[Dict[str, Any]]] = defaultdict(list)
-    for r in rows:
-        grouped[tuple(r[k] for k in keys)].append(r)
-    out: List[Dict[str, Any]] = []
-    for key, items in grouped.items():
-        base = dict(zip(keys, key))
-        for v in value_keys:
-            base[v] = sum(item.get(v, 0) for item in items) / len(items)
-        out.append(base)
-    return out
+    if not rows:
+        return []
+    df = pd.DataFrame(rows)
+    for col in value_keys:
+        if col not in df.columns:
+            df[col] = 0.0
+        else:
+            df[col] = df[col].fillna(0.0)
+    grouped = df.groupby(keys, sort=False)[value_keys].mean().reset_index()
+    return grouped.to_dict(orient="records")
 
 
 def _stdev(values: List[float]) -> float:
-    return statistics.stdev(values) if len(values) > 1 else 0.0
+    if len(values) <= 1:
+        return 0.0
+    return float(np.std(values, ddof=1))
 
 
 def _aggregate_stats(
@@ -290,19 +293,17 @@ def _aggregate_stats(
     keys: List[str],
     value_keys: List[str],
 ) -> List[Dict[str, Any]]:
-    grouped: Dict[Tuple, List[Dict[str, Any]]] = defaultdict(list)
-    for r in rows:
-        grouped[tuple(r[k] for k in keys)].append(r)
-    out: List[Dict[str, Any]] = []
-    for key, items in grouped.items():
-        base = dict(zip(keys, key))
-        for v in value_keys:
-            vals = [item.get(v, 0) for item in items]
-            base[v] = sum(vals) / len(items)
-            base[f"{v}_sd"] = _stdev(vals)
-        base["n"] = len(items)
-        out.append(base)
-    return out
+    if not rows:
+        return []
+    df = pd.DataFrame(rows)
+    grouped = df.groupby(keys, sort=False)
+    mean_df = grouped[value_keys].mean()
+    sd_df = grouped[value_keys].std(ddof=1).fillna(0.0)
+    count = grouped.size().rename("n")
+    merged = mean_df.join(sd_df.add_suffix("_sd")).join(count).reset_index()
+    ordered_cols = keys + value_keys + [f"{v}_sd" for v in value_keys] + ["n"]
+    merged = merged[ordered_cols]
+    return merged.to_dict(orient="records")
 
 
 def _aa_color_map(letters: Iterable[str], cmap: Any) -> Dict[str, Any]:
@@ -423,16 +424,11 @@ def filter_records(
 
 
 def _aggregate_sum(rows: List[Dict[str, Any]], keys: List[str], value_keys: List[str]) -> List[Dict[str, Any]]:
-    grouped: Dict[Tuple, List[Dict[str, Any]]] = defaultdict(list)
-    for r in rows:
-        grouped[tuple(r[k] for k in keys)].append(r)
-    out: List[Dict[str, Any]] = []
-    for key, items in grouped.items():
-        base = dict(zip(keys, key))
-        for v in value_keys:
-            base[v] = sum(item.get(v, 0) for item in items)
-        out.append(base)
-    return out
+    if not rows:
+        return []
+    df = pd.DataFrame(rows)
+    grouped = df.groupby(keys, sort=False)[value_keys].sum().reset_index()
+    return grouped.to_dict(orient="records")
 
 
 # ---------- Plotters ---------- #
@@ -961,7 +957,7 @@ def plot_x_composition(
             )
             bottoms = [b + v for b, v in zip(bottoms, vals)]
         ax.set_xlabel("Percentage of X residues (%)")
-        ax.set_title(f"X-residue composition in [SX]_n motifs (n={min_n}..{max_n}) – {t}")
+        ax.set_title(f"X-residue composition in [SX]_n motifs (n={min_n}..{max_n}) - {t}")
         ax.invert_yaxis()
         handles, labels = ax.get_legend_handles_labels()
         _legend_outside_right(fig, handles, "Residue", len(handles))

@@ -3,6 +3,7 @@ import sys
 import time
 from pathlib import Path
 
+import numpy as np
 tic = time.perf_counter()
 
 # Optional overrides (absolute or relative to this file)
@@ -246,14 +247,16 @@ if rank_from:
         root = branch_root
         rank_from_key = branch_root.get("rank")
 
-apply_filters = any(
-    [
-        protein_types,
-        partial_full is not None,
-        length_range is not None,
-        length_threshold is not None,
-        longest_factor is not None,
-    ]
+apply_filters = bool(
+    np.any(
+        [
+            protein_types,
+            partial_full is not None,
+            length_range is not None,
+            length_threshold is not None,
+            longest_factor is not None,
+        ]
+    )
 )
 
 if apply_filters:

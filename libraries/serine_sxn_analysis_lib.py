@@ -4,6 +4,9 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
+import numpy as np
+import pandas as pd
+
 
 def greedy_sxn_runs(seq: str, max_n: int, min_n: int) -> Dict[str, Any]:
     """Find non-overlapping [SX]_n runs using a longest-first strategy."""
@@ -65,13 +68,10 @@ def analyze_records(
     Expects each record to have: origin_sequence, accession, organism_name,
     taxonomy_from_araneae or taxonomy_full, partial_full, and type.
     """
-    max_n = max(1, min(100, max_n))
-    min_n = max(1, min(max_n, min_n))
+    max_n = int(np.clip(max_n, 1, 100))
+    min_n = int(np.clip(min_n, 1, max_n))
 
     analyzed: List[Dict[str, Any]] = []
-    type_counts: Dict[str, int] = defaultdict(int)
-    type_pf_counts: Dict[str, Dict[str, int]] = defaultdict(lambda: defaultdict(int))
-    species_pf_counts: Dict[str, Dict[str, int]] = defaultdict(lambda: defaultdict(int))
     species_info: Dict[str, Dict[str, Any]] = {}
 
     for rec in records:
@@ -110,10 +110,6 @@ def analyze_records(
             **motif_metrics,
         }
         analyzed.append(result)
-        type_counts[result["type"]] += 1
-        pf_key = result["partial_full"] or "unknown"
-        type_pf_counts[result["type"]][pf_key] += 1
-        species_pf_counts[result["organism"]][pf_key] += 1
 
         info = species_info.setdefault(
             result["organism"],
@@ -124,11 +120,52 @@ def analyze_records(
     for v in species_info.values():
         v["types"] = sorted(v["types"])
 
+    type_counts: Dict[str, int] = {}
+    type_pf_counts: Dict[str, Dict[str, int]] = {}
+    species_pf_counts: Dict[str, Dict[str, int]] = {}
+
+    if analyzed:
+        df = pd.DataFrame(analyzed)
+        type_order: List[str] = []
+        species_order: List[str] = []
+        pf_order_by_type: Dict[str, List[str]] = defaultdict(list)
+        pf_order_by_species: Dict[str, List[str]] = defaultdict(list)
+
+        for rec in analyzed:
+            t = rec.get("type", "unknown")
+            pf = rec.get("partial_full", "unknown")
+            org = rec.get("organism", "Unknown organism")
+            if t not in type_order:
+                type_order.append(t)
+            if pf not in pf_order_by_type[t]:
+                pf_order_by_type[t].append(pf)
+            if org not in species_order:
+                species_order.append(org)
+            if pf not in pf_order_by_species[org]:
+                pf_order_by_species[org].append(pf)
+
+        type_counts_series = df.groupby("type", sort=False).size()
+        type_counts = {t: int(type_counts_series.get(t, 0)) for t in type_order}
+
+        type_pf_series = df.groupby(["type", "partial_full"], sort=False).size()
+        for t in type_order:
+            inner: Dict[str, int] = {}
+            for pf in pf_order_by_type.get(t, []):
+                inner[pf] = int(type_pf_series.get((t, pf), 0))
+            type_pf_counts[t] = inner
+
+        species_pf_series = df.groupby(["organism", "partial_full"], sort=False).size()
+        for org in species_order:
+            inner = {}
+            for pf in pf_order_by_species.get(org, []):
+                inner[pf] = int(species_pf_series.get((org, pf), 0))
+            species_pf_counts[org] = inner
+
     return {
         "analyzed_records": analyzed,
-        "type_counts": dict(type_counts),
-        "type_partial_full_counts": {t: dict(pf) for t, pf in type_pf_counts.items()},
-        "species_partial_full_counts": {s: dict(pf) for s, pf in species_pf_counts.items()},
+        "type_counts": type_counts,
+        "type_partial_full_counts": type_pf_counts,
+        "species_partial_full_counts": species_pf_counts,
         "species_info": species_info,
         "max_n": max_n,
         "min_n": min_n,

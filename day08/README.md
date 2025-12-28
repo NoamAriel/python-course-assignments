@@ -27,3 +27,5 @@ new ideas:
 libraries
 fixed color map to each amino acids
 error bars
+tic toc 
+filters for more analysis contorl

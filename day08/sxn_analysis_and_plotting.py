@@ -19,6 +19,8 @@ from pathlib import Path
 import sys
 import time
 
+import numpy as np
+
 BASE = Path(__file__).resolve().parent
 PROJECT_ROOT = BASE.parent
 LIB_ROOT = PROJECT_ROOT / "libraries"
@@ -270,6 +272,8 @@ def main() -> None:
     
     min_n = 3 # minimum motif length
     max_n = 50 # maximum motif length
+    min_n = int(np.clip(min_n, 1, max_n))
+    max_n = int(np.clip(max_n, min_n, 100))
 
     resolved_data_root = data_root if data_root and data_root.is_absolute() else (BASE / (data_root or "ncbi_fibroin_sequences"))
     root = resolved_data_root.resolve()

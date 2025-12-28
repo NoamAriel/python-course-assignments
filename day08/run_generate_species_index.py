@@ -5,6 +5,8 @@ from pathlib import Path
 import sys
 import time
 
+import pandas as pd
+
 BASE = Path(__file__).resolve().parent
 PROJECT_ROOT = BASE.parent
 if PROJECT_ROOT.exists() and str(PROJECT_ROOT) not in sys.path:
@@ -43,7 +45,8 @@ else:
     index_path = (root / output_filename).resolve()
 
 counts = build_counts(root)
-if not counts:
+counts_df = pd.DataFrame.from_dict(counts, orient="index")
+if counts_df.empty:
     raise SystemExit("No data found under the provided root.")
 
 write_index(root, index_path, counts)

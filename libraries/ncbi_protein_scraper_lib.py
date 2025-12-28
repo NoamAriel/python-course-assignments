@@ -1,4 +1,5 @@
 import json
+import math
 import re
 import time
 import xml.etree.ElementTree as ET
@@ -6,6 +7,8 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence, Tuple, TypeVar
 
 import requests
+import numpy as np
+import pandas as pd
 
 # Basic headers; override or extend if needed
 HEADERS = {
@@ -52,7 +55,13 @@ T = TypeVar("T")
 
 
 def chunked(iterable: Sequence[T], size: int) -> List[List[T]]:
-    return [list(iterable[i:i + size]) for i in range(0, len(iterable), size)]
+    if size <= 0:
+        return []
+    if not iterable:
+        return []
+    arr = np.array(iterable, dtype=object)
+    chunk_count = int(math.ceil(len(arr) / size))
+    return [list(chunk) for chunk in np.array_split(arr, chunk_count)]
 
 
 def extract_taxonomy_and_sequence(genbank_text: str) -> Tuple[str, List[str], str]:
@@ -209,7 +218,10 @@ def fetch_summaries(
                     taxid = (item.text or "").strip()
             if accession and title:
                 results.append((accession, title, taxid))
-    return results
+    if not results:
+        return results
+    df = pd.DataFrame(results, columns=["accession", "title", "taxid"])
+    return list(df.itertuples(index=False, name=None))
 
 
 def fetch_genbank(accession: str, api_key: Optional[str]) -> Tuple[str, List[str], str]:
