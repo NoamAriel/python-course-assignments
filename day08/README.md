@@ -1,8 +1,12 @@
+## Private repository
+
 First, I apologize, but since I worked hard on it and it may be published, I have made this repository private. Hence, I provided you with access to Gabor, Hodia, and Liron.
 
-## Disclaimer: I utilize the “Codex” extension for programming and connecting to ChatGPT 5.2. I do not add prompts because there are too many of them.
+## AI disclaimer
 
-## Order of operating:
+ I utilize the “Codex” extension for programming and connecting to ChatGPT 5.2. I do not add prompts because there are too many of them.
+
+## Order of operating
 
 pls make sure you install the dependencies: ["requests", "pandas", "numpy", "matplotlib"]
 
