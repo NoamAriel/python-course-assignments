@@ -1,0 +1,41 @@
+{
+  "accession": "DBA54471",
+  "title": "TPA_exp: fibroin light chain [Limnephilus lunatus]",
+  "family_query": "Trichoptera",
+  "protein_term": "fibroin",
+  "organism_name": "Limnephilus lunatus",
+  "taxonomy_full": [
+    "Eukaryota",
+    "Metazoa",
+    "Ecdysozoa",
+    "Arthropoda",
+    "Hexapoda",
+    "Insecta",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Trichoptera",
+    "Integripalpia",
+    "Plenitentoria",
+    "Limnephiloidea",
+    "Limnephilidae",
+    "Limnephilinae",
+    "Limnephilini",
+    "Limnephilus"
+  ],
+  "taxonomy_from_order": [
+    "Trichoptera",
+    "Integripalpia",
+    "Plenitentoria",
+    "Limnephiloidea",
+    "Limnephilidae",
+    "Limnephilinae",
+    "Limnephilini",
+    "Limnephilus"
+  ],
+  "sequence_length": 249,
+  "origin_sequence": "MALSLLIGALLAIQGASFVASSHISASLLERTWDLVEQGEVEPYVLLLKDEVVSTGGVYGLGATLTGVGELAWPRPASGCGHSKLINANVALNDGTLAWGELEDAVDSYAVVLAQAVDNLRILGLNCIIPAPWPTLENSCGDWGRIYEFESSWSLSNVNNGVVCAARRLYTSFGARANNVGAAATSAATDAATSIISEIEDELVSYLEAVVSKSAGPKQKLLRTLAGSLKASIFRASGNAKSGLRSRCH",
+  "partial_full": "full",
+  "type": "light chain",
+  "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/DBA54471"
+}

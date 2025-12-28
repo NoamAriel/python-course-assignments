@@ -1,0 +1,435 @@
+{
+  "Trichoptera": {
+    "__rank__": "order",
+    "Annulipalpia": {
+      "__rank__": "suborder",
+      "Hydropsychoidea": {
+        "__rank__": "superfamily",
+        "Hydropsychidae": {
+          "__rank__": "family",
+          "Arctopsychinae": {
+            "__rank__": "subfamily",
+            "Arctopsyche": {
+              "__rank__": "genus",
+              "Arctopsyche grandis": {
+                "__rank__": "species",
+                "full": {
+                  "light chain": [
+                    {
+                      "accession": "XP_077296102",
+                      "title": "fibroin light chain-like [Arctopsyche grandis]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_077296102"
+                    }
+                  ],
+                  "heavy chain": [
+                    {
+                      "accession": "WGM83073",
+                      "title": "heavy chain fibroin [Arctopsyche grandis]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WGM83073"
+                    },
+                    {
+                      "accession": "WGM83072",
+                      "title": "heavy chain fibroin [Arctopsyche grandis]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WGM83072"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "Hydropsychinae": {
+            "__rank__": "subfamily",
+            "Cheumatopsyche": {
+              "__rank__": "genus",
+              "Cheumatopsyche charites": {
+                "__rank__": "species",
+                "full": {
+                  "heavy chain": [
+                    {
+                      "accession": "DBA09032",
+                      "title": "TPA_inf: heavy chain fibroin [Cheumatopsyche charites]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/DBA09032"
+                    }
+                  ]
+                }
+              }
+            },
+            "Hydropsyche": {
+              "Hydropsyche": {
+                "Hydropsyche angustipennis": {
+                  "__rank__": "species",
+                  "full": {
+                    "light chain": [
+                      {
+                        "accession": "BAH80183",
+                        "title": "fibroin light chain [Hydropsyche angustipennis]",
+                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80183"
+                      },
+                      {
+                        "accession": "BAF62094",
+                        "title": "fibroin light chain [Hydropsyche angustipennis]",
+                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62094"
+                      }
+                    ]
+                  },
+                  "partial": {
+                    "heavy chain": [
+                      {
+                        "accession": "BAH80182",
+                        "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80182"
+                      },
+                      {
+                        "accession": "BAH80181",
+                        "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80181"
+                      },
+                      {
+                        "accession": "BAF62092",
+                        "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62092"
+                      },
+                      {
+                        "accession": "BAF62098",
+                        "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62098"
+                      },
+                      {
+                        "accession": "BAF62097",
+                        "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62097"
+                      },
+                      {
+                        "accession": "BAF62093",
+                        "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62093"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "Macronematinae": {
+            "__rank__": "subfamily",
+            "Macronematini": {
+              "__rank__": "tribe",
+              "Leptonema": {
+                "__rank__": "genus",
+                "Leptonema lineaticorne": {
+                  "__rank__": "species",
+                  "full": {
+                    "heavy chain": [
+                      {
+                        "accession": "WKK20813",
+                        "title": "heavy chain fibroin [Leptonema lineaticorne]",
+                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WKK20813"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Psychomyioidea": {
+        "__rank__": "superfamily",
+        "Polycentropodidae": {
+          "__rank__": "family",
+          "Polycentropodinae": {
+            "__rank__": "subfamily",
+            "Plectrocnemia": {
+              "__rank__": "genus",
+              "Plectrocnemia conspersa": {
+                "__rank__": "species",
+                "partial": {
+                  "heavy chain": [
+                    {
+                      "accession": "UPQ64769",
+                      "title": "fibroin heavy chain, partial [Plectrocnemia conspersa]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/UPQ64769"
+                    },
+                    {
+                      "accession": "UPQ64768",
+                      "title": "fibroin heavy chain, partial [Plectrocnemia conspersa]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/UPQ64768"
+                    }
+                  ]
+                },
+                "full": {
+                  "light chain": [
+                    {
+                      "accession": "UPQ64760",
+                      "title": "fibroin light chain [Plectrocnemia conspersa]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/UPQ64760"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "Philopotamoidea": {
+        "__rank__": "superfamily",
+        "Stenopsychidae": {
+          "__rank__": "family",
+          "Stenopsychinae": {
+            "__rank__": "subfamily",
+            "Stenopsyche": {
+              "__rank__": "genus",
+              "Stenopsyche marmorata": {
+                "__rank__": "species",
+                "full": {
+                  "light chain": [
+                    {
+                      "accession": "BAS02545",
+                      "title": "fibroin light chain [Stenopsyche marmorata]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAS02545"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Integripalpia": {
+      "__rank__": "suborder",
+      "Plenitentoria": {
+        "__rank__": "infraorder",
+        "Limnephiloidea": {
+          "__rank__": "superfamily",
+          "Limnephilidae": {
+            "__rank__": "family",
+            "Limnephilinae": {
+              "__rank__": "subfamily",
+              "Limnephilini": {
+                "__rank__": "tribe",
+                "Limnephilus": {
+                  "__rank__": "genus",
+                  "Limnephilus lunatus": {
+                    "__rank__": "species",
+                    "full": {
+                      "light chain": [
+                        {
+                          "accession": "DBA54471",
+                          "title": "TPA_exp: fibroin light chain [Limnephilus lunatus]",
+                          "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/DBA54471"
+                        }
+                      ],
+                      "heavy chain": [
+                        {
+                          "accession": "DBA54444",
+                          "title": "TPA_exp: fibroin heavy chain [Limnephilus lunatus]",
+                          "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/DBA54444"
+                        },
+                        {
+                          "accession": "DBA09034",
+                          "title": "TPA_inf: heavy chain fibroin [Limnephilus lunatus]",
+                          "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/DBA09034"
+                        }
+                      ]
+                    }
+                  },
+                  "Limnephilus rhombicus": {
+                    "__rank__": "species",
+                    "full": {
+                      "heavy chain": [
+                        {
+                          "accession": "DBA09036",
+                          "title": "TPA_inf: heavy chain fibroin [Limnephilus rhombicus]",
+                          "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/DBA09036"
+                        }
+                      ]
+                    }
+                  },
+                  "Limnephilus marmoratus": {
+                    "__rank__": "species",
+                    "full": {
+                      "heavy chain": [
+                        {
+                          "accession": "DBA09035",
+                          "title": "TPA_inf: heavy chain fibroin [Limnephilus marmoratus]",
+                          "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/DBA09035"
+                        }
+                      ]
+                    }
+                  },
+                  "Limnephilus flavicornis": {
+                    "__rank__": "species",
+                    "full": {
+                      "light chain": [
+                        {
+                          "accession": "WIM01327",
+                          "title": "fibroin light chain [Limnephilus flavicornis]",
+                          "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WIM01327"
+                        }
+                      ],
+                      "heavy chain": [
+                        {
+                          "accession": "WIM01323",
+                          "title": "fibroin heavy chain [Limnephilus flavicornis]",
+                          "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WIM01323"
+                        }
+                      ]
+                    }
+                  },
+                  "Limnephilus decipiens": {
+                    "__rank__": "species",
+                    "full": {
+                      "light chain": [
+                        {
+                          "accession": "BAF62096",
+                          "title": "fibroin light chain [Limnephilus decipiens]",
+                          "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62096"
+                        }
+                      ]
+                    },
+                    "partial": {
+                      "heavy chain": [
+                        {
+                          "accession": "BAF62095",
+                          "title": "fibroin heavy chain, partial [Limnephilus decipiens]",
+                          "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62095"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "Glyphotaelius": {
+                  "Glyphotaelius pellucidus": {
+                    "__rank__": "species",
+                    "full": {
+                      "heavy chain": [
+                        {
+                          "accession": "DBA09033",
+                          "title": "TPA_inf: heavy chain fibroin [Glyphotaelius pellucidus]",
+                          "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/DBA09033"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "Hesperophylax": {
+                  "Hesperophylax magnus": {
+                    "__rank__": "species",
+                    "full": {
+                      "heavy chain": [
+                        {
+                          "accession": "WGM83077",
+                          "title": "heavy chain fibroin [Hesperophylax magnus]",
+                          "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WGM83077"
+                        },
+                        {
+                          "accession": "WGM83076",
+                          "title": "heavy chain fibroin [Hesperophylax magnus]",
+                          "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WGM83076"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Rhyacophiloidea": {
+        "__rank__": "superfamily",
+        "Rhyacophilidae": {
+          "__rank__": "family",
+          "Himalopsyche": {
+            "__rank__": "genus",
+            "Himalopsyche tibetana": {
+              "__rank__": "species",
+              "full": {
+                "heavy chain": [
+                  {
+                    "accession": "WKK20814",
+                    "title": "heavy chain fibroin [Himalopsyche tibetana]",
+                    "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WKK20814"
+                  }
+                ]
+              }
+            }
+          },
+          "Rhyacophila": {
+            "Rhyacophila obliterata": {
+              "__rank__": "species",
+              "full": {
+                "light chain": [
+                  {
+                    "accession": "BAH80185",
+                    "title": "fibroin light chain [Rhyacophila obliterata]",
+                    "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80185"
+                  },
+                  {
+                    "accession": "BAH80180",
+                    "title": "fibroin light chain [Rhyacophila obliterata]",
+                    "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80180"
+                  }
+                ]
+              },
+              "partial": {
+                "heavy chain": [
+                  {
+                    "accession": "BAH80184",
+                    "title": "fibroin heavy chain, partial [Rhyacophila obliterata]",
+                    "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80184"
+                  },
+                  {
+                    "accession": "BAH80179",
+                    "title": "fibroin heavy chain, partial [Rhyacophila obliterata]",
+                    "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80179"
+                  },
+                  {
+                    "accession": "BAH80178",
+                    "title": "fibroin heavy chain, partial [Rhyacophila obliterata]",
+                    "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80178"
+                  },
+                  {
+                    "accession": "BAH80177",
+                    "title": "fibroin heavy chain, partial [Rhyacophila obliterata]",
+                    "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80177"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Hydrobiosidae": {
+          "__rank__": "family",
+          "Hydrobiosinae": {
+            "__rank__": "subfamily",
+            "Hydrobiosini": {
+              "__rank__": "tribe",
+              "Atopsyche": {
+                "__rank__": "genus",
+                "Atopsyche davidsoni": {
+                  "__rank__": "species",
+                  "full": {
+                    "heavy chain": [
+                      {
+                        "accession": "WGM83075",
+                        "title": "heavy chain fibroin [Atopsyche davidsoni]",
+                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WGM83075"
+                      },
+                      {
+                        "accession": "WGM83074",
+                        "title": "heavy chain fibroin [Atopsyche davidsoni]",
+                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WGM83074"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

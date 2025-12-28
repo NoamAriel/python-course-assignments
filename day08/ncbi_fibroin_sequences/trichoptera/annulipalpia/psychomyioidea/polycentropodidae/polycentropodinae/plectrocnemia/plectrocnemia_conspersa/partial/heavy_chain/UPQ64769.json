@@ -1,0 +1,37 @@
+{
+  "accession": "UPQ64769",
+  "title": "fibroin heavy chain, partial [Plectrocnemia conspersa]",
+  "family_query": "Trichoptera",
+  "protein_term": "fibroin",
+  "organism_name": "Plectrocnemia conspersa",
+  "taxonomy_full": [
+    "Eukaryota",
+    "Metazoa",
+    "Ecdysozoa",
+    "Arthropoda",
+    "Hexapoda",
+    "Insecta",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Trichoptera",
+    "Annulipalpia",
+    "Psychomyioidea",
+    "Polycentropodidae",
+    "Polycentropodinae",
+    "Plectrocnemia"
+  ],
+  "taxonomy_from_order": [
+    "Trichoptera",
+    "Annulipalpia",
+    "Psychomyioidea",
+    "Polycentropodidae",
+    "Polycentropodinae",
+    "Plectrocnemia"
+  ],
+  "sequence_length": 757,
+  "origin_sequence": "GSGSGSASASASASASASASVEVSYRRGGSGSGHAKASAAASASAEGGWGRGGRGGYGSGSGGASASASASASAEAGHGHGRRGGSGSGHAKAAAKASASASASIEVSYRRGGSGSGHAKASAAASASAEGGWGHGRRGGYGSGSGSASASASASASASASVEVSYRRGGSGSGHAKASAAASASAEGGWGHGRRGGYGSGSGGASASASASASASASASASVEVSYRRGGSGSGHAKASAAASASAEGGWGRGGRGGYGSGSGGASASASASASAEAGHGHGGRGGSGSGHAKAAAKASASASASIEVSYRRGGSGSGHAKASAAASASAGSGHGHGRRGGYGSGSASASASASASASAEGGWGRGGRGGYGSGSASASASASASASAEGGWGRGGRGGYGSGSGGASASASASASAEAGHGHGRRGGSGSGHAKAAAKASASASASIEVSYRRGGSGSGHAKASAAASASAEGGWGHGRRGGYGSGSGSASASASASASASASVEVSYRRGGSGSGHAKASAAASASAEGGWGRGGRGGYGSGSGGASASASASASAEAGHGHGGRGGSGSGHAKAAAKASASASASIEVSYRRGGSGSGHAKASAAASASAGSGHGHGRRGGYGSGSASASASASASASASTSIEVTIRREGSGHATASASASAEGLTRYHPRNIYRKSVSVERVSRASHAAASSSVSVEISSSGGYRVSPRFVPQSSMFTTHPDSGSLKGGCSSRSVNLMINLGNARKCKDNC",
+  "partial_full": "partial",
+  "type": "heavy chain",
+  "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/UPQ64769"
+}

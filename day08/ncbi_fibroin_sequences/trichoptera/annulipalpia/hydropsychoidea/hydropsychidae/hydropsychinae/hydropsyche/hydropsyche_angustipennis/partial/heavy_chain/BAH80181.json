@@ -1,0 +1,38 @@
+{
+  "accession": "BAH80181",
+  "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+  "family_query": "Trichoptera",
+  "protein_term": "fibroin",
+  "organism_name": "Hydropsyche angustipennis",
+  "taxonomy_full": [
+    "Eukaryota",
+    "Metazoa",
+    "Ecdysozoa",
+    "Arthropoda",
+    "Hexapoda",
+    "Insecta",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Trichoptera",
+    "Annulipalpia",
+    "Hydropsychoidea",
+    "Hydropsychidae",
+    "Hydropsychinae",
+    "Hydropsyche",
+    "Hydropsyche"
+  ],
+  "taxonomy_from_order": [
+    "Trichoptera",
+    "Annulipalpia",
+    "Hydropsychoidea",
+    "Hydropsychidae",
+    "Hydropsychinae",
+    "Hydropsyche"
+  ],
+  "sequence_length": 458,
+  "origin_sequence": "MRAAILLILFCSLQIHLTGAKIGHNAQKGIDDFLGGAHISKCGKHERILQGEDIIETNAKGELIEKIVSRKEILTDDDSESFSVSYSSEDDSTETIVKTITIVQEIPKHGKGKGHAKEKIFEEETVIKKIGKGVAAPVVAPAVDIVGGGLRRRPYGRYSASHSVSVEAPVVYHAPIVARRPKISRSSSYSIERIVTPTVITRISASGSSSVEGRRGIYGPRRWVGPGGWGVAPAAYSASHSVSREGPRGWYGPRGLGPRGLGLGGLDSDILGHDLGPLGLGSRGHGPLGGLRRRPYGGYSASHSVSVEAPVVYHAPIIRRRPKISKSSSYSVERIVKPAVITRIHHSASESVERPVYYRPPVVVRAPKVKKSASYSIERIVTPTVITRISGSHSVSAEGRRGVWGPHGVWGPHGVWGPSGLNGDSGIVDGVYGPGLVGTGGWGRRPYGGYSASGSVSA",
+  "partial_full": "partial",
+  "type": "heavy chain",
+  "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80181"
+}

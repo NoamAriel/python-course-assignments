@@ -1,0 +1,41 @@
+{
+  "accession": "BAF62096",
+  "title": "fibroin light chain [Limnephilus decipiens]",
+  "family_query": "Trichoptera",
+  "protein_term": "fibroin",
+  "organism_name": "Limnephilus decipiens",
+  "taxonomy_full": [
+    "Eukaryota",
+    "Metazoa",
+    "Ecdysozoa",
+    "Arthropoda",
+    "Hexapoda",
+    "Insecta",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Trichoptera",
+    "Integripalpia",
+    "Plenitentoria",
+    "Limnephiloidea",
+    "Limnephilidae",
+    "Limnephilinae",
+    "Limnephilini",
+    "Limnephilus"
+  ],
+  "taxonomy_from_order": [
+    "Trichoptera",
+    "Integripalpia",
+    "Plenitentoria",
+    "Limnephiloidea",
+    "Limnephilidae",
+    "Limnephilinae",
+    "Limnephilini",
+    "Limnephilus"
+  ],
+  "sequence_length": 249,
+  "origin_sequence": "MALSLLIGALLAIQGASFVASSHISASLLEGTWDLVEQGEVEPYVLLLKDEVVSTGGVYGLGATLTGVGELAWPRPASGCGHSKLINANVALNDGTLAWGELEDAVDSYAVVLAQAVDNLRILGLNCIIPAPWPTLENSCGDWGRIYDFESSWSLSKVNKGVVCAARRLYTSFGARANNVGAAATSAATDAATSIISEIEDELVSYLEAVVSKSAGPKQKLLRTLAGSLKASIFRASGNAKSGLRSRCH",
+  "partial_full": "full",
+  "type": "light chain",
+  "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62096"
+}

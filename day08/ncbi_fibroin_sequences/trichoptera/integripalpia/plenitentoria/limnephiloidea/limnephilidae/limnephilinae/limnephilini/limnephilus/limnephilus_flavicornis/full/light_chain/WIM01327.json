@@ -1,0 +1,41 @@
+{
+  "accession": "WIM01327",
+  "title": "fibroin light chain [Limnephilus flavicornis]",
+  "family_query": "Trichoptera",
+  "protein_term": "fibroin",
+  "organism_name": "Limnephilus flavicornis",
+  "taxonomy_full": [
+    "Eukaryota",
+    "Metazoa",
+    "Ecdysozoa",
+    "Arthropoda",
+    "Hexapoda",
+    "Insecta",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Trichoptera",
+    "Integripalpia",
+    "Plenitentoria",
+    "Limnephiloidea",
+    "Limnephilidae",
+    "Limnephilinae",
+    "Limnephilini",
+    "Limnephilus"
+  ],
+  "taxonomy_from_order": [
+    "Trichoptera",
+    "Integripalpia",
+    "Plenitentoria",
+    "Limnephiloidea",
+    "Limnephilidae",
+    "Limnephilinae",
+    "Limnephilini",
+    "Limnephilus"
+  ],
+  "sequence_length": 249,
+  "origin_sequence": "MALSLLIGALLAIQGASFVASSHVSSSLLEATWDLVEQGEVEPYVLLLKDEVVSTGGVYGLGATLTGVGELAWPRPASGCGHSKLINANVALNDGTLAWGELEDAVDSYAVVLAQAVDNLRILGLNCIIPAPWPTLENSCGDWGRIYDFESSWGLSKVNKGVVCAARRLYTSFGARANNVGAAATSAATDAAISIITEIDDELVSYLEAVVSKSAGPKDKKLRTLAGSLKASIFRASSNAKGGLRSRCH",
+  "partial_full": "full",
+  "type": "light chain",
+  "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WIM01327"
+}

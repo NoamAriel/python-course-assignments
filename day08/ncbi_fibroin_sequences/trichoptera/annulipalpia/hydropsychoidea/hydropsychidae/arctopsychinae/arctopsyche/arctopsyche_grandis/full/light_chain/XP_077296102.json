@@ -1,0 +1,37 @@
+{
+  "accession": "XP_077296102",
+  "title": "fibroin light chain-like [Arctopsyche grandis]",
+  "family_query": "Trichoptera",
+  "protein_term": "fibroin",
+  "organism_name": "Arctopsyche grandis",
+  "taxonomy_full": [
+    "Eukaryota",
+    "Metazoa",
+    "Ecdysozoa",
+    "Arthropoda",
+    "Hexapoda",
+    "Insecta",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Trichoptera",
+    "Annulipalpia",
+    "Hydropsychoidea",
+    "Hydropsychidae",
+    "Arctopsychinae",
+    "Arctopsyche"
+  ],
+  "taxonomy_from_order": [
+    "Trichoptera",
+    "Annulipalpia",
+    "Hydropsychoidea",
+    "Hydropsychidae",
+    "Arctopsychinae",
+    "Arctopsyche"
+  ],
+  "sequence_length": 258,
+  "origin_sequence": "MAILVLLSALFFFQAAAAHCNAGLLEATWGLIEDGEIEPFSLVLRNNLLETASSGKSGEIYALGATLTAVSELSWVRPDSACAYSNLINANLNLGKGRLSRATLSSAIDEYAITLAKAVENLRILGQSCVLPSPWPVLDNCCGDYGRIYPFEASWDSVSSFSSSKARCASRDLYTALNARSNNVGAAATSAATTPALSIVKIIEGDLVSYLQGVTSPIVGCECTGSRSKKLRTLAGKLKSSIFTAANQVKSNLYSSCH",
+  "partial_full": "full",
+  "type": "light chain",
+  "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_077296102"
+}

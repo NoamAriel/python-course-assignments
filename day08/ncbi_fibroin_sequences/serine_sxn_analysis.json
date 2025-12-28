@@ -1,0 +1,3478 @@
+{
+  "analyzed_records": [
+    {
+      "accession": "BAH80177",
+      "title": "fibroin heavy chain, partial [Rhyacophila obliterata]",
+      "organism": "Rhyacophila obliterata",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Rhyacophila"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Rhyacophila"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Rhyacophiloidea",
+      "family": "Rhyacophilidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 328,
+      "serine_count": 48,
+      "serine_fraction": 14.634146341463413,
+      "motif_runs": {
+        "6": 1,
+        "5": 5
+      },
+      "x_residue_counts": {
+        "6": {
+          "A": 1,
+          "S": 1,
+          "I": 3,
+          "K": 1
+        },
+        "5": {
+          "E": 2,
+          "D": 2,
+          "S": 3,
+          "I": 7,
+          "K": 2,
+          "L": 2,
+          "V": 5,
+          "H": 1,
+          "G": 1
+        }
+      },
+      "total_runs": 6,
+      "total_motif_residues": 62,
+      "fraction_motif_residues": 18.902439024390244
+    },
+    {
+      "accession": "BAH80178",
+      "title": "fibroin heavy chain, partial [Rhyacophila obliterata]",
+      "organism": "Rhyacophila obliterata",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Rhyacophila"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Rhyacophila"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Rhyacophiloidea",
+      "family": "Rhyacophilidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 908,
+      "serine_count": 134,
+      "serine_fraction": 14.757709251101323,
+      "motif_runs": {
+        "6": 7,
+        "5": 12,
+        "3": 1
+      },
+      "x_residue_counts": {
+        "6": {
+          "A": 8,
+          "V": 7,
+          "I": 19,
+          "H": 6,
+          "L": 1,
+          "S": 1
+        },
+        "5": {
+          "I": 13,
+          "S": 6,
+          "L": 6,
+          "G": 6,
+          "V": 23,
+          "H": 6
+        },
+        "3": {
+          "D": 1,
+          "S": 1,
+          "N": 1
+        }
+      },
+      "total_runs": 20,
+      "total_motif_residues": 210,
+      "fraction_motif_residues": 23.127753303964756
+    },
+    {
+      "accession": "BAH80179",
+      "title": "fibroin heavy chain, partial [Rhyacophila obliterata]",
+      "organism": "Rhyacophila obliterata",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Rhyacophila"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Rhyacophila"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Rhyacophiloidea",
+      "family": "Rhyacophilidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 637,
+      "serine_count": 98,
+      "serine_fraction": 15.384615384615385,
+      "motif_runs": {
+        "6": 5,
+        "5": 8,
+        "3": 1
+      },
+      "x_residue_counts": {
+        "6": {
+          "S": 4,
+          "V": 5,
+          "I": 14,
+          "Q": 1,
+          "H": 3,
+          "A": 2,
+          "L": 1
+        },
+        "5": {
+          "I": 10,
+          "S": 4,
+          "L": 4,
+          "G": 4,
+          "V": 14,
+          "H": 4
+        },
+        "3": {
+          "D": 1,
+          "S": 1,
+          "N": 1
+        }
+      },
+      "total_runs": 14,
+      "total_motif_residues": 146,
+      "fraction_motif_residues": 22.919937205651493
+    },
+    {
+      "accession": "BAH80184",
+      "title": "fibroin heavy chain, partial [Rhyacophila obliterata]",
+      "organism": "Rhyacophila obliterata",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Rhyacophila"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Rhyacophila"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Rhyacophiloidea",
+      "family": "Rhyacophilidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 328,
+      "serine_count": 48,
+      "serine_fraction": 14.634146341463413,
+      "motif_runs": {
+        "6": 1,
+        "5": 5
+      },
+      "x_residue_counts": {
+        "6": {
+          "A": 1,
+          "S": 1,
+          "I": 3,
+          "K": 1
+        },
+        "5": {
+          "E": 2,
+          "D": 2,
+          "S": 3,
+          "I": 7,
+          "K": 2,
+          "L": 2,
+          "V": 5,
+          "H": 1,
+          "G": 1
+        }
+      },
+      "total_runs": 6,
+      "total_motif_residues": 62,
+      "fraction_motif_residues": 18.902439024390244
+    },
+    {
+      "accession": "BAH80180",
+      "title": "fibroin light chain [Rhyacophila obliterata]",
+      "organism": "Rhyacophila obliterata",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Rhyacophila"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Rhyacophila"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Rhyacophiloidea",
+      "family": "Rhyacophilidae",
+      "partial_full": "full",
+      "type": "light chain",
+      "length": 253,
+      "serine_count": 22,
+      "serine_fraction": 8.695652173913043,
+      "motif_runs": {
+        "3": 2
+      },
+      "x_residue_counts": {
+        "3": {
+          "T": 1,
+          "Y": 1,
+          "E": 1,
+          "A": 1,
+          "G": 1,
+          "W": 1
+        }
+      },
+      "total_runs": 2,
+      "total_motif_residues": 12,
+      "fraction_motif_residues": 4.743083003952568
+    },
+    {
+      "accession": "BAH80185",
+      "title": "fibroin light chain [Rhyacophila obliterata]",
+      "organism": "Rhyacophila obliterata",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Rhyacophila"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Rhyacophila"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Rhyacophiloidea",
+      "family": "Rhyacophilidae",
+      "partial_full": "full",
+      "type": "light chain",
+      "length": 253,
+      "serine_count": 23,
+      "serine_fraction": 9.090909090909092,
+      "motif_runs": {
+        "3": 2
+      },
+      "x_residue_counts": {
+        "3": {
+          "T": 1,
+          "Y": 1,
+          "E": 1,
+          "A": 1,
+          "G": 1,
+          "W": 1
+        }
+      },
+      "total_runs": 2,
+      "total_motif_residues": 12,
+      "fraction_motif_residues": 4.743083003952568
+    },
+    {
+      "accession": "WKK20814",
+      "title": "heavy chain fibroin [Himalopsyche tibetana]",
+      "organism": "Himalopsyche tibetana",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Himalopsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Himalopsyche"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Rhyacophiloidea",
+      "family": "Rhyacophilidae",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 6411,
+      "serine_count": 962,
+      "serine_fraction": 15.005459366713461,
+      "motif_runs": {
+        "6": 40,
+        "5": 43,
+        "4": 64
+      },
+      "x_residue_counts": {
+        "6": {
+          "A": 117,
+          "S": 41,
+          "I": 80,
+          "T": 2
+        },
+        "5": {
+          "D": 3,
+          "Y": 41,
+          "S": 44,
+          "A": 1,
+          "I": 3,
+          "V": 81,
+          "G": 31,
+          "R": 9,
+          "T": 1,
+          "L": 1
+        },
+        "4": {
+          "V": 79,
+          "R": 35,
+          "I": 67,
+          "K": 1,
+          "G": 23,
+          "L": 23,
+          "S": 23,
+          "T": 4,
+          "W": 1
+        }
+      },
+      "total_runs": 147,
+      "total_motif_residues": 1422,
+      "fraction_motif_residues": 22.18062704726252
+    },
+    {
+      "accession": "WGM83074",
+      "title": "heavy chain fibroin [Atopsyche davidsoni]",
+      "organism": "Atopsyche davidsoni",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Hydrobiosidae",
+        "Hydrobiosinae",
+        "Hydrobiosini",
+        "Atopsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Hydrobiosidae",
+        "Hydrobiosinae",
+        "Atopsyche"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Rhyacophiloidea",
+      "family": "Hydrobiosidae",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 7878,
+      "serine_count": 730,
+      "serine_fraction": 9.266311246509266,
+      "motif_runs": {
+        "4": 81,
+        "3": 80
+      },
+      "x_residue_counts": {
+        "4": {
+          "Y": 81,
+          "A": 82,
+          "D": 1,
+          "T": 2,
+          "V": 158
+        },
+        "3": {
+          "K": 1,
+          "I": 78,
+          "G": 80,
+          "V": 81
+        }
+      },
+      "total_runs": 161,
+      "total_motif_residues": 1128,
+      "fraction_motif_residues": 14.31835491241432
+    },
+    {
+      "accession": "WGM83075",
+      "title": "heavy chain fibroin [Atopsyche davidsoni]",
+      "organism": "Atopsyche davidsoni",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Hydrobiosidae",
+        "Hydrobiosinae",
+        "Hydrobiosini",
+        "Atopsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Hydrobiosidae",
+        "Hydrobiosinae",
+        "Atopsyche"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Rhyacophiloidea",
+      "family": "Hydrobiosidae",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 6992,
+      "serine_count": 647,
+      "serine_fraction": 9.253432494279176,
+      "motif_runs": {
+        "4": 72,
+        "3": 72
+      },
+      "x_residue_counts": {
+        "4": {
+          "Y": 71,
+          "A": 72,
+          "D": 1,
+          "T": 3,
+          "V": 140,
+          "H": 1
+        },
+        "3": {
+          "K": 1,
+          "I": 70,
+          "G": 72,
+          "V": 73
+        }
+      },
+      "total_runs": 144,
+      "total_motif_residues": 1008,
+      "fraction_motif_residues": 14.416475972540047
+    },
+    {
+      "accession": "DBA09036",
+      "title": "TPA_inf: heavy chain fibroin [Limnephilus rhombicus]",
+      "organism": "Limnephilus rhombicus",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Plenitentoria",
+      "family": "Limnephiloidea",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 9027,
+      "serine_count": 1342,
+      "serine_fraction": 14.866511576381965,
+      "motif_runs": {
+        "5": 109,
+        "4": 128,
+        "3": 1
+      },
+      "x_residue_counts": {
+        "5": {
+          "D": 4,
+          "W": 1,
+          "S": 1,
+          "G": 104,
+          "V": 430,
+          "A": 2,
+          "I": 1,
+          "L": 2
+        },
+        "4": {
+          "I": 137,
+          "Q": 2,
+          "R": 122,
+          "S": 43,
+          "A": 3,
+          "V": 204,
+          "G": 1
+        },
+        "3": {
+          "S": 3
+        }
+      },
+      "total_runs": 238,
+      "total_motif_residues": 2120,
+      "fraction_motif_residues": 23.485100254791185
+    },
+    {
+      "accession": "DBA09035",
+      "title": "TPA_inf: heavy chain fibroin [Limnephilus marmoratus]",
+      "organism": "Limnephilus marmoratus",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Plenitentoria",
+      "family": "Limnephiloidea",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 8774,
+      "serine_count": 1351,
+      "serine_fraction": 15.397766127193982,
+      "motif_runs": {
+        "5": 109,
+        "4": 138,
+        "3": 1
+      },
+      "x_residue_counts": {
+        "5": {
+          "D": 25,
+          "W": 1,
+          "S": 1,
+          "G": 85,
+          "V": 427,
+          "A": 5,
+          "L": 1
+        },
+        "4": {
+          "I": 140,
+          "Q": 2,
+          "R": 136,
+          "S": 33,
+          "V": 241
+        },
+        "3": {
+          "G": 1,
+          "S": 1,
+          "V": 1
+        }
+      },
+      "total_runs": 248,
+      "total_motif_residues": 2200,
+      "fraction_motif_residues": 25.074082516526097
+    },
+    {
+      "accession": "DBA09034",
+      "title": "TPA_inf: heavy chain fibroin [Limnephilus lunatus]",
+      "organism": "Limnephilus lunatus",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Plenitentoria",
+      "family": "Limnephiloidea",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 9848,
+      "serine_count": 1697,
+      "serine_fraction": 17.231925264012997,
+      "motif_runs": {
+        "5": 103,
+        "4": 193,
+        "3": 3
+      },
+      "x_residue_counts": {
+        "5": {
+          "D": 3,
+          "W": 1,
+          "S": 1,
+          "G": 102,
+          "V": 359,
+          "A": 31,
+          "E": 2,
+          "I": 15,
+          "L": 1
+        },
+        "4": {
+          "I": 196,
+          "K": 1,
+          "R": 190,
+          "S": 95,
+          "V": 287,
+          "A": 1,
+          "G": 2
+        },
+        "3": {
+          "R": 3,
+          "S": 3,
+          "V": 2,
+          "I": 1
+        }
+      },
+      "total_runs": 299,
+      "total_motif_residues": 2592,
+      "fraction_motif_residues": 26.320064987814785
+    },
+    {
+      "accession": "DBA54444",
+      "title": "TPA_exp: fibroin heavy chain [Limnephilus lunatus]",
+      "organism": "Limnephilus lunatus",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Plenitentoria",
+      "family": "Limnephiloidea",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 9848,
+      "serine_count": 1697,
+      "serine_fraction": 17.231925264012997,
+      "motif_runs": {
+        "5": 103,
+        "4": 193,
+        "3": 3
+      },
+      "x_residue_counts": {
+        "5": {
+          "D": 3,
+          "W": 1,
+          "S": 1,
+          "G": 102,
+          "V": 359,
+          "A": 31,
+          "E": 2,
+          "I": 15,
+          "L": 1
+        },
+        "4": {
+          "I": 196,
+          "K": 1,
+          "R": 190,
+          "S": 95,
+          "V": 287,
+          "A": 1,
+          "G": 2
+        },
+        "3": {
+          "R": 3,
+          "S": 3,
+          "V": 2,
+          "I": 1
+        }
+      },
+      "total_runs": 299,
+      "total_motif_residues": 2592,
+      "fraction_motif_residues": 26.320064987814785
+    },
+    {
+      "accession": "DBA54471",
+      "title": "TPA_exp: fibroin light chain [Limnephilus lunatus]",
+      "organism": "Limnephilus lunatus",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Plenitentoria",
+      "family": "Limnephiloidea",
+      "partial_full": "full",
+      "type": "light chain",
+      "length": 249,
+      "serine_count": 27,
+      "serine_fraction": 10.843373493975903,
+      "motif_runs": {
+        "3": 1
+      },
+      "x_residue_counts": {
+        "3": {
+          "W": 1,
+          "L": 1,
+          "N": 1
+        }
+      },
+      "total_runs": 1,
+      "total_motif_residues": 6,
+      "fraction_motif_residues": 2.4096385542168677
+    },
+    {
+      "accession": "WIM01323",
+      "title": "fibroin heavy chain [Limnephilus flavicornis]",
+      "organism": "Limnephilus flavicornis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Plenitentoria",
+      "family": "Limnephiloidea",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 1403,
+      "serine_count": 198,
+      "serine_fraction": 14.112615823235922,
+      "motif_runs": {
+        "5": 11,
+        "4": 21,
+        "3": 2
+      },
+      "x_residue_counts": {
+        "5": {
+          "D": 4,
+          "W": 1,
+          "S": 1,
+          "G": 8,
+          "V": 39,
+          "X": 1,
+          "L": 1
+        },
+        "4": {
+          "I": 22,
+          "Q": 1,
+          "R": 20,
+          "S": 9,
+          "V": 32
+        },
+        "3": {
+          "S": 2,
+          "V": 3,
+          "G": 1
+        }
+      },
+      "total_runs": 34,
+      "total_motif_residues": 290,
+      "fraction_motif_residues": 20.669992872416252
+    },
+    {
+      "accession": "WIM01327",
+      "title": "fibroin light chain [Limnephilus flavicornis]",
+      "organism": "Limnephilus flavicornis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Plenitentoria",
+      "family": "Limnephiloidea",
+      "partial_full": "full",
+      "type": "light chain",
+      "length": 249,
+      "serine_count": 26,
+      "serine_fraction": 10.441767068273093,
+      "motif_runs": {},
+      "x_residue_counts": {},
+      "total_runs": 0,
+      "total_motif_residues": 0,
+      "fraction_motif_residues": 0.0
+    },
+    {
+      "accession": "BAF62095",
+      "title": "fibroin heavy chain, partial [Limnephilus decipiens]",
+      "organism": "Limnephilus decipiens",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Plenitentoria",
+      "family": "Limnephiloidea",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 516,
+      "serine_count": 89,
+      "serine_fraction": 17.248062015503876,
+      "motif_runs": {
+        "5": 1,
+        "4": 13,
+        "3": 2
+      },
+      "x_residue_counts": {
+        "5": {
+          "G": 1,
+          "V": 3,
+          "L": 1
+        },
+        "4": {
+          "I": 10,
+          "R": 10,
+          "V": 25,
+          "S": 5,
+          "G": 2
+        },
+        "3": {
+          "V": 4,
+          "G": 1,
+          "S": 1
+        }
+      },
+      "total_runs": 16,
+      "total_motif_residues": 126,
+      "fraction_motif_residues": 24.418604651162788
+    },
+    {
+      "accession": "BAF62096",
+      "title": "fibroin light chain [Limnephilus decipiens]",
+      "organism": "Limnephilus decipiens",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Plenitentoria",
+      "family": "Limnephiloidea",
+      "partial_full": "full",
+      "type": "light chain",
+      "length": 249,
+      "serine_count": 27,
+      "serine_fraction": 10.843373493975903,
+      "motif_runs": {
+        "3": 1
+      },
+      "x_residue_counts": {
+        "3": {
+          "W": 1,
+          "L": 1,
+          "K": 1
+        }
+      },
+      "total_runs": 1,
+      "total_motif_residues": 6,
+      "fraction_motif_residues": 2.4096385542168677
+    },
+    {
+      "accession": "WGM83076",
+      "title": "heavy chain fibroin [Hesperophylax magnus]",
+      "organism": "Hesperophylax magnus",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Hesperophylax"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Hesperophylax"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Plenitentoria",
+      "family": "Limnephiloidea",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 8624,
+      "serine_count": 1301,
+      "serine_fraction": 15.085807050092765,
+      "motif_runs": {
+        "5": 70,
+        "4": 155,
+        "3": 1
+      },
+      "x_residue_counts": {
+        "5": {
+          "N": 1,
+          "W": 1,
+          "D": 2,
+          "S": 1,
+          "V": 274,
+          "L": 69,
+          "I": 1,
+          "A": 1
+        },
+        "4": {
+          "I": 179,
+          "R": 144,
+          "S": 72,
+          "V": 215,
+          "L": 10
+        },
+        "3": {
+          "A": 1,
+          "S": 2
+        }
+      },
+      "total_runs": 226,
+      "total_motif_residues": 1946,
+      "fraction_motif_residues": 22.564935064935064
+    },
+    {
+      "accession": "WGM83077",
+      "title": "heavy chain fibroin [Hesperophylax magnus]",
+      "organism": "Hesperophylax magnus",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Hesperophylax"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Hesperophylax"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Plenitentoria",
+      "family": "Limnephiloidea",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 6728,
+      "serine_count": 1017,
+      "serine_fraction": 15.115933412604043,
+      "motif_runs": {
+        "5": 55,
+        "4": 121,
+        "3": 1
+      },
+      "x_residue_counts": {
+        "5": {
+          "N": 1,
+          "W": 1,
+          "D": 2,
+          "S": 1,
+          "V": 215,
+          "L": 54,
+          "I": 1
+        },
+        "4": {
+          "I": 148,
+          "R": 114,
+          "S": 57,
+          "V": 159,
+          "L": 6
+        },
+        "3": {
+          "A": 1,
+          "S": 1,
+          "I": 1
+        }
+      },
+      "total_runs": 177,
+      "total_motif_residues": 1524,
+      "fraction_motif_residues": 22.651605231866824
+    },
+    {
+      "accession": "DBA09033",
+      "title": "TPA_inf: heavy chain fibroin [Glyphotaelius pellucidus]",
+      "organism": "Glyphotaelius pellucidus",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Glyphotaelius"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Glyphotaelius"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Plenitentoria",
+      "family": "Limnephiloidea",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 7864,
+      "serine_count": 1234,
+      "serine_fraction": 15.69175991861648,
+      "motif_runs": {
+        "5": 67,
+        "4": 149,
+        "3": 2
+      },
+      "x_residue_counts": {
+        "5": {
+          "D": 3,
+          "W": 1,
+          "S": 1,
+          "G": 66,
+          "V": 249,
+          "I": 15
+        },
+        "4": {
+          "V": 237,
+          "K": 1,
+          "I": 145,
+          "Q": 4,
+          "S": 71,
+          "R": 138
+        },
+        "3": {
+          "S": 2,
+          "V": 3,
+          "G": 1
+        }
+      },
+      "total_runs": 218,
+      "total_motif_residues": 1874,
+      "fraction_motif_residues": 23.830111902339777
+    },
+    {
+      "accession": "UPQ64768",
+      "title": "fibroin heavy chain, partial [Plectrocnemia conspersa]",
+      "organism": "Plectrocnemia conspersa",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Psychomyioidea",
+        "Polycentropodidae",
+        "Polycentropodinae",
+        "Plectrocnemia"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Psychomyioidea",
+        "Polycentropodidae",
+        "Polycentropodinae",
+        "Plectrocnemia"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Psychomyioidea",
+      "family": "Polycentropodidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 467,
+      "serine_count": 97,
+      "serine_fraction": 20.770877944325484,
+      "motif_runs": {
+        "10": 2,
+        "7": 1,
+        "5": 1,
+        "4": 3,
+        "3": 1
+      },
+      "x_residue_counts": {
+        "10": {
+          "G": 4,
+          "A": 14,
+          "V": 2
+        },
+        "7": {
+          "G": 1,
+          "A": 6
+        },
+        "5": {
+          "A": 5
+        },
+        "4": {
+          "A": 10,
+          "I": 2
+        },
+        "3": {
+          "A": 1,
+          "D": 2
+        }
+      },
+      "total_runs": 8,
+      "total_motif_residues": 94,
+      "fraction_motif_residues": 20.12847965738758
+    },
+    {
+      "accession": "UPQ64769",
+      "title": "fibroin heavy chain, partial [Plectrocnemia conspersa]",
+      "organism": "Plectrocnemia conspersa",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Psychomyioidea",
+        "Polycentropodidae",
+        "Polycentropodinae",
+        "Plectrocnemia"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Psychomyioidea",
+        "Polycentropodidae",
+        "Polycentropodinae",
+        "Plectrocnemia"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Psychomyioidea",
+      "family": "Polycentropodidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 757,
+      "serine_count": 192,
+      "serine_fraction": 25.36327608982827,
+      "motif_runs": {
+        "10": 4,
+        "9": 1,
+        "8": 2,
+        "5": 4,
+        "4": 4,
+        "3": 2
+      },
+      "x_residue_counts": {
+        "10": {
+          "G": 7,
+          "A": 28,
+          "V": 3,
+          "T": 1,
+          "I": 1
+        },
+        "9": {
+          "A": 8,
+          "V": 1
+        },
+        "8": {
+          "G": 2,
+          "A": 14
+        },
+        "5": {
+          "A": 20
+        },
+        "4": {
+          "A": 12,
+          "I": 4
+        },
+        "3": {
+          "A": 3,
+          "S": 1,
+          "V": 2
+        }
+      },
+      "total_runs": 17,
+      "total_motif_residues": 214,
+      "fraction_motif_residues": 28.269484808454425
+    },
+    {
+      "accession": "UPQ64760",
+      "title": "fibroin light chain [Plectrocnemia conspersa]",
+      "organism": "Plectrocnemia conspersa",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Psychomyioidea",
+        "Polycentropodidae",
+        "Polycentropodinae",
+        "Plectrocnemia"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Psychomyioidea",
+        "Polycentropodidae",
+        "Polycentropodinae",
+        "Plectrocnemia"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Psychomyioidea",
+      "family": "Polycentropodidae",
+      "partial_full": "full",
+      "type": "light chain",
+      "length": 237,
+      "serine_count": 30,
+      "serine_fraction": 12.658227848101266,
+      "motif_runs": {
+        "3": 1
+      },
+      "x_residue_counts": {
+        "3": {
+          "S": 1,
+          "N": 2
+        }
+      },
+      "total_runs": 1,
+      "total_motif_residues": 6,
+      "fraction_motif_residues": 2.5316455696202533
+    },
+    {
+      "accession": "BAS02545",
+      "title": "fibroin light chain [Stenopsyche marmorata]",
+      "organism": "Stenopsyche marmorata",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Philopotamoidea",
+        "Stenopsychidae",
+        "Stenopsychinae",
+        "Stenopsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Philopotamoidea",
+        "Stenopsychidae",
+        "Stenopsychinae",
+        "Stenopsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Philopotamoidea",
+      "family": "Stenopsychidae",
+      "partial_full": "full",
+      "type": "light chain",
+      "length": 248,
+      "serine_count": 21,
+      "serine_fraction": 8.46774193548387,
+      "motif_runs": {
+        "3": 1
+      },
+      "x_residue_counts": {
+        "3": {
+          "N": 1,
+          "G": 1,
+          "D": 1
+        }
+      },
+      "total_runs": 1,
+      "total_motif_residues": 6,
+      "fraction_motif_residues": 2.4193548387096775
+    },
+    {
+      "accession": "WKK20813",
+      "title": "heavy chain fibroin [Leptonema lineaticorne]",
+      "organism": "Leptonema lineaticorne",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Macronematinae",
+        "Macronematini",
+        "Leptonema"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Macronematinae",
+        "Macronematini",
+        "Leptonema"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 6817,
+      "serine_count": 755,
+      "serine_fraction": 11.075253043860936,
+      "motif_runs": {
+        "5": 1,
+        "4": 141,
+        "3": 12
+      },
+      "x_residue_counts": {
+        "5": {
+          "E": 1,
+          "F": 1,
+          "V": 1,
+          "Y": 1,
+          "S": 1
+        },
+        "4": {
+          "A": 187,
+          "H": 2,
+          "V": 149,
+          "Y": 44,
+          "K": 41,
+          "G": 42,
+          "R": 80,
+          "I": 17,
+          "S": 1,
+          "L": 1
+        },
+        "3": {
+          "A": 12,
+          "V": 24
+        }
+      },
+      "total_runs": 154,
+      "total_motif_residues": 1210,
+      "fraction_motif_residues": 17.74974328883673
+    },
+    {
+      "accession": "BAF62092",
+      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 640,
+      "serine_count": 76,
+      "serine_fraction": 11.875,
+      "motif_runs": {
+        "5": 1,
+        "4": 12,
+        "3": 2
+      },
+      "x_residue_counts": {
+        "5": {
+          "E": 1,
+          "F": 1,
+          "V": 1,
+          "Y": 1,
+          "S": 1
+        },
+        "4": {
+          "A": 11,
+          "H": 6,
+          "V": 14,
+          "R": 4,
+          "S": 4,
+          "Y": 3,
+          "I": 1,
+          "G": 4,
+          "K": 1
+        },
+        "3": {
+          "A": 2,
+          "E": 1,
+          "V": 1,
+          "Y": 1,
+          "I": 1
+        }
+      },
+      "total_runs": 15,
+      "total_motif_residues": 118,
+      "fraction_motif_residues": 18.4375
+    },
+    {
+      "accession": "BAF62093",
+      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 770,
+      "serine_count": 92,
+      "serine_fraction": 11.948051948051948,
+      "motif_runs": {
+        "4": 15,
+        "3": 2
+      },
+      "x_residue_counts": {
+        "4": {
+          "A": 20,
+          "G": 7,
+          "V": 17,
+          "H": 4,
+          "R": 4,
+          "S": 2,
+          "Y": 4,
+          "K": 1,
+          "E": 1
+        },
+        "3": {
+          "V": 3,
+          "H": 1,
+          "A": 1,
+          "D": 1
+        }
+      },
+      "total_runs": 17,
+      "total_motif_residues": 132,
+      "fraction_motif_residues": 17.142857142857142
+    },
+    {
+      "accession": "BAF62097",
+      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 554,
+      "serine_count": 74,
+      "serine_fraction": 13.357400722021662,
+      "motif_runs": {
+        "4": 13,
+        "3": 4
+      },
+      "x_residue_counts": {
+        "4": {
+          "A": 14,
+          "H": 4,
+          "V": 15,
+          "R": 6,
+          "Y": 6,
+          "K": 2,
+          "E": 2,
+          "G": 3
+        },
+        "3": {
+          "V": 6,
+          "H": 2,
+          "A": 2,
+          "D": 2
+        }
+      },
+      "total_runs": 17,
+      "total_motif_residues": 128,
+      "fraction_motif_residues": 23.104693140794225
+    },
+    {
+      "accession": "BAF62098",
+      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 710,
+      "serine_count": 91,
+      "serine_fraction": 12.816901408450704,
+      "motif_runs": {
+        "4": 16,
+        "3": 3
+      },
+      "x_residue_counts": {
+        "4": {
+          "K": 2,
+          "E": 2,
+          "Y": 6,
+          "V": 18,
+          "R": 7,
+          "A": 18,
+          "G": 5,
+          "H": 5,
+          "S": 1
+        },
+        "3": {
+          "A": 2,
+          "D": 2,
+          "V": 4,
+          "H": 1
+        }
+      },
+      "total_runs": 19,
+      "total_motif_residues": 146,
+      "fraction_motif_residues": 20.56338028169014
+    },
+    {
+      "accession": "BAH80181",
+      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 458,
+      "serine_count": 55,
+      "serine_fraction": 12.008733624454148,
+      "motif_runs": {
+        "5": 1,
+        "4": 8,
+        "3": 2
+      },
+      "x_residue_counts": {
+        "5": {
+          "E": 1,
+          "F": 1,
+          "V": 1,
+          "Y": 1,
+          "S": 1
+        },
+        "4": {
+          "A": 7,
+          "H": 4,
+          "V": 9,
+          "R": 2,
+          "S": 3,
+          "Y": 2,
+          "I": 1,
+          "G": 3,
+          "K": 1
+        },
+        "3": {
+          "A": 2,
+          "E": 1,
+          "V": 1,
+          "Y": 1,
+          "I": 1
+        }
+      },
+      "total_runs": 11,
+      "total_motif_residues": 86,
+      "fraction_motif_residues": 18.777292576419214
+    },
+    {
+      "accession": "BAH80182",
+      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 770,
+      "serine_count": 92,
+      "serine_fraction": 11.948051948051948,
+      "motif_runs": {
+        "4": 15,
+        "3": 2
+      },
+      "x_residue_counts": {
+        "4": {
+          "A": 20,
+          "G": 7,
+          "V": 17,
+          "H": 4,
+          "R": 4,
+          "S": 2,
+          "Y": 4,
+          "K": 1,
+          "E": 1
+        },
+        "3": {
+          "V": 3,
+          "H": 1,
+          "A": 1,
+          "D": 1
+        }
+      },
+      "total_runs": 17,
+      "total_motif_residues": 132,
+      "fraction_motif_residues": 17.142857142857142
+    },
+    {
+      "accession": "BAF62094",
+      "title": "fibroin light chain [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "full",
+      "type": "light chain",
+      "length": 257,
+      "serine_count": 27,
+      "serine_fraction": 10.505836575875486,
+      "motif_runs": {},
+      "x_residue_counts": {},
+      "total_runs": 0,
+      "total_motif_residues": 0,
+      "fraction_motif_residues": 0.0
+    },
+    {
+      "accession": "BAH80183",
+      "title": "fibroin light chain [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "full",
+      "type": "light chain",
+      "length": 257,
+      "serine_count": 27,
+      "serine_fraction": 10.505836575875486,
+      "motif_runs": {},
+      "x_residue_counts": {},
+      "total_runs": 0,
+      "total_motif_residues": 0,
+      "fraction_motif_residues": 0.0
+    },
+    {
+      "accession": "BAF62092",
+      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 640,
+      "serine_count": 76,
+      "serine_fraction": 11.875,
+      "motif_runs": {
+        "5": 1,
+        "4": 12,
+        "3": 2
+      },
+      "x_residue_counts": {
+        "5": {
+          "E": 1,
+          "F": 1,
+          "V": 1,
+          "Y": 1,
+          "S": 1
+        },
+        "4": {
+          "A": 11,
+          "H": 6,
+          "V": 14,
+          "R": 4,
+          "S": 4,
+          "Y": 3,
+          "I": 1,
+          "G": 4,
+          "K": 1
+        },
+        "3": {
+          "A": 2,
+          "E": 1,
+          "V": 1,
+          "Y": 1,
+          "I": 1
+        }
+      },
+      "total_runs": 15,
+      "total_motif_residues": 118,
+      "fraction_motif_residues": 18.4375
+    },
+    {
+      "accession": "BAF62093",
+      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 770,
+      "serine_count": 92,
+      "serine_fraction": 11.948051948051948,
+      "motif_runs": {
+        "4": 15,
+        "3": 2
+      },
+      "x_residue_counts": {
+        "4": {
+          "A": 20,
+          "G": 7,
+          "V": 17,
+          "H": 4,
+          "R": 4,
+          "S": 2,
+          "Y": 4,
+          "K": 1,
+          "E": 1
+        },
+        "3": {
+          "V": 3,
+          "H": 1,
+          "A": 1,
+          "D": 1
+        }
+      },
+      "total_runs": 17,
+      "total_motif_residues": 132,
+      "fraction_motif_residues": 17.142857142857142
+    },
+    {
+      "accession": "BAF62097",
+      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 554,
+      "serine_count": 74,
+      "serine_fraction": 13.357400722021662,
+      "motif_runs": {
+        "4": 13,
+        "3": 4
+      },
+      "x_residue_counts": {
+        "4": {
+          "A": 14,
+          "H": 4,
+          "V": 15,
+          "R": 6,
+          "Y": 6,
+          "K": 2,
+          "E": 2,
+          "G": 3
+        },
+        "3": {
+          "V": 6,
+          "H": 2,
+          "A": 2,
+          "D": 2
+        }
+      },
+      "total_runs": 17,
+      "total_motif_residues": 128,
+      "fraction_motif_residues": 23.104693140794225
+    },
+    {
+      "accession": "BAF62098",
+      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 710,
+      "serine_count": 91,
+      "serine_fraction": 12.816901408450704,
+      "motif_runs": {
+        "4": 16,
+        "3": 3
+      },
+      "x_residue_counts": {
+        "4": {
+          "K": 2,
+          "E": 2,
+          "Y": 6,
+          "V": 18,
+          "R": 7,
+          "A": 18,
+          "G": 5,
+          "H": 5,
+          "S": 1
+        },
+        "3": {
+          "A": 2,
+          "D": 2,
+          "V": 4,
+          "H": 1
+        }
+      },
+      "total_runs": 19,
+      "total_motif_residues": 146,
+      "fraction_motif_residues": 20.56338028169014
+    },
+    {
+      "accession": "BAH80181",
+      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 458,
+      "serine_count": 55,
+      "serine_fraction": 12.008733624454148,
+      "motif_runs": {
+        "5": 1,
+        "4": 8,
+        "3": 2
+      },
+      "x_residue_counts": {
+        "5": {
+          "E": 1,
+          "F": 1,
+          "V": 1,
+          "Y": 1,
+          "S": 1
+        },
+        "4": {
+          "A": 7,
+          "H": 4,
+          "V": 9,
+          "R": 2,
+          "S": 3,
+          "Y": 2,
+          "I": 1,
+          "G": 3,
+          "K": 1
+        },
+        "3": {
+          "A": 2,
+          "E": 1,
+          "V": 1,
+          "Y": 1,
+          "I": 1
+        }
+      },
+      "total_runs": 11,
+      "total_motif_residues": 86,
+      "fraction_motif_residues": 18.777292576419214
+    },
+    {
+      "accession": "BAH80182",
+      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "partial",
+      "type": "heavy chain",
+      "length": 770,
+      "serine_count": 92,
+      "serine_fraction": 11.948051948051948,
+      "motif_runs": {
+        "4": 15,
+        "3": 2
+      },
+      "x_residue_counts": {
+        "4": {
+          "A": 20,
+          "G": 7,
+          "V": 17,
+          "H": 4,
+          "R": 4,
+          "S": 2,
+          "Y": 4,
+          "K": 1,
+          "E": 1
+        },
+        "3": {
+          "V": 3,
+          "H": 1,
+          "A": 1,
+          "D": 1
+        }
+      },
+      "total_runs": 17,
+      "total_motif_residues": 132,
+      "fraction_motif_residues": 17.142857142857142
+    },
+    {
+      "accession": "BAF62094",
+      "title": "fibroin light chain [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "full",
+      "type": "light chain",
+      "length": 257,
+      "serine_count": 27,
+      "serine_fraction": 10.505836575875486,
+      "motif_runs": {},
+      "x_residue_counts": {},
+      "total_runs": 0,
+      "total_motif_residues": 0,
+      "fraction_motif_residues": 0.0
+    },
+    {
+      "accession": "BAH80183",
+      "title": "fibroin light chain [Hydropsyche angustipennis]",
+      "organism": "Hydropsyche angustipennis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "full",
+      "type": "light chain",
+      "length": 257,
+      "serine_count": 27,
+      "serine_fraction": 10.505836575875486,
+      "motif_runs": {},
+      "x_residue_counts": {},
+      "total_runs": 0,
+      "total_motif_residues": 0,
+      "fraction_motif_residues": 0.0
+    },
+    {
+      "accession": "DBA09032",
+      "title": "TPA_inf: heavy chain fibroin [Cheumatopsyche charites]",
+      "organism": "Cheumatopsyche charites",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Cheumatopsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Cheumatopsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 6223,
+      "serine_count": 763,
+      "serine_fraction": 12.260967379077616,
+      "motif_runs": {
+        "5": 1,
+        "4": 135,
+        "3": 9
+      },
+      "x_residue_counts": {
+        "5": {
+          "E": 1,
+          "F": 2,
+          "V": 1,
+          "S": 1
+        },
+        "4": {
+          "A": 146,
+          "H": 25,
+          "V": 129,
+          "S": 50,
+          "Y": 10,
+          "K": 3,
+          "E": 6,
+          "G": 81,
+          "T": 25,
+          "R": 24,
+          "I": 22,
+          "F": 19
+        },
+        "3": {
+          "A": 10,
+          "V": 3,
+          "E": 3,
+          "R": 3,
+          "F": 3,
+          "I": 3,
+          "D": 2
+        }
+      },
+      "total_runs": 145,
+      "total_motif_residues": 1144,
+      "fraction_motif_residues": 18.383416358669454
+    },
+    {
+      "accession": "WGM83072",
+      "title": "heavy chain fibroin [Arctopsyche grandis]",
+      "organism": "Arctopsyche grandis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Arctopsychinae",
+        "Arctopsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Arctopsychinae",
+        "Arctopsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 6374,
+      "serine_count": 759,
+      "serine_fraction": 11.907750235331033,
+      "motif_runs": {
+        "5": 1,
+        "4": 92,
+        "3": 56
+      },
+      "x_residue_counts": {
+        "5": {
+          "E": 1,
+          "F": 1,
+          "V": 1,
+          "L": 1,
+          "N": 1
+        },
+        "4": {
+          "A": 126,
+          "V": 119,
+          "R": 65,
+          "K": 27,
+          "Y": 27,
+          "T": 2,
+          "N": 2
+        },
+        "3": {
+          "V": 31,
+          "Y": 48,
+          "A": 52,
+          "R": 1,
+          "G": 1,
+          "S": 25,
+          "H": 2,
+          "F": 1,
+          "K": 4,
+          "I": 2,
+          "D": 1
+        }
+      },
+      "total_runs": 149,
+      "total_motif_residues": 1082,
+      "fraction_motif_residues": 16.975211797929088
+    },
+    {
+      "accession": "WGM83073",
+      "title": "heavy chain fibroin [Arctopsyche grandis]",
+      "organism": "Arctopsyche grandis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Arctopsychinae",
+        "Arctopsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Arctopsychinae",
+        "Arctopsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 5695,
+      "serine_count": 677,
+      "serine_fraction": 11.887620719929764,
+      "motif_runs": {
+        "5": 1,
+        "4": 82,
+        "3": 50
+      },
+      "x_residue_counts": {
+        "5": {
+          "E": 1,
+          "F": 1,
+          "V": 1,
+          "L": 1,
+          "N": 1
+        },
+        "4": {
+          "A": 114,
+          "V": 106,
+          "R": 58,
+          "K": 24,
+          "Y": 24,
+          "T": 1,
+          "N": 1
+        },
+        "3": {
+          "V": 29,
+          "Y": 41,
+          "A": 46,
+          "R": 1,
+          "G": 1,
+          "S": 21,
+          "H": 2,
+          "F": 2,
+          "K": 4,
+          "I": 2,
+          "D": 1
+        }
+      },
+      "total_runs": 133,
+      "total_motif_residues": 966,
+      "fraction_motif_residues": 16.962247585601407
+    },
+    {
+      "accession": "XP_077296102",
+      "title": "fibroin light chain-like [Arctopsyche grandis]",
+      "organism": "Arctopsyche grandis",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Arctopsychinae",
+        "Arctopsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Arctopsychinae",
+        "Arctopsyche"
+      ],
+      "suborder": "Annulipalpia",
+      "superfamily": "Hydropsychoidea",
+      "family": "Hydropsychidae",
+      "partial_full": "full",
+      "type": "light chain",
+      "length": 258,
+      "serine_count": 34,
+      "serine_fraction": 13.178294573643413,
+      "motif_runs": {
+        "3": 1
+      },
+      "x_residue_counts": {
+        "3": {
+          "F": 1,
+          "S": 1,
+          "K": 1
+        }
+      },
+      "total_runs": 1,
+      "total_motif_residues": 6,
+      "fraction_motif_residues": 2.3255813953488373
+    }
+  ],
+  "type_counts": {
+    "heavy chain": 34,
+    "light chain": 12
+  },
+  "type_partial_full_counts": {
+    "heavy chain": {
+      "partial": 19,
+      "full": 15
+    },
+    "light chain": {
+      "full": 12
+    }
+  },
+  "species_partial_full_counts": {
+    "Rhyacophila obliterata": {
+      "partial": 4,
+      "full": 2
+    },
+    "Himalopsyche tibetana": {
+      "full": 1
+    },
+    "Atopsyche davidsoni": {
+      "full": 2
+    },
+    "Limnephilus rhombicus": {
+      "full": 1
+    },
+    "Limnephilus marmoratus": {
+      "full": 1
+    },
+    "Limnephilus lunatus": {
+      "full": 3
+    },
+    "Limnephilus flavicornis": {
+      "full": 2
+    },
+    "Limnephilus decipiens": {
+      "partial": 1,
+      "full": 1
+    },
+    "Hesperophylax magnus": {
+      "full": 2
+    },
+    "Glyphotaelius pellucidus": {
+      "full": 1
+    },
+    "Plectrocnemia conspersa": {
+      "partial": 2,
+      "full": 1
+    },
+    "Stenopsyche marmorata": {
+      "full": 1
+    },
+    "Leptonema lineaticorne": {
+      "full": 1
+    },
+    "Hydropsyche angustipennis": {
+      "partial": 12,
+      "full": 4
+    },
+    "Cheumatopsyche charites": {
+      "full": 1
+    },
+    "Arctopsyche grandis": {
+      "full": 3
+    }
+  },
+  "species_info": {
+    "Rhyacophila obliterata": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Rhyacophila"
+      ],
+      "types": [
+        "heavy chain",
+        "light chain"
+      ]
+    },
+    "Himalopsyche tibetana": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Rhyacophilidae",
+        "Himalopsyche"
+      ],
+      "types": [
+        "heavy chain"
+      ]
+    },
+    "Atopsyche davidsoni": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Hydrobiosidae",
+        "Hydrobiosinae",
+        "Atopsyche"
+      ],
+      "types": [
+        "heavy chain"
+      ]
+    },
+    "Limnephilus rhombicus": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "types": [
+        "heavy chain"
+      ]
+    },
+    "Limnephilus marmoratus": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "types": [
+        "heavy chain"
+      ]
+    },
+    "Limnephilus lunatus": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "types": [
+        "heavy chain",
+        "light chain"
+      ]
+    },
+    "Limnephilus flavicornis": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "types": [
+        "heavy chain",
+        "light chain"
+      ]
+    },
+    "Limnephilus decipiens": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Limnephilus"
+      ],
+      "types": [
+        "heavy chain",
+        "light chain"
+      ]
+    },
+    "Hesperophylax magnus": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Hesperophylax"
+      ],
+      "types": [
+        "heavy chain"
+      ]
+    },
+    "Glyphotaelius pellucidus": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Plenitentoria",
+        "Limnephiloidea",
+        "Limnephilidae",
+        "Limnephilinae",
+        "Limnephilini",
+        "Glyphotaelius"
+      ],
+      "types": [
+        "heavy chain"
+      ]
+    },
+    "Plectrocnemia conspersa": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Psychomyioidea",
+        "Polycentropodidae",
+        "Polycentropodinae",
+        "Plectrocnemia"
+      ],
+      "types": [
+        "heavy chain",
+        "light chain"
+      ]
+    },
+    "Stenopsyche marmorata": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Philopotamoidea",
+        "Stenopsychidae",
+        "Stenopsychinae",
+        "Stenopsyche"
+      ],
+      "types": [
+        "light chain"
+      ]
+    },
+    "Leptonema lineaticorne": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Macronematinae",
+        "Macronematini",
+        "Leptonema"
+      ],
+      "types": [
+        "heavy chain"
+      ]
+    },
+    "Hydropsyche angustipennis": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Hydropsyche",
+        "Hydropsyche"
+      ],
+      "types": [
+        "heavy chain",
+        "light chain"
+      ]
+    },
+    "Cheumatopsyche charites": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Hydropsychinae",
+        "Cheumatopsyche"
+      ],
+      "types": [
+        "heavy chain"
+      ]
+    },
+    "Arctopsyche grandis": {
+      "taxonomy": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Annulipalpia",
+        "Hydropsychoidea",
+        "Hydropsychidae",
+        "Arctopsychinae",
+        "Arctopsyche"
+      ],
+      "types": [
+        "heavy chain",
+        "light chain"
+      ]
+    }
+  },
+  "max_n": 50,
+  "min_n": 3
+}

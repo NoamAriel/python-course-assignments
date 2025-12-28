@@ -1,0 +1,35 @@
+{
+  "accession": "BAH80177",
+  "title": "fibroin heavy chain, partial [Rhyacophila obliterata]",
+  "family_query": "Trichoptera",
+  "protein_term": "fibroin",
+  "organism_name": "Rhyacophila obliterata",
+  "taxonomy_full": [
+    "Eukaryota",
+    "Metazoa",
+    "Ecdysozoa",
+    "Arthropoda",
+    "Hexapoda",
+    "Insecta",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Trichoptera",
+    "Integripalpia",
+    "Rhyacophiloidea",
+    "Rhyacophilidae",
+    "Rhyacophila"
+  ],
+  "taxonomy_from_order": [
+    "Trichoptera",
+    "Integripalpia",
+    "Rhyacophiloidea",
+    "Rhyacophilidae",
+    "Rhyacophila"
+  ],
+  "sequence_length": 328,
+  "origin_sequence": "MRAIFLLILVCSLQINIAGSSSVIDKLEDLLTHGHHGHHWEGTDGLHEKLLQEDDVIEANSKGEIIEKIISRREIITDDNSESESDSDSSEDSGSTEKIIKQIIIVQEKPKHGHHHAKEKIYEEEIIIKKIGDLPKKDCDENKPREVTSWRHTLPNRKSISISKSISIEQIIKPHVITRIRTSKSSSLSISVERPRRIISPIISGGWNRHKPRKYSASSSISKSISIERVITPAVWTRIHKSVSVSHSVSVEHRRRIAPIVVDYSISSSLSISGEGRGLGRGKHGWGGLGHGGLGGLGHGGLGGLGHGGLGGLGHGGLGGLGSDSGDL",
+  "partial_full": "partial",
+  "type": "heavy chain",
+  "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80177"
+}
