@@ -92,6 +92,8 @@ This analysis identifies serine composition and continuous runs of the **SX** un
 |  :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Atopsyche davidsoni | heavy chain | full | `WGM83074` | 7878 | 730 | **9.27%** | **161** | 1128 | **14.32%** | 0 | 0 | 0 | 0 | 0 | 0 | 81 | 80 |
 | Atopsyche davidsoni | heavy chain | full | `WGM83075` | 6992 | 647 | **9.25%** | **144** | 1008 | **14.42%** | 0 | 0 | 0 | 0 | 0 | 0 | 72 | 72 |
+| Atopsyche davidsoni | heavy chain | full | `WGM83074` | 7878 | 730 | **9.27%** | **161** | 1128 | **14.32%** | 0 | 0 | 0 | 0 | 0 | 0 | 81 | 80 |
+| Atopsyche davidsoni | heavy chain | full | `WGM83075` | 6992 | 647 | **9.25%** | **144** | 1008 | **14.42%** | 0 | 0 | 0 | 0 | 0 | 0 | 72 | 72 |
 
 ### Family: Rhyacophilidae
 | Organism | Type | Partial/Full | Accession ID | Length | Serine Count | Serine Fraction | Total Runs | Residues in Motifs | Residues Fraction | n=10 Count | n=9 Count | n=8 Count | n=7 Count | n=6 Count | n=5 Count | n=4 Count | n=3 Count |
@@ -338,6 +340,16 @@ This table shows the total count for each amino acid (X) found in the $\mathbf{X
 ---
 
 ### Family: Hydrobiosidae (X-Residue Detail)
+| Organism/Type/ID | n (Run Length) | Total X Residues | X=A | X=D | X=E | X=F | X=G | X=H | X=I | X=K | X=L | X=N | X=Q | X=R | X=S | X=T | X=V | X=W | X=X | X=Y |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Atopsyche davidsoni (heavy chain) - `WGM83074` | 4 | **324** | 82 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 158 | 0 | 0 | 81 |
+| Atopsyche davidsoni (heavy chain) - `WGM83074` | 3 | **240** | 0 | 0 | 0 | 0 | 80 | 0 | 78 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 81 | 0 | 0 | 0 |
+
+| Organism/Type/ID | n (Run Length) | Total X Residues | X=A | X=D | X=E | X=F | X=G | X=H | X=I | X=K | X=L | X=N | X=Q | X=R | X=S | X=T | X=V | X=W | X=X | X=Y |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Atopsyche davidsoni (heavy chain) - `WGM83075` | 4 | **288** | 72 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 140 | 0 | 0 | 71 |
+| Atopsyche davidsoni (heavy chain) - `WGM83075` | 3 | **216** | 0 | 0 | 0 | 0 | 72 | 0 | 70 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 73 | 0 | 0 | 0 |
+
 | Organism/Type/ID | n (Run Length) | Total X Residues | X=A | X=D | X=E | X=F | X=G | X=H | X=I | X=K | X=L | X=N | X=Q | X=R | X=S | X=T | X=V | X=W | X=X | X=Y |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Atopsyche davidsoni (heavy chain) - `WGM83074` | 4 | **324** | 82 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 158 | 0 | 0 | 81 |

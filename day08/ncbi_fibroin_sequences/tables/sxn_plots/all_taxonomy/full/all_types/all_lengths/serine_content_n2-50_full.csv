@@ -1,0 +1,20 @@
+organism,type,serine_count_mean,serine_count_sd,serine_fraction_mean,serine_fraction_sd,length_mean,length_sd
+Arctopsyche grandis,heavy chain,718.000,57.983,11.898,0.014,6034.500,480.126
+Arctopsyche grandis,light chain,34.000,0.000,13.178,0.000,258.000,0.000
+Atopsyche davidsoni,heavy chain,688.500,47.920,9.260,0.007,7435.000,511.532
+Cheumatopsyche charites,heavy chain,763.000,0.000,12.261,0.000,6223.000,0.000
+Glyphotaelius pellucidus,heavy chain,1234.000,0.000,15.692,0.000,7864.000,0.000
+Hesperophylax magnus,heavy chain,1159.000,200.818,15.101,0.021,7676.000,1340.674
+Himalopsyche tibetana,heavy chain,962.000,0.000,15.005,0.000,6411.000,0.000
+Hydropsyche angustipennis,light chain,27.000,0.000,10.506,0.000,257.000,0.000
+Leptonema lineaticorne,heavy chain,755.000,0.000,11.075,0.000,6817.000,0.000
+Limnephilus decipiens,light chain,27.000,0.000,10.843,0.000,249.000,0.000
+Limnephilus flavicornis,heavy chain,198.000,0.000,14.113,0.000,1403.000,0.000
+Limnephilus flavicornis,light chain,26.000,0.000,10.442,0.000,249.000,0.000
+Limnephilus lunatus,heavy chain,1697.000,0.000,17.232,0.000,9848.000,0.000
+Limnephilus lunatus,light chain,27.000,0.000,10.843,0.000,249.000,0.000
+Limnephilus marmoratus,heavy chain,1351.000,0.000,15.398,0.000,8774.000,0.000
+Limnephilus rhombicus,heavy chain,1342.000,0.000,14.867,0.000,9027.000,0.000
+Plectrocnemia conspersa,light chain,30.000,0.000,12.658,0.000,237.000,0.000
+Rhyacophila obliterata,light chain,22.500,0.707,8.893,0.279,253.000,0.000
+Stenopsyche marmorata,light chain,21.000,0.000,8.468,0.000,248.000,0.000

@@ -571,6 +571,129 @@
       "fraction_motif_residues": 14.416475972540047
     },
     {
+      "accession": "WGM83074",
+      "title": "heavy chain fibroin [Atopsyche davidsoni]",
+      "organism": "Atopsyche davidsoni",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Hydrobiosidae",
+        "Hydrobiosinae",
+        "Atopsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Hydrobiosidae",
+        "Hydrobiosinae",
+        "Atopsyche"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Rhyacophiloidea",
+      "family": "Hydrobiosidae",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 7878,
+      "serine_count": 730,
+      "serine_fraction": 9.266311246509266,
+      "motif_runs": {
+        "4": 81,
+        "3": 80
+      },
+      "x_residue_counts": {
+        "4": {
+          "Y": 81,
+          "A": 82,
+          "D": 1,
+          "T": 2,
+          "V": 158
+        },
+        "3": {
+          "K": 1,
+          "I": 78,
+          "G": 80,
+          "V": 81
+        }
+      },
+      "total_runs": 161,
+      "total_motif_residues": 1128,
+      "fraction_motif_residues": 14.31835491241432
+    },
+    {
+      "accession": "WGM83075",
+      "title": "heavy chain fibroin [Atopsyche davidsoni]",
+      "organism": "Atopsyche davidsoni",
+      "taxonomy_from_order": [
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Hydrobiosidae",
+        "Hydrobiosinae",
+        "Atopsyche"
+      ],
+      "taxonomy_from_araneae": [],
+      "taxonomy_full": [
+        "Eukaryota",
+        "Metazoa",
+        "Ecdysozoa",
+        "Arthropoda",
+        "Hexapoda",
+        "Insecta",
+        "Pterygota",
+        "Neoptera",
+        "Endopterygota",
+        "Trichoptera",
+        "Integripalpia",
+        "Rhyacophiloidea",
+        "Hydrobiosidae",
+        "Hydrobiosinae",
+        "Atopsyche"
+      ],
+      "suborder": "Integripalpia",
+      "superfamily": "Rhyacophiloidea",
+      "family": "Hydrobiosidae",
+      "partial_full": "full",
+      "type": "heavy chain",
+      "length": 6992,
+      "serine_count": 647,
+      "serine_fraction": 9.253432494279176,
+      "motif_runs": {
+        "4": 72,
+        "3": 72
+      },
+      "x_residue_counts": {
+        "4": {
+          "Y": 71,
+          "A": 72,
+          "D": 1,
+          "T": 3,
+          "V": 140,
+          "H": 1
+        },
+        "3": {
+          "K": 1,
+          "I": 70,
+          "G": 72,
+          "V": 73
+        }
+      },
+      "total_runs": 144,
+      "total_motif_residues": 1008,
+      "fraction_motif_residues": 14.416475972540047
+    },
+    {
       "accession": "DBA09036",
       "title": "TPA_inf: heavy chain fibroin [Limnephilus rhombicus]",
       "organism": "Limnephilus rhombicus",
@@ -3032,13 +3155,13 @@
     }
   ],
   "type_counts": {
-    "heavy chain": 34,
+    "heavy chain": 36,
     "light chain": 12
   },
   "type_partial_full_counts": {
     "heavy chain": {
       "partial": 19,
-      "full": 15
+      "full": 17
     },
     "light chain": {
       "full": 12
@@ -3053,7 +3176,7 @@
       "full": 1
     },
     "Atopsyche davidsoni": {
-      "full": 2
+      "full": 4
     },
     "Limnephilus rhombicus": {
       "full": 1

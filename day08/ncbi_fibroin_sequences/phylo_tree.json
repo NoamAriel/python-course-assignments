@@ -38,9 +38,7 @@
             }
           },
           "Hydropsychinae": {
-            "__rank__": "subfamily",
             "Cheumatopsyche": {
-              "__rank__": "genus",
               "Cheumatopsyche charites": {
                 "__rank__": "species",
                 "full": {
@@ -54,68 +52,65 @@
                 }
               }
             },
+            "__rank__": "subfamily",
             "Hydropsyche": {
-              "Hydropsyche": {
-                "Hydropsyche angustipennis": {
-                  "__rank__": "species",
-                  "full": {
-                    "light chain": [
-                      {
-                        "accession": "BAH80183",
-                        "title": "fibroin light chain [Hydropsyche angustipennis]",
-                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80183"
-                      },
-                      {
-                        "accession": "BAF62094",
-                        "title": "fibroin light chain [Hydropsyche angustipennis]",
-                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62094"
-                      }
-                    ]
-                  },
-                  "partial": {
-                    "heavy chain": [
-                      {
-                        "accession": "BAH80182",
-                        "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
-                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80182"
-                      },
-                      {
-                        "accession": "BAH80181",
-                        "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
-                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80181"
-                      },
-                      {
-                        "accession": "BAF62092",
-                        "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
-                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62092"
-                      },
-                      {
-                        "accession": "BAF62098",
-                        "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
-                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62098"
-                      },
-                      {
-                        "accession": "BAF62097",
-                        "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
-                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62097"
-                      },
-                      {
-                        "accession": "BAF62093",
-                        "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
-                        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62093"
-                      }
-                    ]
-                  }
+              "__rank__": "subgenus",
+              "Hydropsyche angustipennis": {
+                "__rank__": "species",
+                "full": {
+                  "light chain": [
+                    {
+                      "accession": "BAH80183",
+                      "title": "fibroin light chain [Hydropsyche angustipennis]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80183"
+                    },
+                    {
+                      "accession": "BAF62094",
+                      "title": "fibroin light chain [Hydropsyche angustipennis]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62094"
+                    }
+                  ]
+                },
+                "partial": {
+                  "heavy chain": [
+                    {
+                      "accession": "BAH80182",
+                      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80182"
+                    },
+                    {
+                      "accession": "BAH80181",
+                      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAH80181"
+                    },
+                    {
+                      "accession": "BAF62092",
+                      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62092"
+                    },
+                    {
+                      "accession": "BAF62098",
+                      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62098"
+                    },
+                    {
+                      "accession": "BAF62097",
+                      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62097"
+                    },
+                    {
+                      "accession": "BAF62093",
+                      "title": "fibroin heavy chain, partial [Hydropsyche angustipennis]",
+                      "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/BAF62093"
+                    }
+                  ]
                 }
               }
             }
           },
           "Macronematinae": {
-            "__rank__": "subfamily",
             "Macronematini": {
-              "__rank__": "tribe",
               "Leptonema": {
-                "__rank__": "genus",
                 "Leptonema lineaticorne": {
                   "__rank__": "species",
                   "full": {
@@ -134,13 +129,9 @@
         }
       },
       "Psychomyioidea": {
-        "__rank__": "superfamily",
         "Polycentropodidae": {
-          "__rank__": "family",
           "Polycentropodinae": {
-            "__rank__": "subfamily",
             "Plectrocnemia": {
-              "__rank__": "genus",
               "Plectrocnemia conspersa": {
                 "__rank__": "species",
                 "partial": {
@@ -300,6 +291,7 @@
                   }
                 },
                 "Glyphotaelius": {
+                  "__rank__": "genus",
                   "Glyphotaelius pellucidus": {
                     "__rank__": "species",
                     "full": {
@@ -314,6 +306,7 @@
                   }
                 },
                 "Hesperophylax": {
+                  "__rank__": "genus",
                   "Hesperophylax magnus": {
                     "__rank__": "species",
                     "full": {
@@ -338,11 +331,8 @@
         }
       },
       "Rhyacophiloidea": {
-        "__rank__": "superfamily",
         "Rhyacophilidae": {
-          "__rank__": "family",
           "Himalopsyche": {
-            "__rank__": "genus",
             "Himalopsyche tibetana": {
               "__rank__": "species",
               "full": {
@@ -356,7 +346,9 @@
               }
             }
           },
+          "__rank__": "family",
           "Rhyacophila": {
+            "__rank__": "genus",
             "Rhyacophila obliterata": {
               "__rank__": "species",
               "full": {
@@ -400,6 +392,7 @@
             }
           }
         },
+        "__rank__": "superfamily",
         "Hydrobiosidae": {
           "__rank__": "family",
           "Hydrobiosinae": {

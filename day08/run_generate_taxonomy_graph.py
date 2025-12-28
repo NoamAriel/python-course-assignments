@@ -29,7 +29,7 @@ longest_factor_scope: str = "species"                       # "species" (per org
 
 # Optional rank range (can be rank type like "Family" or rank name like "Hydropsychoidea")
 # If rank_from is a rank name, the graph is restricted to that branch.
-rank_from: str | None = "integripalpia"                                # default: None; e.g., "Family" or "Hydropsychoidea"
+rank_from: str | None = None                                # default: None; e.g., "Family" or "Hydropsychoidea"
 rank_to: str | None = None                              # default: None; e.g., "Species" or "Hydropsychoidea"
 
 
