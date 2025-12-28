@@ -1,5 +1,5 @@
+import hashlib
 import json
-import math
 import re
 import time
 import xml.etree.ElementTree as ET
@@ -7,8 +7,6 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence, Tuple, TypeVar
 
 import requests
-import numpy as np
-import pandas as pd
 
 # Basic headers; override or extend if needed
 HEADERS = {
@@ -36,7 +34,7 @@ def safe_filename(name: str, max_len: int = 80) -> str:
     return cleaned[:max_len].lower()
 
 
-def safe_join(base: Path, parts: List[str], max_length: int = 240) -> Path:
+def safe_join(base: Path, parts: List[str], max_length: int = 220) -> Path:
     """
     Join path parts under base, abbreviating with short hashes if the full path
     would exceed max_length (helps on Windows path length limits).
@@ -45,8 +43,16 @@ def safe_join(base: Path, parts: List[str], max_length: int = 240) -> Path:
     for part in parts:
         candidate = path / part
         if len(str(candidate)) >= max_length:
-            short = (part[:16] + "_" + hex(abs(hash(part)) & 0xFFFF)[2:]).strip("_")
+            digest = hashlib.sha1(part.encode("utf-8")).hexdigest()[:8]
+            base_len = len(str(path))
+            allowed = max_length - base_len - 1 - (1 + len(digest))
+            if allowed < 1:
+                allowed = 1
+            prefix = part[:allowed]
+            short = f"{prefix}_{digest}"
             candidate = path / short
+            if len(str(candidate)) >= max_length:
+                candidate = path / digest
         path = candidate
     return path
 
@@ -55,13 +61,7 @@ T = TypeVar("T")
 
 
 def chunked(iterable: Sequence[T], size: int) -> List[List[T]]:
-    if size <= 0:
-        return []
-    if not iterable:
-        return []
-    arr = np.array(iterable, dtype=object)
-    chunk_count = int(math.ceil(len(arr) / size))
-    return [list(chunk) for chunk in np.array_split(arr, chunk_count)]
+    return [list(iterable[i:i + size]) for i in range(0, len(iterable), size)]
 
 
 def extract_taxonomy_and_sequence(genbank_text: str) -> Tuple[str, List[str], str]:
@@ -218,10 +218,7 @@ def fetch_summaries(
                     taxid = (item.text or "").strip()
             if accession and title:
                 results.append((accession, title, taxid))
-    if not results:
-        return results
-    df = pd.DataFrame(results, columns=["accession", "title", "taxid"])
-    return list(df.itertuples(index=False, name=None))
+    return results
 
 
 def fetch_genbank(accession: str, api_key: Optional[str]) -> Tuple[str, List[str], str]:
