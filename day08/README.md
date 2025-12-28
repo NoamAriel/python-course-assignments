@@ -27,7 +27,7 @@ Then, based on the taxonomy that is known in the NCBI, I created library files t
 To determine if the libraries are functioning as expected, I created test files (saved in the “tests” folder located within the libraries folder). Then, I created format files that call the library files for analysis and plotting.
 Then, I added MD files into the libraries folder that explain how to use the library files.
 Then, I added a filtering system to the file “run_generate_taxonomy_graph.py” (phylogenetic tree generation) and “sxn_analysis_and_plotting.py” (analysis of the sequences by finding [SX]n motifs). An explanation of the filtering system is attached at the end of this README.
-Then, I add a “tic tac” method for each file to see how much time each file takes to run. That helped me, for example, to identify that the “ncbi_scrapper.py” and its related library run with a complexity of O(2), and I succeeded in reducing its complexity to O(1), which saved a lot of time.
+Then, I add a “tic tac” method for each file to see how much time each file takes to run. That helped me, for example, to identify that the “ncbi_scrapper.py” and its related library run with a complexity of O(n^2), and I succeeded in reducing its complexity to O(n), which saved a lot of time.
 Then, since some species have more than one data file for a protein type, I calculate the standard deviation and add error bars to the relevant graphs.
 Then, I updated the code so that it will save the plot's data in tables. When publishing an article, it will be useful to have data support.
 
