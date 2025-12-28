@@ -1,8 +1,8 @@
 First, I apologize, but since I worked hard on it and it may be published, I have made this repository private. Hence, I provided you with access to Gabor, Hodia, and Liron.
 
-Disclaimer: I utilize the “Codex” extension for programming and connecting to ChatGPT 5.2. I do not add prompts because there are too many of them.
+## Disclaimer: I utilize the “Codex” extension for programming and connecting to ChatGPT 5.2. I do not add prompts because there are too many of them.
 
-order of operating:
+## Order of operating:
 
 pls make sure you install the dependencies: ["requests", "pandas", "numpy", "matplotlib"]
 
@@ -21,7 +21,7 @@ pls make sure you have the files:
 This is also the operating order. 
 
 
-Now, I want to explain my code:
+## Code explanation 
 
 I used the dataset of fibroin proteins from the caddisfly, which was found in the NCBI database.
 
@@ -52,7 +52,7 @@ Then, I updated the code so that it will save the plot's data in tables. When pu
 
 The filters are used to provide better control over presenting the data, resulting in more coherent, convenient, and understandable graphs. The specific filters are dependent on the graphs, since not all of them are relevant for all plots. 
 
-The filters are:
+## The filters
 taxonomy_terms		 # filtering by the taxonomy name (trichoptera, for example). could be used by any taxonomy rank.  Default is [] / None
 
 protein_types			# filtering by the type of protein (heavy chain, for example), default is [] / None. 
@@ -69,7 +69,7 @@ longest_factor = 2.0                  # optional default is 2.0, which means the
 
 longest_factor_scope  	# determining if the above length filters correspond to each species by itself, or all length sequences, or are relevant, even though they are from different species. In short, "species" (per organism) or "global" (all records). The default is "species".
 
-Special filters
+## Special filters
 
 In file” sxn_analysis_and_plotting”, in 273- 274 rows, there is an option to choose the range of n (min_n is the minimum motif length and max_n = 50 is the maximum motif length). There is not default. The user has to specify it.
 
