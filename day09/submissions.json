@@ -1,0 +1,1558 @@
+{
+  "Day01": [
+    {
+      "submitter": "Achinoam Shoham",
+      "submitted_at": "2025-11-04T08:34:07Z",
+      "on_time": false,
+      "delta_seconds": 210847,
+      "delta_human": "+2d 10:34:07"
+    },
+    {
+      "submitter": "Adi Moses",
+      "submitted_at": "2025-10-28T20:51:08Z",
+      "on_time": true,
+      "delta_seconds": -349732,
+      "delta_human": "-4d 01:08:52"
+    },
+    {
+      "submitter": "Adib Masharqa",
+      "submitted_at": "2025-10-26T12:11:58Z",
+      "on_time": true,
+      "delta_seconds": -553682,
+      "delta_human": "-6d 09:48:02"
+    },
+    {
+      "submitter": "Aileen Cohen",
+      "submitted_at": "2025-10-30T06:56:30Z",
+      "on_time": true,
+      "delta_seconds": -227010,
+      "delta_human": "-2d 15:03:30"
+    },
+    {
+      "submitter": "Anvita Pant",
+      "submitted_at": "2025-11-01T18:53:33Z",
+      "on_time": true,
+      "delta_seconds": -11187,
+      "delta_human": "-03:06:27"
+    },
+    {
+      "submitter": "Arad Zulti",
+      "submitted_at": "2025-10-27T16:10:00Z",
+      "on_time": true,
+      "delta_seconds": -453000,
+      "delta_human": "-5d 05:50:00"
+    },
+    {
+      "submitter": "Ariel Hindi",
+      "submitted_at": "2025-10-31T14:35:26Z",
+      "on_time": true,
+      "delta_seconds": -113074,
+      "delta_human": "-1d 07:24:34"
+    },
+    {
+      "submitter": "Avigail Yariv",
+      "submitted_at": "2025-11-01T13:10:00Z",
+      "on_time": true,
+      "delta_seconds": -31800,
+      "delta_human": "-08:50:00"
+    },
+    {
+      "submitter": "Daniela Huppert Revach",
+      "submitted_at": "2025-10-29T13:30:09Z",
+      "on_time": true,
+      "delta_seconds": -289791,
+      "delta_human": "-3d 08:29:51"
+    },
+    {
+      "submitter": "David Ganem",
+      "submitted_at": "2025-10-31T14:29:12Z",
+      "on_time": true,
+      "delta_seconds": -113448,
+      "delta_human": "-1d 07:30:48"
+    },
+    {
+      "submitter": "Einav Litvak",
+      "submitted_at": "2025-11-01T13:36:41Z",
+      "on_time": true,
+      "delta_seconds": -30199,
+      "delta_human": "-08:23:19"
+    },
+    {
+      "submitter": "Evyatar Shaked",
+      "submitted_at": "2025-10-27T12:35:17Z",
+      "on_time": true,
+      "delta_seconds": -465883,
+      "delta_human": "-5d 09:24:43"
+    },
+    {
+      "submitter": "Guy Saller",
+      "submitted_at": "2025-10-30T22:43:46Z",
+      "on_time": true,
+      "delta_seconds": -170174,
+      "delta_human": "-1d 23:16:14"
+    },
+    {
+      "submitter": "Guy Shemesh",
+      "submitted_at": "2025-10-28T14:49:40Z",
+      "on_time": true,
+      "delta_seconds": -371420,
+      "delta_human": "-4d 07:10:20"
+    },
+    {
+      "submitter": "Guy Vosco",
+      "submitted_at": "2025-10-26T19:22:42Z",
+      "on_time": true,
+      "delta_seconds": -527838,
+      "delta_human": "-6d 02:37:18"
+    },
+    {
+      "submitter": "Hallel Azulai",
+      "submitted_at": "2025-10-30T15:03:24Z",
+      "on_time": true,
+      "delta_seconds": -197796,
+      "delta_human": "-2d 06:56:36"
+    },
+    {
+      "submitter": "Inbar Perets",
+      "submitted_at": "2025-10-31T13:37:46Z",
+      "on_time": true,
+      "delta_seconds": -116534,
+      "delta_human": "-1d 08:22:14"
+    },
+    {
+      "submitter": "Lihi Bolokan",
+      "submitted_at": "2025-11-01T13:34:46Z",
+      "on_time": true,
+      "delta_seconds": -30314,
+      "delta_human": "-08:25:14"
+    },
+    {
+      "submitter": "Lior Batat",
+      "submitted_at": "2025-11-01T11:50:12Z",
+      "on_time": true,
+      "delta_seconds": -36588,
+      "delta_human": "-10:09:48"
+    },
+    {
+      "submitter": "Neta Hanuka",
+      "submitted_at": "2025-11-01T15:22:12Z",
+      "on_time": true,
+      "delta_seconds": -23868,
+      "delta_human": "-06:37:48"
+    },
+    {
+      "submitter": "Noam Ariel",
+      "submitted_at": "2025-11-01T18:15:59Z",
+      "on_time": true,
+      "delta_seconds": -13441,
+      "delta_human": "-03:44:01"
+    },
+    {
+      "submitter": "Noga Levinson",
+      "submitted_at": "2025-10-29T17:42:05Z",
+      "on_time": true,
+      "delta_seconds": -274675,
+      "delta_human": "-3d 04:17:55"
+    },
+    {
+      "submitter": "Noya Levy",
+      "submitted_at": "2025-11-01T17:54:31Z",
+      "on_time": true,
+      "delta_seconds": -14729,
+      "delta_human": "-04:05:29"
+    },
+    {
+      "submitter": "Rachel Steinitz Eliyahu",
+      "submitted_at": "2025-11-01T19:27:17Z",
+      "on_time": true,
+      "delta_seconds": -9163,
+      "delta_human": "-02:32:43"
+    },
+    {
+      "submitter": "Raz Leibson",
+      "submitted_at": "2025-11-01T20:17:48Z",
+      "on_time": true,
+      "delta_seconds": -6132,
+      "delta_human": "-01:42:12"
+    },
+    {
+      "submitter": "Rony Holdengreber",
+      "submitted_at": "2025-10-28T08:08:21Z",
+      "on_time": true,
+      "delta_seconds": -395499,
+      "delta_human": "-4d 13:51:39"
+    },
+    {
+      "submitter": "Sana Khatib",
+      "submitted_at": "2025-11-01T20:23:52Z",
+      "on_time": true,
+      "delta_seconds": -5768,
+      "delta_human": "-01:36:08"
+    },
+    {
+      "submitter": "Sharonelle Sasson",
+      "submitted_at": "2025-11-04T21:45:11Z",
+      "on_time": false,
+      "delta_seconds": 258311,
+      "delta_human": "+2d 23:45:11"
+    },
+    {
+      "submitter": "Shelly Gilad",
+      "submitted_at": "2025-10-30T18:24:35Z",
+      "on_time": true,
+      "delta_seconds": -185725,
+      "delta_human": "-2d 03:35:25"
+    },
+    {
+      "submitter": "Shoshana Sernik",
+      "submitted_at": "2025-11-01T19:54:44Z",
+      "on_time": true,
+      "delta_seconds": -7516,
+      "delta_human": "-02:05:16"
+    },
+    {
+      "submitter": "Sriashwin Sridharan",
+      "submitted_at": "2025-11-02T22:43:14Z",
+      "on_time": false,
+      "delta_seconds": 88994,
+      "delta_human": "+1d 00:43:14"
+    },
+    {
+      "submitter": "Yana Lerner",
+      "submitted_at": "2025-10-29T19:47:22Z",
+      "on_time": true,
+      "delta_seconds": -267158,
+      "delta_human": "-3d 02:12:38"
+    }
+  ],
+  "Day02": [
+    {
+      "submitter": "Achinoam Shoham",
+      "submitted_at": "2025-11-09T06:08:05Z",
+      "on_time": true,
+      "delta_seconds": -57115,
+      "delta_human": "-15:51:55"
+    },
+    {
+      "submitter": "Adi Moses",
+      "submitted_at": "2025-11-05T18:55:38Z",
+      "on_time": true,
+      "delta_seconds": -356662,
+      "delta_human": "-4d 03:04:22"
+    },
+    {
+      "submitter": "Adib Masharqa",
+      "submitted_at": "2025-11-07T20:10:28Z",
+      "on_time": true,
+      "delta_seconds": -179372,
+      "delta_human": "-2d 01:49:32"
+    },
+    {
+      "submitter": "Aileen Cohen",
+      "submitted_at": "2025-11-06T15:25:37Z",
+      "on_time": true,
+      "delta_seconds": -282863,
+      "delta_human": "-3d 06:34:23"
+    },
+    {
+      "submitter": "Anvita Pant",
+      "submitted_at": "2025-11-08T18:45:54Z",
+      "on_time": true,
+      "delta_seconds": -98046,
+      "delta_human": "-1d 03:14:06"
+    },
+    {
+      "submitter": "Arad Zulti",
+      "submitted_at": "2025-11-06T15:15:35Z",
+      "on_time": true,
+      "delta_seconds": -283465,
+      "delta_human": "-3d 06:44:25"
+    },
+    {
+      "submitter": "Ariel Hindi",
+      "submitted_at": "2025-11-07T08:31:28Z",
+      "on_time": true,
+      "delta_seconds": -221312,
+      "delta_human": "-2d 13:28:32"
+    },
+    {
+      "submitter": "Avigail Yariv",
+      "submitted_at": "2025-11-09T06:51:49Z",
+      "on_time": true,
+      "delta_seconds": -54491,
+      "delta_human": "-15:08:11"
+    },
+    {
+      "submitter": "Daniela Huppert Revach",
+      "submitted_at": "2025-11-08T17:28:42Z",
+      "on_time": true,
+      "delta_seconds": -102678,
+      "delta_human": "-1d 04:31:18"
+    },
+    {
+      "submitter": "David Ganem",
+      "submitted_at": "2025-11-07T15:24:22Z",
+      "on_time": true,
+      "delta_seconds": -196538,
+      "delta_human": "-2d 06:35:38"
+    },
+    {
+      "submitter": "Einav Litvak",
+      "submitted_at": "2025-11-06T15:55:36Z",
+      "on_time": true,
+      "delta_seconds": -281064,
+      "delta_human": "-3d 06:04:24"
+    },
+    {
+      "submitter": "Evyatar Shaked",
+      "submitted_at": "2025-11-03T19:31:37Z",
+      "on_time": true,
+      "delta_seconds": -527303,
+      "delta_human": "-6d 02:28:23"
+    },
+    {
+      "submitter": "Guy Shemesh",
+      "submitted_at": "2025-11-05T22:29:41Z",
+      "on_time": true,
+      "delta_seconds": -343819,
+      "delta_human": "-3d 23:30:19"
+    },
+    {
+      "submitter": "Guy Vosco",
+      "submitted_at": "2025-11-06T15:14:05Z",
+      "on_time": true,
+      "delta_seconds": -283555,
+      "delta_human": "-3d 06:45:55"
+    },
+    {
+      "submitter": "Hallel Azulai",
+      "submitted_at": "2025-11-08T13:38:00Z",
+      "on_time": true,
+      "delta_seconds": -116520,
+      "delta_human": "-1d 08:22:00"
+    },
+    {
+      "submitter": "Inbar Perets",
+      "submitted_at": "2025-11-04T16:25:13Z",
+      "on_time": true,
+      "delta_seconds": -452087,
+      "delta_human": "-5d 05:34:47"
+    },
+    {
+      "submitter": "Lihi Bolokan",
+      "submitted_at": "2025-11-08T16:26:38Z",
+      "on_time": true,
+      "delta_seconds": -106402,
+      "delta_human": "-1d 05:33:22"
+    },
+    {
+      "submitter": "Lior Batat",
+      "submitted_at": "2025-11-08T12:52:45Z",
+      "on_time": true,
+      "delta_seconds": -119235,
+      "delta_human": "-1d 09:07:15"
+    },
+    {
+      "submitter": "Neta Hanuka",
+      "submitted_at": "2025-11-05T15:20:11Z",
+      "on_time": true,
+      "delta_seconds": -369589,
+      "delta_human": "-4d 06:39:49"
+    },
+    {
+      "submitter": "Noam Ariel",
+      "submitted_at": "2025-11-04T13:27:44Z",
+      "on_time": true,
+      "delta_seconds": -462736,
+      "delta_human": "-5d 08:32:16"
+    },
+    {
+      "submitter": "Noya Levy",
+      "submitted_at": "2025-11-09T09:32:38Z",
+      "on_time": true,
+      "delta_seconds": -44842,
+      "delta_human": "-12:27:22"
+    },
+    {
+      "submitter": "Rachel Steinitz Eliyahu",
+      "submitted_at": "2025-11-09T09:43:09Z",
+      "on_time": true,
+      "delta_seconds": -44211,
+      "delta_human": "-12:16:51"
+    },
+    {
+      "submitter": "Raz Leibson",
+      "submitted_at": "2025-11-03T17:17:46Z",
+      "on_time": true,
+      "delta_seconds": -535334,
+      "delta_human": "-6d 04:42:14"
+    },
+    {
+      "submitter": "Rony Holdengreber",
+      "submitted_at": "2025-11-04T15:00:05Z",
+      "on_time": true,
+      "delta_seconds": -457195,
+      "delta_human": "-5d 06:59:55"
+    },
+    {
+      "submitter": "Sana Khatib",
+      "submitted_at": "2025-11-05T16:49:36Z",
+      "on_time": true,
+      "delta_seconds": -364224,
+      "delta_human": "-4d 05:10:24"
+    },
+    {
+      "submitter": "Sharonelle Sasson",
+      "submitted_at": "2025-11-07T21:10:58Z",
+      "on_time": true,
+      "delta_seconds": -175742,
+      "delta_human": "-2d 00:49:02"
+    },
+    {
+      "submitter": "Shelly Gilad",
+      "submitted_at": "2025-11-06T17:33:35Z",
+      "on_time": true,
+      "delta_seconds": -275185,
+      "delta_human": "-3d 04:26:25"
+    },
+    {
+      "submitter": "Shoshana Sernik",
+      "submitted_at": "2025-11-08T14:58:52Z",
+      "on_time": true,
+      "delta_seconds": -111668,
+      "delta_human": "-1d 07:01:08"
+    },
+    {
+      "submitter": "Sriashwin Sridharan",
+      "submitted_at": "2025-11-08T17:16:19Z",
+      "on_time": true,
+      "delta_seconds": -103421,
+      "delta_human": "-1d 04:43:41"
+    },
+    {
+      "submitter": "Yana Lerner",
+      "submitted_at": "2025-11-07T06:55:15Z",
+      "on_time": true,
+      "delta_seconds": -227085,
+      "delta_human": "-2d 15:04:45"
+    }
+  ],
+  "Day03": [
+    {
+      "submitter": "Achinoam Shoham",
+      "submitted_at": "2025-11-16T18:09:07Z",
+      "on_time": true,
+      "delta_seconds": -13853,
+      "delta_human": "-03:50:53"
+    },
+    {
+      "submitter": "Adi Moses",
+      "submitted_at": "2025-11-12T17:28:00Z",
+      "on_time": true,
+      "delta_seconds": -361920,
+      "delta_human": "-4d 04:32:00"
+    },
+    {
+      "submitter": "Adib Masharqa",
+      "submitted_at": "2025-11-14T20:54:33Z",
+      "on_time": true,
+      "delta_seconds": -176727,
+      "delta_human": "-2d 01:05:27"
+    },
+    {
+      "submitter": "Aileen Cohen",
+      "submitted_at": "2025-11-13T20:06:04Z",
+      "on_time": true,
+      "delta_seconds": -266036,
+      "delta_human": "-3d 01:53:56"
+    },
+    {
+      "submitter": "Anvita Pant",
+      "submitted_at": "2025-11-16T14:18:12Z",
+      "on_time": true,
+      "delta_seconds": -27708,
+      "delta_human": "-07:41:48"
+    },
+    {
+      "submitter": "Arad Zulti",
+      "submitted_at": "2025-11-14T12:33:24Z",
+      "on_time": true,
+      "delta_seconds": -206796,
+      "delta_human": "-2d 09:26:36"
+    },
+    {
+      "submitter": "Ariel Hindi",
+      "submitted_at": "2025-11-12T19:02:44Z",
+      "on_time": true,
+      "delta_seconds": -356236,
+      "delta_human": "-4d 02:57:16"
+    },
+    {
+      "submitter": "Avigail Yariv",
+      "submitted_at": "2025-11-12T13:54:26Z",
+      "on_time": true,
+      "delta_seconds": -374734,
+      "delta_human": "-4d 08:05:34"
+    },
+    {
+      "submitter": "Daniela Huppert Revach",
+      "submitted_at": "2025-11-15T16:18:53Z",
+      "on_time": true,
+      "delta_seconds": -106867,
+      "delta_human": "-1d 05:41:07"
+    },
+    {
+      "submitter": "David Ganem",
+      "submitted_at": "2025-11-14T16:32:51Z",
+      "on_time": true,
+      "delta_seconds": -192429,
+      "delta_human": "-2d 05:27:09"
+    },
+    {
+      "submitter": "Einav Litvak",
+      "submitted_at": "2025-12-13T15:07:22Z",
+      "on_time": false,
+      "delta_seconds": 2308042,
+      "delta_human": "+26d 17:07:22"
+    },
+    {
+      "submitter": "Einav Litvak",
+      "submitted_at": "2025-12-07T08:27:36Z",
+      "on_time": false,
+      "delta_seconds": 1765656,
+      "delta_human": "+20d 10:27:36"
+    },
+    {
+      "submitter": "Guy Shemesh",
+      "submitted_at": "2025-11-14T13:58:21Z",
+      "on_time": true,
+      "delta_seconds": -201699,
+      "delta_human": "-2d 08:01:39"
+    },
+    {
+      "submitter": "Guy Vosco",
+      "submitted_at": "2025-11-11T09:21:10Z",
+      "on_time": true,
+      "delta_seconds": -477530,
+      "delta_human": "-5d 12:38:50"
+    },
+    {
+      "submitter": "Inbar Perets",
+      "submitted_at": "2025-11-12T18:11:47Z",
+      "on_time": true,
+      "delta_seconds": -359293,
+      "delta_human": "-4d 03:48:13"
+    },
+    {
+      "submitter": "Lihi Bolokan",
+      "submitted_at": "2025-11-12T17:51:23Z",
+      "on_time": true,
+      "delta_seconds": -360517,
+      "delta_human": "-4d 04:08:37"
+    },
+    {
+      "submitter": "Lior Batat",
+      "submitted_at": "2025-11-15T12:07:53Z",
+      "on_time": true,
+      "delta_seconds": -121927,
+      "delta_human": "-1d 09:52:07"
+    },
+    {
+      "submitter": "Neta Hanuka",
+      "submitted_at": "2025-11-16T15:37:55Z",
+      "on_time": true,
+      "delta_seconds": -22925,
+      "delta_human": "-06:22:05"
+    },
+    {
+      "submitter": "Noam Ariel",
+      "submitted_at": "2025-11-16T13:25:00Z",
+      "on_time": true,
+      "delta_seconds": -30900,
+      "delta_human": "-08:35:00"
+    },
+    {
+      "submitter": "Noya Levy",
+      "submitted_at": "2025-11-16T19:25:32Z",
+      "on_time": true,
+      "delta_seconds": -9268,
+      "delta_human": "-02:34:28"
+    },
+    {
+      "submitter": "Rachel Steinitz Eliyahu",
+      "submitted_at": "2025-11-16T08:26:10Z",
+      "on_time": true,
+      "delta_seconds": -48830,
+      "delta_human": "-13:33:50"
+    },
+    {
+      "submitter": "Raz Leibson",
+      "submitted_at": "2025-11-14T18:45:19Z",
+      "on_time": true,
+      "delta_seconds": -184481,
+      "delta_human": "-2d 03:14:41"
+    },
+    {
+      "submitter": "Rony Holdengreber",
+      "submitted_at": "2025-11-10T18:53:33Z",
+      "on_time": true,
+      "delta_seconds": -529587,
+      "delta_human": "-6d 03:06:27"
+    },
+    {
+      "submitter": "Sana Khatib",
+      "submitted_at": "2025-11-22T22:04:01Z",
+      "on_time": false,
+      "delta_seconds": 518641,
+      "delta_human": "+6d 00:04:01"
+    },
+    {
+      "submitter": "Shelly Gilad",
+      "submitted_at": "2025-11-13T13:14:17Z",
+      "on_time": true,
+      "delta_seconds": -290743,
+      "delta_human": "-3d 08:45:43"
+    },
+    {
+      "submitter": "Shoshana Sernik",
+      "submitted_at": "2025-11-20T16:10:19Z",
+      "on_time": false,
+      "delta_seconds": 324619,
+      "delta_human": "+3d 18:10:19"
+    },
+    {
+      "submitter": "Sriashwin Sridharan",
+      "submitted_at": "2025-11-15T17:28:30Z",
+      "on_time": true,
+      "delta_seconds": -102690,
+      "delta_human": "-1d 04:31:30"
+    },
+    {
+      "submitter": "Yana Lerner",
+      "submitted_at": "2025-11-13T13:57:59Z",
+      "on_time": true,
+      "delta_seconds": -288121,
+      "delta_human": "-3d 08:02:01"
+    }
+  ],
+  "Day04": [
+    {
+      "submitter": "Achinoam Shoham",
+      "submitted_at": "2025-11-22T21:31:01Z",
+      "on_time": true,
+      "delta_seconds": -88139,
+      "delta_human": "-1d 00:28:59"
+    },
+    {
+      "submitter": "Adi Moses",
+      "submitted_at": "2025-11-23T16:40:33Z",
+      "on_time": true,
+      "delta_seconds": -19167,
+      "delta_human": "-05:19:27"
+    },
+    {
+      "submitter": "Adib Masharqa",
+      "submitted_at": "2025-11-22T16:04:30Z",
+      "on_time": true,
+      "delta_seconds": -107730,
+      "delta_human": "-1d 05:55:30"
+    },
+    {
+      "submitter": "Aileen Cohen",
+      "submitted_at": "2025-11-22T19:06:29Z",
+      "on_time": true,
+      "delta_seconds": -96811,
+      "delta_human": "-1d 02:53:31"
+    },
+    {
+      "submitter": "Anvita Pant",
+      "submitted_at": "2025-11-23T15:43:49Z",
+      "on_time": true,
+      "delta_seconds": -22571,
+      "delta_human": "-06:16:11"
+    },
+    {
+      "submitter": "Arad Zulti",
+      "submitted_at": "2025-11-23T17:24:33Z",
+      "on_time": true,
+      "delta_seconds": -16527,
+      "delta_human": "-04:35:27"
+    },
+    {
+      "submitter": "Ariel Hindi",
+      "submitted_at": "2025-11-23T08:14:50Z",
+      "on_time": true,
+      "delta_seconds": -49510,
+      "delta_human": "-13:45:10"
+    },
+    {
+      "submitter": "Avigail Yariv",
+      "submitted_at": "2025-11-23T08:52:02Z",
+      "on_time": true,
+      "delta_seconds": -47278,
+      "delta_human": "-13:07:58"
+    },
+    {
+      "submitter": "Daniela Huppert Revach",
+      "submitted_at": "2025-11-22T21:13:28Z",
+      "on_time": true,
+      "delta_seconds": -89192,
+      "delta_human": "-1d 00:46:32"
+    },
+    {
+      "submitter": "David Ganem",
+      "submitted_at": "2025-11-21T16:57:22Z",
+      "on_time": true,
+      "delta_seconds": -190958,
+      "delta_human": "-2d 05:02:38"
+    },
+    {
+      "submitter": "Einav Litvak",
+      "submitted_at": "2025-12-13T15:07:22Z",
+      "on_time": false,
+      "delta_seconds": 1703242,
+      "delta_human": "+19d 17:07:22"
+    },
+    {
+      "submitter": "Einav Litvak",
+      "submitted_at": "2025-12-07T08:27:36Z",
+      "on_time": false,
+      "delta_seconds": 1160856,
+      "delta_human": "+13d 10:27:36"
+    },
+    {
+      "submitter": "Evyatar Shaked",
+      "submitted_at": "2025-11-22T10:08:00Z",
+      "on_time": true,
+      "delta_seconds": -129120,
+      "delta_human": "-1d 11:52:00"
+    },
+    {
+      "submitter": "Guy Shemesh",
+      "submitted_at": "2025-11-23T07:36:19Z",
+      "on_time": true,
+      "delta_seconds": -51821,
+      "delta_human": "-14:23:41"
+    },
+    {
+      "submitter": "Guy Vosco",
+      "submitted_at": "2025-11-22T18:35:16Z",
+      "on_time": true,
+      "delta_seconds": -98684,
+      "delta_human": "-1d 03:24:44"
+    },
+    {
+      "submitter": "Hallel Azulai",
+      "submitted_at": "2025-11-20T18:06:18Z",
+      "on_time": true,
+      "delta_seconds": -273222,
+      "delta_human": "-3d 03:53:42"
+    },
+    {
+      "submitter": "Inbar Perets",
+      "submitted_at": "2025-11-21T12:30:30Z",
+      "on_time": true,
+      "delta_seconds": -206970,
+      "delta_human": "-2d 09:29:30"
+    },
+    {
+      "submitter": "Lihi Bolokan",
+      "submitted_at": "2025-11-22T16:54:35Z",
+      "on_time": true,
+      "delta_seconds": -104725,
+      "delta_human": "-1d 05:05:25"
+    },
+    {
+      "submitter": "Lior Batat",
+      "submitted_at": "2025-11-23T08:10:10Z",
+      "on_time": true,
+      "delta_seconds": -49790,
+      "delta_human": "-13:49:50"
+    },
+    {
+      "submitter": "Neta Hanuka",
+      "submitted_at": "2025-11-20T07:54:46Z",
+      "on_time": true,
+      "delta_seconds": -309914,
+      "delta_human": "-3d 14:05:14"
+    },
+    {
+      "submitter": "Noam Ariel",
+      "submitted_at": "2025-11-23T09:12:30Z",
+      "on_time": true,
+      "delta_seconds": -46050,
+      "delta_human": "-12:47:30"
+    },
+    {
+      "submitter": "Noya Levy",
+      "submitted_at": "2025-11-19T14:43:51Z",
+      "on_time": true,
+      "delta_seconds": -371769,
+      "delta_human": "-4d 07:16:09"
+    },
+    {
+      "submitter": "Rachel Steinitz Eliyahu",
+      "submitted_at": "2025-11-23T08:08:45Z",
+      "on_time": true,
+      "delta_seconds": -49875,
+      "delta_human": "-13:51:15"
+    },
+    {
+      "submitter": "Raz Leibson",
+      "submitted_at": "2025-11-20T09:00:53Z",
+      "on_time": true,
+      "delta_seconds": -305947,
+      "delta_human": "-3d 12:59:07"
+    },
+    {
+      "submitter": "Rony Holdengreber",
+      "submitted_at": "2025-11-20T08:26:50Z",
+      "on_time": true,
+      "delta_seconds": -307990,
+      "delta_human": "-3d 13:33:10"
+    },
+    {
+      "submitter": "Sana Khatib",
+      "submitted_at": "2025-11-29T21:35:21Z",
+      "on_time": false,
+      "delta_seconds": 516921,
+      "delta_human": "+5d 23:35:21"
+    },
+    {
+      "submitter": "Shelly Gilad",
+      "submitted_at": "2025-11-19T09:19:52Z",
+      "on_time": true,
+      "delta_seconds": -391208,
+      "delta_human": "-4d 12:40:08"
+    },
+    {
+      "submitter": "Shoshana Sernik",
+      "submitted_at": "2025-11-23T15:29:09Z",
+      "on_time": true,
+      "delta_seconds": -23451,
+      "delta_human": "-06:30:51"
+    },
+    {
+      "submitter": "Sriashwin Sridharan",
+      "submitted_at": "2025-11-21T15:15:18Z",
+      "on_time": true,
+      "delta_seconds": -197082,
+      "delta_human": "-2d 06:44:42"
+    },
+    {
+      "submitter": "Yana Lerner",
+      "submitted_at": "2025-11-23T08:26:07Z",
+      "on_time": true,
+      "delta_seconds": -48833,
+      "delta_human": "-13:33:53"
+    }
+  ],
+  "Day05": [
+    {
+      "submitter": "Achinoam Shoham",
+      "submitted_at": "2025-11-29T16:02:23Z",
+      "on_time": true,
+      "delta_seconds": -21457,
+      "delta_human": "-05:57:37"
+    },
+    {
+      "submitter": "Adi Moses",
+      "submitted_at": "2025-11-29T20:02:21Z",
+      "on_time": true,
+      "delta_seconds": -7059,
+      "delta_human": "-01:57:39"
+    },
+    {
+      "submitter": "Adib Masharqa",
+      "submitted_at": "2025-11-29T16:43:34Z",
+      "on_time": true,
+      "delta_seconds": -18986,
+      "delta_human": "-05:16:26"
+    },
+    {
+      "submitter": "Aileen Cohen",
+      "submitted_at": "2025-11-29T09:56:39Z",
+      "on_time": true,
+      "delta_seconds": -43401,
+      "delta_human": "-12:03:21"
+    },
+    {
+      "submitter": "Anvita Pant",
+      "submitted_at": "2025-11-27T18:33:18Z",
+      "on_time": true,
+      "delta_seconds": -185202,
+      "delta_human": "-2d 03:26:42"
+    },
+    {
+      "submitter": "Arad Zulti",
+      "submitted_at": "2025-11-25T16:32:45Z",
+      "on_time": true,
+      "delta_seconds": -365235,
+      "delta_human": "-4d 05:27:15"
+    },
+    {
+      "submitter": "Ariel Hindi",
+      "submitted_at": "2025-11-29T19:33:35Z",
+      "on_time": true,
+      "delta_seconds": -8785,
+      "delta_human": "-02:26:25"
+    },
+    {
+      "submitter": "Avigail Yariv",
+      "submitted_at": "2025-11-30T08:32:15Z",
+      "on_time": false,
+      "delta_seconds": 37935,
+      "delta_human": "+10:32:15"
+    },
+    {
+      "submitter": "Daniela Huppert Revach",
+      "submitted_at": "2025-11-26T12:29:18Z",
+      "on_time": true,
+      "delta_seconds": -293442,
+      "delta_human": "-3d 09:30:42"
+    },
+    {
+      "submitter": "David Ganem",
+      "submitted_at": "2025-11-27T17:36:14Z",
+      "on_time": true,
+      "delta_seconds": -188626,
+      "delta_human": "-2d 04:23:46"
+    },
+    {
+      "submitter": "Einav Litvak",
+      "submitted_at": "2025-12-13T15:10:17Z",
+      "on_time": false,
+      "delta_seconds": 1185017,
+      "delta_human": "+13d 17:10:17"
+    },
+    {
+      "submitter": "Evyatar Shaked",
+      "submitted_at": "2025-11-25T10:16:45Z",
+      "on_time": true,
+      "delta_seconds": -387795,
+      "delta_human": "-4d 11:43:15"
+    },
+    {
+      "submitter": "Guy Shemesh",
+      "submitted_at": "2025-11-27T23:17:55Z",
+      "on_time": true,
+      "delta_seconds": -168125,
+      "delta_human": "-1d 22:42:05"
+    },
+    {
+      "submitter": "Guy Vosco",
+      "submitted_at": "2025-11-26T10:30:38Z",
+      "on_time": true,
+      "delta_seconds": -300562,
+      "delta_human": "-3d 11:29:22"
+    },
+    {
+      "submitter": "Hallel Azulai",
+      "submitted_at": "2025-11-26T14:42:47Z",
+      "on_time": true,
+      "delta_seconds": -285433,
+      "delta_human": "-3d 07:17:13"
+    },
+    {
+      "submitter": "Inbar Perets",
+      "submitted_at": "2025-11-25T12:02:21Z",
+      "on_time": true,
+      "delta_seconds": -381459,
+      "delta_human": "-4d 09:57:39"
+    },
+    {
+      "submitter": "Lihi Bolokan",
+      "submitted_at": "2025-11-24T14:51:59Z",
+      "on_time": true,
+      "delta_seconds": -457681,
+      "delta_human": "-5d 07:08:01"
+    },
+    {
+      "submitter": "Lior Batat",
+      "submitted_at": "2025-11-29T10:12:32Z",
+      "on_time": true,
+      "delta_seconds": -42448,
+      "delta_human": "-11:47:28"
+    },
+    {
+      "submitter": "Neta Hanuka",
+      "submitted_at": "2025-11-29T17:31:28Z",
+      "on_time": true,
+      "delta_seconds": -16112,
+      "delta_human": "-04:28:32"
+    },
+    {
+      "submitter": "Noam Ariel",
+      "submitted_at": "2025-11-25T12:12:34Z",
+      "on_time": true,
+      "delta_seconds": -380846,
+      "delta_human": "-4d 09:47:26"
+    },
+    {
+      "submitter": "Noya Levy",
+      "submitted_at": "2025-11-29T11:35:40Z",
+      "on_time": true,
+      "delta_seconds": -37460,
+      "delta_human": "-10:24:20"
+    },
+    {
+      "submitter": "Rachel Steinitz Eliyahu",
+      "submitted_at": "2025-11-29T19:24:09Z",
+      "on_time": true,
+      "delta_seconds": -9351,
+      "delta_human": "-02:35:51"
+    },
+    {
+      "submitter": "Raz Leibson",
+      "submitted_at": "2025-11-26T21:09:56Z",
+      "on_time": true,
+      "delta_seconds": -262204,
+      "delta_human": "-3d 00:50:04"
+    },
+    {
+      "submitter": "Rony Holdengreber",
+      "submitted_at": "2025-11-27T10:22:23Z",
+      "on_time": true,
+      "delta_seconds": -214657,
+      "delta_human": "-2d 11:37:37"
+    },
+    {
+      "submitter": "Sana Khatib",
+      "submitted_at": "2025-11-29T21:57:51Z",
+      "on_time": true,
+      "delta_seconds": -129,
+      "delta_human": "-00:02:09"
+    },
+    {
+      "submitter": "Shelly Gilad",
+      "submitted_at": "2025-11-29T11:00:55Z",
+      "on_time": true,
+      "delta_seconds": -39545,
+      "delta_human": "-10:59:05"
+    },
+    {
+      "submitter": "Shoshana Sernik",
+      "submitted_at": "2025-11-29T16:56:00Z",
+      "on_time": true,
+      "delta_seconds": -18240,
+      "delta_human": "-05:04:00"
+    },
+    {
+      "submitter": "Sriashwin Sridharan",
+      "submitted_at": "2025-11-26T15:15:31Z",
+      "on_time": true,
+      "delta_seconds": -283469,
+      "delta_human": "-3d 06:44:29"
+    },
+    {
+      "submitter": "Yana Lerner",
+      "submitted_at": "2025-11-29T19:43:55Z",
+      "on_time": true,
+      "delta_seconds": -8165,
+      "delta_human": "-02:16:05"
+    }
+  ],
+  "Day06": [
+    {
+      "submitter": "Achinoam Shoham",
+      "submitted_at": "2025-12-06T18:33:49Z",
+      "on_time": true,
+      "delta_seconds": -12371,
+      "delta_human": "-03:26:11"
+    },
+    {
+      "submitter": "Adi Moses",
+      "submitted_at": "2025-12-07T19:58:00Z",
+      "on_time": false,
+      "delta_seconds": 79080,
+      "delta_human": "+21:58:00"
+    },
+    {
+      "submitter": "Adib Masharqa",
+      "submitted_at": "2025-12-06T10:37:15Z",
+      "on_time": true,
+      "delta_seconds": -40965,
+      "delta_human": "-11:22:45"
+    },
+    {
+      "submitter": "Aileen Cohen",
+      "submitted_at": "2025-12-05T21:33:20Z",
+      "on_time": true,
+      "delta_seconds": -88000,
+      "delta_human": "-1d 00:26:40"
+    },
+    {
+      "submitter": "Anvita Pant",
+      "submitted_at": "2025-12-06T15:17:09Z",
+      "on_time": true,
+      "delta_seconds": -24171,
+      "delta_human": "-06:42:51"
+    },
+    {
+      "submitter": "Arad Zulti",
+      "submitted_at": "2025-12-02T16:19:01Z",
+      "on_time": true,
+      "delta_seconds": -366059,
+      "delta_human": "-4d 05:40:59"
+    },
+    {
+      "submitter": "Ariel Hindi",
+      "submitted_at": "2025-12-04T17:21:26Z",
+      "on_time": true,
+      "delta_seconds": -189514,
+      "delta_human": "-2d 04:38:34"
+    },
+    {
+      "submitter": "Avigail Yariv",
+      "submitted_at": "2025-12-06T08:18:36Z",
+      "on_time": true,
+      "delta_seconds": -49284,
+      "delta_human": "-13:41:24"
+    },
+    {
+      "submitter": "Daniela Huppert Revach",
+      "submitted_at": "2025-12-04T15:17:16Z",
+      "on_time": true,
+      "delta_seconds": -196964,
+      "delta_human": "-2d 06:42:44"
+    },
+    {
+      "submitter": "David Ganem",
+      "submitted_at": "2025-12-01T21:57:42Z",
+      "on_time": true,
+      "delta_seconds": -432138,
+      "delta_human": "-5d 00:02:18"
+    },
+    {
+      "submitter": "Einav Litvak",
+      "submitted_at": "2025-12-13T15:10:17Z",
+      "on_time": false,
+      "delta_seconds": 580217,
+      "delta_human": "+6d 17:10:17"
+    },
+    {
+      "submitter": "Evyatar Shaked",
+      "submitted_at": "2025-12-05T11:01:45Z",
+      "on_time": true,
+      "delta_seconds": -125895,
+      "delta_human": "-1d 10:58:15"
+    },
+    {
+      "submitter": "Guy Shemesh",
+      "submitted_at": "2025-12-06T11:12:13Z",
+      "on_time": true,
+      "delta_seconds": -38867,
+      "delta_human": "-10:47:47"
+    },
+    {
+      "submitter": "Guy Vosco",
+      "submitted_at": "2025-12-06T19:34:19Z",
+      "on_time": true,
+      "delta_seconds": -8741,
+      "delta_human": "-02:25:41"
+    },
+    {
+      "submitter": "Hallel Azulai",
+      "submitted_at": "2025-12-06T16:20:09Z",
+      "on_time": true,
+      "delta_seconds": -20391,
+      "delta_human": "-05:39:51"
+    },
+    {
+      "submitter": "Inbar Perets",
+      "submitted_at": "2025-12-02T14:26:19Z",
+      "on_time": true,
+      "delta_seconds": -372821,
+      "delta_human": "-4d 07:33:41"
+    },
+    {
+      "submitter": "Lihi Bolokan",
+      "submitted_at": "2025-12-02T07:51:16Z",
+      "on_time": true,
+      "delta_seconds": -396524,
+      "delta_human": "-4d 14:08:44"
+    },
+    {
+      "submitter": "Lior Batat",
+      "submitted_at": "2025-12-06T15:16:01Z",
+      "on_time": true,
+      "delta_seconds": -24239,
+      "delta_human": "-06:43:59"
+    },
+    {
+      "submitter": "Neta Hanuka",
+      "submitted_at": "2025-12-06T14:30:15Z",
+      "on_time": true,
+      "delta_seconds": -26985,
+      "delta_human": "-07:29:45"
+    },
+    {
+      "submitter": "Noam Ariel",
+      "submitted_at": "2025-12-03T14:57:55Z",
+      "on_time": true,
+      "delta_seconds": -284525,
+      "delta_human": "-3d 07:02:05"
+    },
+    {
+      "submitter": "Noya Levy",
+      "submitted_at": "2025-12-05T12:01:37Z",
+      "on_time": true,
+      "delta_seconds": -122303,
+      "delta_human": "-1d 09:58:23"
+    },
+    {
+      "submitter": "Rachel Steinitz Eliyahu",
+      "submitted_at": "2025-12-05T07:20:30Z",
+      "on_time": true,
+      "delta_seconds": -139170,
+      "delta_human": "-1d 14:39:30"
+    },
+    {
+      "submitter": "Raz Leibson",
+      "submitted_at": "2025-12-06T19:28:53Z",
+      "on_time": true,
+      "delta_seconds": -9067,
+      "delta_human": "-02:31:07"
+    },
+    {
+      "submitter": "Rony Holdengreber",
+      "submitted_at": "2025-12-02T15:14:26Z",
+      "on_time": true,
+      "delta_seconds": -369934,
+      "delta_human": "-4d 06:45:34"
+    },
+    {
+      "submitter": "Sana Khatib",
+      "submitted_at": "2025-12-13T09:59:58Z",
+      "on_time": false,
+      "delta_seconds": 561598,
+      "delta_human": "+6d 11:59:58"
+    },
+    {
+      "submitter": "Shelly Gilad",
+      "submitted_at": "2025-12-06T15:20:29Z",
+      "on_time": true,
+      "delta_seconds": -23971,
+      "delta_human": "-06:39:31"
+    },
+    {
+      "submitter": "Shoshana Sernik",
+      "submitted_at": "2025-12-06T18:25:57Z",
+      "on_time": true,
+      "delta_seconds": -12843,
+      "delta_human": "-03:34:03"
+    },
+    {
+      "submitter": "Sriashwin Sridharan",
+      "submitted_at": "2025-12-06T15:33:06Z",
+      "on_time": true,
+      "delta_seconds": -23214,
+      "delta_human": "-06:26:54"
+    },
+    {
+      "submitter": "Yana Lerner",
+      "submitted_at": "2025-12-06T21:29:15Z",
+      "on_time": true,
+      "delta_seconds": -1845,
+      "delta_human": "-00:30:45"
+    }
+  ],
+  "Day08": [
+    {
+      "submitter": "Achinoam Shoham",
+      "submitted_at": "2025-12-30T18:02:29Z",
+      "on_time": true,
+      "delta_seconds": -14251,
+      "delta_human": "-03:57:31"
+    },
+    {
+      "submitter": "Adi Moses",
+      "submitted_at": "2025-12-23T17:32:35Z",
+      "on_time": true,
+      "delta_seconds": -620845,
+      "delta_human": "-7d 04:27:25"
+    },
+    {
+      "submitter": "Aileen Cohen",
+      "submitted_at": "2025-12-22T12:25:07Z",
+      "on_time": true,
+      "delta_seconds": -725693,
+      "delta_human": "-8d 09:34:53"
+    },
+    {
+      "submitter": "Arad Zulti",
+      "submitted_at": "2025-12-16T11:14:38Z",
+      "on_time": true,
+      "delta_seconds": -1248322,
+      "delta_human": "-14d 10:45:22"
+    },
+    {
+      "submitter": "Avigail Yariv",
+      "submitted_at": "2025-12-27T08:17:04Z",
+      "on_time": true,
+      "delta_seconds": -308576,
+      "delta_human": "-3d 13:42:56"
+    },
+    {
+      "submitter": "Daniela Huppert Revach",
+      "submitted_at": "2025-12-18T16:14:48Z",
+      "on_time": true,
+      "delta_seconds": -1057512,
+      "delta_human": "-12d 05:45:12"
+    },
+    {
+      "submitter": "David Ganem",
+      "submitted_at": "2025-12-19T15:07:50Z",
+      "on_time": true,
+      "delta_seconds": -975130,
+      "delta_human": "-11d 06:52:10"
+    },
+    {
+      "submitter": "Einav Litvak",
+      "submitted_at": "2026-01-01T15:20:10Z",
+      "on_time": false,
+      "delta_seconds": 148810,
+      "delta_human": "+1d 17:20:10"
+    },
+    {
+      "submitter": "Evyatar Shaked",
+      "submitted_at": "2025-12-18T12:47:23Z",
+      "on_time": true,
+      "delta_seconds": -1069957,
+      "delta_human": "-12d 09:12:37"
+    },
+    {
+      "submitter": "Guy Shemesh",
+      "submitted_at": "2025-12-23T22:49:42Z",
+      "on_time": true,
+      "delta_seconds": -601818,
+      "delta_human": "-6d 23:10:18"
+    },
+    {
+      "submitter": "Guy Vosco",
+      "submitted_at": "2025-12-16T21:08:18Z",
+      "on_time": true,
+      "delta_seconds": -1212702,
+      "delta_human": "-14d 00:51:42"
+    },
+    {
+      "submitter": "Inbar Perets",
+      "submitted_at": "2025-12-26T15:29:44Z",
+      "on_time": true,
+      "delta_seconds": -369016,
+      "delta_human": "-4d 06:30:16"
+    },
+    {
+      "submitter": "Lihi Bolokan",
+      "submitted_at": "2025-12-15T07:52:14Z",
+      "on_time": true,
+      "delta_seconds": -1346866,
+      "delta_human": "-15d 14:07:46"
+    },
+    {
+      "submitter": "Neta Hanuka",
+      "submitted_at": "2025-12-23T18:14:48Z",
+      "on_time": true,
+      "delta_seconds": -618312,
+      "delta_human": "-7d 03:45:12"
+    },
+    {
+      "submitter": "Noam Ariel",
+      "submitted_at": "2025-12-28T12:48:22Z",
+      "on_time": true,
+      "delta_seconds": -205898,
+      "delta_human": "-2d 09:11:38"
+    },
+    {
+      "submitter": "Noya Levy",
+      "submitted_at": "2025-12-30T16:26:42Z",
+      "on_time": true,
+      "delta_seconds": -19998,
+      "delta_human": "-05:33:18"
+    },
+    {
+      "submitter": "Rachel Steinitz Eliyahu",
+      "submitted_at": "2025-12-29T08:16:37Z",
+      "on_time": true,
+      "delta_seconds": -135803,
+      "delta_human": "-1d 13:43:23"
+    },
+    {
+      "submitter": "Raz Leibson",
+      "submitted_at": "2025-12-24T21:20:40Z",
+      "on_time": true,
+      "delta_seconds": -520760,
+      "delta_human": "-6d 00:39:20"
+    },
+    {
+      "submitter": "Rony Holdengreber",
+      "submitted_at": "2025-12-16T13:03:40Z",
+      "on_time": true,
+      "delta_seconds": -1241780,
+      "delta_human": "-14d 08:56:20"
+    },
+    {
+      "submitter": "Sana Khatib",
+      "submitted_at": "2025-12-30T14:29:31Z",
+      "on_time": true,
+      "delta_seconds": -27029,
+      "delta_human": "-07:30:29"
+    },
+    {
+      "submitter": "Shelly Gilad",
+      "submitted_at": "2025-12-28T13:40:05Z",
+      "on_time": true,
+      "delta_seconds": -202795,
+      "delta_human": "-2d 08:19:55"
+    },
+    {
+      "submitter": "Shoshana Sernik",
+      "submitted_at": "2026-01-03T18:43:14Z",
+      "on_time": false,
+      "delta_seconds": 333794,
+      "delta_human": "+3d 20:43:14"
+    },
+    {
+      "submitter": "Sriashwin Sridharan",
+      "submitted_at": "2025-12-29T23:22:14Z",
+      "on_time": true,
+      "delta_seconds": -81466,
+      "delta_human": "-22:37:46"
+    },
+    {
+      "submitter": "Yana Lerner",
+      "submitted_at": "2025-12-30T14:25:47Z",
+      "on_time": true,
+      "delta_seconds": -27253,
+      "delta_human": "-07:34:13"
+    }
+  ],
+  "Final Project Proposal": [
+    {
+      "submitter": "Achinoam Shoham",
+      "submitted_at": "2026-01-02T15:59:16Z",
+      "on_time": true,
+      "delta_seconds": -799244,
+      "delta_human": "-9d 06:00:44"
+    },
+    {
+      "submitter": "Adi Moses",
+      "submitted_at": "2026-01-05T09:12:05Z",
+      "on_time": true,
+      "delta_seconds": -564475,
+      "delta_human": "-6d 12:47:55"
+    },
+    {
+      "submitter": "Aileen Cohen",
+      "submitted_at": "2025-12-12T19:58:11Z",
+      "on_time": true,
+      "delta_seconds": -2599309,
+      "delta_human": "-30d 02:01:49"
+    },
+    {
+      "submitter": "Arad Zulti",
+      "submitted_at": "2025-12-29T09:37:28Z",
+      "on_time": true,
+      "delta_seconds": -1167752,
+      "delta_human": "-13d 12:22:32"
+    },
+    {
+      "submitter": "Avigail Yariv",
+      "submitted_at": "2026-01-05T17:59:28Z",
+      "on_time": true,
+      "delta_seconds": -532832,
+      "delta_human": "-6d 04:00:32"
+    },
+    {
+      "submitter": "Einav Litvak",
+      "submitted_at": "2025-12-13T21:46:43Z",
+      "on_time": true,
+      "delta_seconds": -2506397,
+      "delta_human": "-29d 00:13:17"
+    },
+    {
+      "submitter": "Evyatar Shaked",
+      "submitted_at": "2025-12-19T10:33:04Z",
+      "on_time": true,
+      "delta_seconds": -2028416,
+      "delta_human": "-23d 11:26:56"
+    },
+    {
+      "submitter": "Guy Shemesh",
+      "submitted_at": "2025-12-23T22:06:43Z",
+      "on_time": true,
+      "delta_seconds": -1641197,
+      "delta_human": "-18d 23:53:17"
+    },
+    {
+      "submitter": "Guy Vosco",
+      "submitted_at": "2025-12-08T20:42:07Z",
+      "on_time": true,
+      "delta_seconds": -2942273,
+      "delta_human": "-34d 01:17:53"
+    },
+    {
+      "submitter": "Inbar Perets",
+      "submitted_at": "2025-12-26T17:44:52Z",
+      "on_time": true,
+      "delta_seconds": -1397708,
+      "delta_human": "-16d 04:15:08"
+    },
+    {
+      "submitter": "Lihi Bolokan",
+      "submitted_at": "2025-12-30T09:41:54Z",
+      "on_time": true,
+      "delta_seconds": -1081086,
+      "delta_human": "-12d 12:18:06"
+    },
+    {
+      "submitter": "Lior Batat",
+      "submitted_at": "2026-01-04T12:09:21Z",
+      "on_time": true,
+      "delta_seconds": -640239,
+      "delta_human": "-7d 09:50:39"
+    },
+    {
+      "submitter": "Neta Hanuka",
+      "submitted_at": "2025-12-10T15:17:44Z",
+      "on_time": true,
+      "delta_seconds": -2788936,
+      "delta_human": "-32d 06:42:16"
+    },
+    {
+      "submitter": "Noam Ariel",
+      "submitted_at": "2025-12-30T14:31:44Z",
+      "on_time": true,
+      "delta_seconds": -1063696,
+      "delta_human": "-12d 07:28:16"
+    },
+    {
+      "submitter": "Rachel Steinitz Eliyahu",
+      "submitted_at": "2025-12-29T08:16:37Z",
+      "on_time": true,
+      "delta_seconds": -1172603,
+      "delta_human": "-13d 13:43:23"
+    },
+    {
+      "submitter": "Raz Leibson",
+      "submitted_at": "2025-12-11T11:29:31Z",
+      "on_time": true,
+      "delta_seconds": -2716229,
+      "delta_human": "-31d 10:30:29"
+    },
+    {
+      "submitter": "Rony Holdengreber",
+      "submitted_at": "2025-12-04T15:09:54Z",
+      "on_time": true,
+      "delta_seconds": -3307806,
+      "delta_human": "-38d 06:50:06"
+    },
+    {
+      "submitter": "Sriashwin Sridharan",
+      "submitted_at": "2025-12-30T00:07:47Z",
+      "on_time": true,
+      "delta_seconds": -1115533,
+      "delta_human": "-12d 21:52:13"
+    }
+  ]
+}
