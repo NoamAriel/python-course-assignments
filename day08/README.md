@@ -24,6 +24,7 @@ pls make sure you have the files:
 
 This is also the operating order. 
 
+pls notice that you update the path addresses.
 
 ## Code explanation 
 
